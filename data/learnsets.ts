@@ -1,3 +1,12 @@
+/*
+Formatting for move entry: [Generation Number][Method]
+Methods:
+	Level-up [L] (requires level learned next to it)
+	Technical Machine [T]
+	Move Tutor [M]
+	Egg Move [E]
+	Transfer [V]
+*/
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	missingno: {
 		learnset: {
@@ -16090,6 +16099,62 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 1, level: 30},
 		],
 	},
+	koffingbanerica: {
+		learnset: {
+			allyswitch: ["3E","9E"],
+			attract: ["3T","9M"],
+			babydolleyes: ["3E","9E"],
+			bite: ["3L28","9L28"],
+			bulkup: ["3T","9M"],
+			calmmind: ["3T","9M"],
+			charm: ["3E","9E"],
+			darkpulse: ["3L34","9L34"],
+			dazzlinggleam: ["3T","9M"],
+			doubleedge: ["3E","9E"],
+			doubleslap: ["3E","9E"],
+			drainingkiss: ["3L17","9L17"],
+			energyball: ["3T","9M"],
+			explosion: ["3L40","9L40"],
+			faketears: ["3E","9E"],
+			fairywind: ["3L7","9L7"],
+			feintattack: ["3T","9M"],
+			flamethrower: ["3T","9M"],
+			fly: ["3T","9M"],
+			flipturn: ["3E","9E"],
+			frustration: ["3T","9M"],
+			healingwish: ["3E","9E"],
+			hiddenpower: ["3T","9M"],
+			icywind: ["3T","9M"],
+			knockoff: ["3E","9E"],
+			lightscreen: ["3T","9M"],
+			moonblast: ["3E","9E"],
+			painsplit: ["3L46","9L46"],
+			playrough: ["3E","9E"],
+			poisonfang: ["3T","9M"],
+			protect: ["3T","9M"],
+			psyshock: ["3E","9E"],
+			reflect: ["3T","9M"],
+			return: ["3T","9M"],
+			safeguard: ["3E","9E"],
+			secretpower: ["3T","9M"],
+			selfdestruct: ["3L12","9L12"],
+			shadowball: ["3T","9M"],
+			shockwave: ["3T","9M"],
+			smokescreen: ["3L22","9L22"],
+			substitute: ["3T","9M"],
+			taunt: ["3T","9M"],
+			teleport: ["3T","9M"],
+			thunderbolt: ["3T","9M"],
+			toxic: ["3T","9M"],
+			willowisp: ["3E","9E"],
+			sweetscent: ["3L1","9L1"],
+			tackle: ["3L1","9L1"],
+		},
+			encounters: [
+			{generation: 3, level: 30},
+			{generation: 9, level: 1},
+		],
+	},
 	weezing: {
 		learnset: {
 			acidspray: ["9M"],
@@ -16250,6 +16315,43 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M", "8M"],
 			willowisp: ["9M", "8M"],
 			wonderroom: ["8M"],
+		},
+	},
+	//weezing-banerica
+	weezingbanerica: {
+		learnset: {
+			crunch: ["3L1","9L0","9L1"],
+			sweetscent: ["3L1","9L1"],
+			tackle: ["3L1","9L1"],
+			fairywind: ["3L1","9L1"],
+			memento: ["3L60","9L60"],
+			hiddenpower: ["3T","9M"],
+			protect: ["3T","9M"],
+			substitute: ["3T","9M"],
+			toxic: ["3T","9M"],
+			return: ["3T","9M"],
+			frustration: ["3T","9M"],
+			secretpower: ["3T","9M"],
+			attract: ["3T","9M"],
+			feintattack: ["3T","9M"],
+			calmmind: ["3T","9M"],
+			bulkup: ["3T","9M"],
+			dazzlinggleam: ["3T","9M"],
+			explosion: ["3T","9M"],
+			drainingkiss: ["3T","9M"],
+			shadowball: ["3T","9M"],
+			reflect: ["3T","9M"],
+			lightscreen: ["3T","9M"],
+			shockwave: ["3T","9M"],
+			haze: ["3T","9M"],
+			icywind: ["3T","9M"],
+			thunderbolt: ["3T","9M"],
+			flamethrower: ["3T","9M"],
+			poisonfang: ["3T","9M"],
+			energyball: ["3T","9M"],
+			taunt: ["3T","9M"],
+			teleport: ["3T","9M"],
+			fly: ["3T","9M"],
 		},
 	},
 	rhyhorn: {
