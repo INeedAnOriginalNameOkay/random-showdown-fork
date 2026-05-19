@@ -6,6 +6,9 @@ Methods:
 	Move Tutor [M]
 	Egg Move [E]
 	Transfer [V]
+
+ex:
+	lightofruin: ["9L67"]
 */
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	missingno: {
@@ -100514,5 +100517,19 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		eventData: [
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
+	},
+
+	//potassium line (non-regional forms)
+	burpider: {
+		learnset: {
+			tackle: ["3L1","9L1"],
+			stringshot: ["3L1","9L1"],
+			leafage: ["3L1","9L1"],
+		},
+		encounters: [
+			{generation: 3, level: 30},
+			{generation: 9, level: 1},
+		],
+
 	},
 };
