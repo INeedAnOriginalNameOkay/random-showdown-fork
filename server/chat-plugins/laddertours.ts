@@ -87,13 +87,17 @@ export class LadderTracker {
 
 		this.deadline = date;
 		if (this.final) clearTimeout(this.final);
+		const timeDiff = (+this.deadline - Date.now()) - 500;
+		if (timeDiff >= Number.MAX_SAFE_INTEGER) {
+			throw new Chat.ErrorMessage("Deadline is too far away. Please wait and set it later.");
+		}
 		// We set the timer to fire slightly before the deadline and then
 		// repeatedly do process.nextTick checks for accuracy
 		this.final = setTimeout(() => {
 			this.stop();
 			// eslint-disable-next-line @typescript-eslint/no-floating-promises
 			this.captureFinalLeaderboard();
-		}, (+this.deadline - Date.now()) - 500);
+		}, timeDiff);
 
 		if (save) LadderTracker.save();
 	}
@@ -224,34 +228,38 @@ export class LadderTracker {
 	async getLeaderboard(display?: boolean) {
 		const url = `https://pokemonshowdown.com/ladder/${this.format}.json?prefix=${this.prefix}`;
 		const leaderboard: LeaderboardEntry[] = [];
+		let response;
 		try {
-			const response = await Net(url).get().then(JSON.parse);
-			this.leaderboard.lookup = new Map();
-			for (const data of response.toplist) {
-				// TODO: move the rounding until later
-				const entry: LeaderboardEntry = {
-					name: data.username,
-					elo: Math.round(data.elo),
-					gxe: data.gxe,
-					glicko: Math.round(data.rpr),
-					glickodev: Math.round(data.rprd),
-				};
-				this.leaderboard.lookup.set(data.userid, entry);
-				if (!data.userid.startsWith(this.prefix)) continue;
-				entry.rank = leaderboard.length + 1;
-				leaderboard.push(entry);
+			response = await Net(url).get().then(JSON.parse);
+		} catch (e: any) {
+			if (e.name === 'SyntaxError') { // sometimes the page 404s, meaning invalid json. skip!
+				response = { toplist: [] };
+			} else {
+				if (display) throw new Chat.ErrorMessage('Failed to fetch leaderboard. Try again later.');
+				return leaderboard;
 			}
-			if (display) {
-				this.addHTML(this.styleLeaderboard(leaderboard), true);
-				this.leaderboard.last = leaderboard;
-				this.changed = false;
-				this.lines = { them: 0, total: 0 };
-			}
-		} catch (err: any) {
-			Monitor.crashlog(err, 'a ladder tracker request', this.config);
-			if (display) throw new Chat.ErrorMessage(`Unable to fetch the leaderboard for ${this.prefix}.`);
 		}
 
+		this.leaderboard.lookup = new Map();
+		for (const data of response.toplist) {
+			// TODO: move the rounding until later
+			const entry: LeaderboardEntry = {
+				name: data.username,
+				elo: Math.round(data.elo),
+				gxe: data.gxe,
+				glicko: Math.round(data.rpr),
+				glickodev: Math.round(data.rprd),
+			};
+			this.leaderboard.lookup.set(data.userid, entry);
+			if (!data.userid.startsWith(this.prefix)) continue;
+			entry.rank = leaderboard.length + 1;
+			leaderboard.push(entry);
+		}
+		if (display) {
+			this.leaderboard.last = leaderboard;
+			this.changed = false;
+			this.lines = { them: 0, total: 0 };
+		}
 		return leaderboard;
 	}
 
@@ -490,7 +498,8 @@ export const commands: Chat.ChatCommands = {
 		async leaderboard(target, room, user, sf, cmd) {
 			const tracker = LadderTracker.getTracker(this);
 			this.runBroadcast();
-			await tracker.getLeaderboard(true);
+			const leaderboard = await tracker.getLeaderboard(this.broadcasting);
+			this.sendReplyBox(tracker.styleLeaderboard(leaderboard));
 		},
 		prefix(target, room, user, sf) {
 			const tracker = LadderTracker.getTracker(this);

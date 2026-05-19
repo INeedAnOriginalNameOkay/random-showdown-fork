@@ -55,7 +55,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			}
 
 			// Weather
-			baseDamage = this.battle.runEvent('WeatherModifyDamage', pokemon, target, move, baseDamage);
+			baseDamage = this.battle.priorityEvent('WeatherModifyDamage', pokemon, target, move, baseDamage);
 
 			if (move.category === 'Physical' && !Math.floor(baseDamage)) {
 				baseDamage = 1;
@@ -162,7 +162,7 @@ export const Scripts: ModdedBattleScriptsData = {
 
 			let movename = move.name;
 			if (move.id === 'hiddenpower') movename = 'Hidden Power';
-			if (sourceEffect) attrs += `|[from]${this.dex.conditions.get(sourceEffect)}`;
+			if (sourceEffect) attrs += `|[from] ${this.dex.conditions.get(sourceEffect).name}`;
 			this.battle.addMove('move', pokemon, movename, `${target}${attrs}`);
 
 			if (!target) {
@@ -409,6 +409,7 @@ export const Scripts: ModdedBattleScriptsData = {
 				for (i = 0; i < hits && target.hp && pokemon.hp; i++) {
 					if (pokemon.status === 'slp' && !isSleepUsable) break;
 					move.hit = i + 1;
+					move.lastHit = move.hit === hits;
 
 					if (move.multiaccuracy && i > 0) {
 						accuracy = move.accuracy;

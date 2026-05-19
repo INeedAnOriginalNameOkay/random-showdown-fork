@@ -437,6 +437,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Belch",
 		desc: "This move cannot be selected until the user eats a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. Once the condition is met, this move can be selected and used for the rest of the battle even if the user gains or uses another item or switches out. Consuming a Berry with Natural Gift does not count for the purposes of eating one.",
 		shortDesc: "Cannot be selected until the user eats a Berry.",
+		champions: {
+			desc: "Fails unless the user has eaten a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. Consuming a Berry with Natural Gift does not count for the purposes of eating one.",
+			shortDesc: "Fails unless the user has eaten a Berry.",
+		},
 	},
 	bellydrum: {
 		name: "Belly Drum",
@@ -1393,6 +1397,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Dire Claw",
 		desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
 		shortDesc: "50% chance to sleep, poison, or paralyze target.",
+		champions: {
+			desc: "Has a 30% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
+			shortDesc: "30% chance to sleep, poison, or paralyze target.",
+		},
 	},
 	disable: {
 		name: "Disable",
@@ -1937,6 +1945,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Fake Out",
 		desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
 		shortDesc: "Hits first. First turn out only. 100% flinch chance.",
+		champions: {
+			desc: "Has a 100% chance to make the target flinch. This move cannot be selected unless it is the user's first turn on the field.",
+		},
 	},
 	faketears: {
 		name: "Fake Tears",
@@ -2082,6 +2093,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "First Impression",
 		desc: "Fails unless it is the user's first turn on the field.",
 		shortDesc: "Nearly always goes first. First turn out only.",
+		champions: {
+			desc: "This move cannot be selected unless it is the user's first turn on the field.",
+		},
 	},
 	fishiousrend: {
 		name: "Fishious Rend",
@@ -2129,15 +2143,15 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
 		shortDesc: "100% chance to raise the user's Speed by 1.",
 	},
-	flamewheel: {
-		name: "Flame Wheel",
-		desc: "Has a 10% chance to burn the target.",
-		shortDesc: "10% chance to burn the target. Thaws user.",
-	},
 	flamethrower: {
 		name: "Flamethrower",
 		desc: "Has a 10% chance to burn the target.",
 		shortDesc: "10% chance to burn the target.",
+	},
+	flamewheel: {
+		name: "Flame Wheel",
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target. Thaws user.",
 	},
 	flareblitz: {
 		name: "Flare Blitz",
@@ -2317,6 +2331,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Freeze-Dry",
 		desc: "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
 		shortDesc: "10% chance to freeze. Super effective on Water.",
+		champions: {
+			desc: "This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+			shortDesc: "Super effective on Water.",
+		},
 	},
 	freezeshock: {
 		name: "Freeze Shock",
@@ -2928,6 +2946,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Heal Block",
 		desc: "For 5 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing and draining moves are unusable, and Abilities and items that grant healing will not heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain unable to restore its HP. Pain Split and the Regenerator Ability are unaffected.",
 		shortDesc: "For 5 turns, the foe(s) is prevented from healing.",
+		gen8: {
+			end: "  [POKEMON]'s Heal Block wore off!",
+			cant: "[POKEMON] can't use [MOVE] because of Heal Block!",
+		},
 		gen7: {
 			desc: "For 5 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing and draining moves are unusable, and Abilities and items that grant healing will not heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain unable to restore its HP. Pain Split and the Regenerator Ability are unaffected. Relevant Z-Powered moves can still be selected and executed during this effect.",
 		},
@@ -2939,8 +2961,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		},
 
 		start: "  [POKEMON] was prevented from healing!",
-		end: "  [POKEMON]'s Heal Block wore off!",
-		cant: "[POKEMON] can't use [MOVE] because of Heal Block!",
+		end: "  [POKEMON] is no longer prevented from healing!",
+		cant: "[POKEMON] is prevented from healing, so it can't use [MOVE]!",
 		fail: "  But it failed to affect [POKEMON]!",
 	},
 	healingwish: {
@@ -3403,6 +3425,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Iron Head",
 		desc: "Has a 30% chance to make the target flinch.",
 		shortDesc: "30% chance to make the target flinch.",
+		champions: {
+			desc: "Has a 20% chance to make the target flinch.",
+			shortDesc: "20% chance to make the target flinch.",
+		},
 	},
 	irontail: {
 		name: "Iron Tail",
@@ -4284,6 +4310,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Moonblast",
 		desc: "Has a 30% chance to lower the target's Special Attack by 1 stage.",
 		shortDesc: "30% chance to lower the target's Sp. Atk by 1.",
+		champions: {
+			desc: "Has a 10% chance to lower the target's Special Attack by 1 stage.",
+			shortDesc: "10% chance to lower the target's Sp. Atk by 1.",
+		},
 	},
 	moongeistbeam: {
 		name: "Moongeist Beam",
@@ -4345,6 +4375,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
 		shortDesc: "30% chance to lower the target's accuracy by 1.",
 	},
+	muddywater: {
+		name: "Muddy Water",
+		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "30% chance to lower the foe(s) accuracy by 1.",
+	},
 	mudshot: {
 		name: "Mud Shot",
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
@@ -4367,11 +4402,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "While the user is active, all Electric-type attacks used by any active Pokemon have their power halved. Fails if this effect is already active for the user. Baton Pass can be used to transfer this effect to an ally.",
 			shortDesc: "Weakens Electric-type attacks to 1/2 their power.",
 		},
-	},
-	muddywater: {
-		name: "Muddy Water",
-		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
-		shortDesc: "30% chance to lower the foe(s) accuracy by 1.",
 	},
 	multiattack: {
 		name: "Multi-Attack",
@@ -4911,14 +4941,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "If the current terrain is Electric Terrain, this move's power is multiplied by 1.5.",
 		shortDesc: "During Electric Terrain: 1.5x power.",
 	},
-	psychup: {
-		name: "Psych Up",
-		desc: "The user copies all of the target's current stat stage changes.",
-		shortDesc: "Copies the target's current stat stages.",
-		gen2: {
-			desc: "The user copies all of the target's current stat stage changes. Fails if the target's stat stages are 0.",
-		},
-	},
 	psychic: {
 		name: "Psychic",
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
@@ -4960,6 +4982,14 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Psycho Shift",
 		desc: "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
 		shortDesc: "Transfers the user's status ailment to the target.",
+	},
+	psychup: {
+		name: "Psych Up",
+		desc: "The user copies all of the target's current stat stage changes.",
+		shortDesc: "Copies the target's current stat stages.",
+		gen2: {
+			desc: "The user copies all of the target's current stat stage changes. Fails if the target's stat stages are 0.",
+		},
 	},
 	psyshieldbash: {
 		name: "Psyshield Bash",
@@ -5483,6 +5513,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Salt Cure",
 		desc: "Causes damage to the target equal to 1/8 of its maximum HP (1/4 if the target is Steel or Water type), rounded down, at the end of each turn during effect. This effect ends when the target is no longer active.",
 		shortDesc: "Deals 1/8 max HP each turn; 1/4 on Steel, Water.",
+		champions: {
+			desc: "Causes damage to the target equal to 1/16 of its maximum HP (1/8 if the target is Steel or Water type), rounded down, at the end of each turn during effect. This effect ends when the target is no longer active.",
+			shortDesc: "Deals 1/16 max HP each turn; 1/8 on Steel, Water.",
+		},
 
 		start: "  [POKEMON] is being salt cured!",
 		damage: "  [POKEMON] is hurt by Salt Cure!",
@@ -6239,17 +6273,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
 		},
 	},
-	spitup: {
-		name: "Spit Up",
-		desc: "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-		shortDesc: "More power with more uses of Stockpile.",
-		gen4: {
-			desc: "Power is equal to 100 times the user's Stockpile count. This move does not apply damage variance. Fails if the user's Stockpile count is 0. Unless there is no target, whether or not this move is successful the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-		},
-		gen3: {
-			desc: "Damage is multiplied by the user's Stockpile count. This move does not apply damage variance and cannot be a critical hit. Fails if the user's Stockpile count is 0. Unless this move misses, the user's Stockpile count resets to 0.",
-		},
-	},
 	spite: {
 		name: "Spite",
 		desc: "Causes the target's last move used to lose 4 PP. Fails if the target has not made a move, if the move has 0 PP, or if it no longer knows the move.",
@@ -6263,6 +6286,17 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		},
 
 		activate: "  It reduced the PP of [TARGET]'s [MOVE] by [NUMBER]!",
+	},
+	spitup: {
+		name: "Spit Up",
+		desc: "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
+		shortDesc: "More power with more uses of Stockpile.",
+		gen4: {
+			desc: "Power is equal to 100 times the user's Stockpile count. This move does not apply damage variance. Fails if the user's Stockpile count is 0. Unless there is no target, whether or not this move is successful the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
+		},
+		gen3: {
+			desc: "Damage is multiplied by the user's Stockpile count. This move does not apply damage variance and cannot be a critical hit. Fails if the user's Stockpile count is 0. Unless this move misses, the user's Stockpile count resets to 0.",
+		},
 	},
 	splash: {
 		name: "Splash",
@@ -6473,6 +6507,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Stuff Cheeks",
 		desc: "This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.",
 		shortDesc: "Must hold Berry to use. User eats Berry, Def +2.",
+		champions: {
+			desc: "Fails if the user is not holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room.",
+			shortDesc: "Fails unless a Berry is held. User eats Berry, Def +2.",
+		},
 	},
 	stunspore: {
 		name: "Stun Spore",
@@ -7056,6 +7094,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Toxic Thread",
 		desc: "Lowers the target's Speed by 1 stage and poisons it.",
 		shortDesc: "Lowers the target's Speed by 1 and poisons it.",
+		champions: {
+			desc: "Lowers the target's Speed by 2 stages and poisons it.",
+			shortDesc: "Lowers the target's Speed by 2 and poisons it.",
+		},
 	},
 	trailblaze: {
 		name: "Trailblaze",
@@ -7202,19 +7244,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "20% chance to make the target flinch.",
 		},
 	},
-	uturn: {
-		name: "U-turn",
-		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
-		shortDesc: "User switches out after damaging the target.",
-		gen6: {
-			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button.",
-		},
-		gen4: {
-			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
-		},
-
-		switchOut: "[POKEMON] went back to [TRAINER]!",
-	},
 	upperhand: {
 		name: "Upper Hand",
 		desc: "Has a 100% chance to make the target flinch. Fails if the target did not select a priority move for use this turn, or if the target moves before the user.",
@@ -7241,6 +7270,19 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		upkeep: "  [POKEMON] is making an uproar!",
 		block: "  But the uproar kept [POKEMON] awake!",
 		blockSelf: "  [POKEMON] can't sleep in an uproar!",
+	},
+	uturn: {
+		name: "U-turn",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target.",
+		gen6: {
+			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button.",
+		},
+		gen4: {
+			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+		},
+
+		switchOut: "[POKEMON] went back to [TRAINER]!",
 	},
 	vacuumwave: {
 		name: "Vacuum Wave",
