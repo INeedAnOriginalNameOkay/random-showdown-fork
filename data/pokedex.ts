@@ -18537,7 +18537,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Grass", "Fighting"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 63, atk: 82, def: 68, spa: 70, spd: 59, spe: 68 },
-		abilities: { 0: "Overgrow", H: "Scrappy },
+		abilities: { 0: "Overgrow", H: "Scrappy" },
 		heightm: 1.3,
 		weightkg: 29.5,
 		color: "Red",
