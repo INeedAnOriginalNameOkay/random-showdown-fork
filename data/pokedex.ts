@@ -18663,7 +18663,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 35,
 		eggGroups: ["Field", "Water 1"],
 	},
-		bugerpunch: {
+		grumbra: {
 		num: 2010,
 		name: "Bugerpunch",
 		types: ["Bug", "Dark"],
@@ -18673,10 +18673,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.7,
 		weightkg: 4.5,
 		color: "Black",
-		evos: ["Piccoon"],
+		evos: ["chryslark"],
 		eggGroups: ["Bug"],
 	},
-		piccoon: {
+		chryslark: {
 		num: 2011,
 		name: "Piccoon",
 		types: ["Bug", "Dark"],
@@ -18686,7 +18686,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.5,
 		weightkg: 9.1,
 		color: "Black",
-		prevo: "Bugerpunch",
+		prevo: "grumbra",
 		evoLevel: 8,
 		evos: ["Umbree"],
 		eggGroups: ["Bug"],
@@ -18696,7 +18696,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Umbree",
 		types: ["Bug", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 50, atk: 92, def: 49, spa: 54, spd: 57, spe: 103 },
+		baseStats: { hp: 60, atk: 71, def: 49, spa: 92, spd: 50, spe: 83 },
 		abilities: { 0: "Shield Dust", H: "Tinted Lens" },
 		heightm: 0.6,
 		weightkg: 13.6,
