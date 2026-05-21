@@ -18580,46 +18580,46 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 35,
 		eggGroups: ["Grass", "Bug"],
 	},
-		fryre: {
+		potacoal: {
 		num: 2004,
-		name: "Fryre",
+		name: "Potacoal",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 48, atk: 51, def: 40, spa: 57, spd: 45, spe: 62 },
-		abilities: { 0: "Blaze", H: "Purifying Salt" },
+		abilities: { 0: "Blaze", H: "Levitate" },
 		heightm: 0.4,
 		weightkg: 2.3,
 		color: "Yellow",
-		evos: ["Fronch"],
-		eggGroups: ["Mineral", "Amorphous"],
+		evos: ["Deputato"],
+		eggGroups: ["Mineral", "Flying"],
 	},
-		fronch: {
+		deputato: {
 		num: 2005,
-		name: "Fronch",
-		types: ["Fire", "Rock"],
+		name: "Deputato",
+		types: ["Fire", "Flying"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 61, atk: 71, def: 56, spa: 71, spd: 54, spe: 92 },
-		abilities: { 0: "Blaze", H: "Purifying Salt" },
+		abilities: { 0: "Blaze", H: "Levitate" },
 		heightm: 1.1,
 		weightkg: 31.8,
 		color: "Yellow",
-		prevo: "Fryre",
+		prevo: "Potacoal",
 		evoLevel: 15,
-		eggGroups: ["Mineral", "Amorphous"],
+		eggGroups: ["Mineral", "Flying"],
 	},
-		frybros: {
+		fryriff: {
 		num: 2006,
-		name: "Frybros",
-		types: ["Fire", "Rock"],
+		name: "Fryriff",
+		types: ["Fire", "Steel"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 83, atk: 120, def: 92, spa: 84, spd: 71, spe: 85 },
-		abilities: { 0: "Blaze", H: "Purifying Salt" },
+		abilities: { 0: "Blaze", H: "Levitate" },
 		heightm: 1.7,
 		weightkg: 84.8,
 		color: "Yellow",
-		prevo: "Fronch",
+		prevo: "Deputato",
 		evoLevel: 35,
-		eggGroups: ["Mineral", "Amorphous"],
+		eggGroups: ["Mineral", "Flying"],
 	},
 		whipsplash: {
 		num: 2007,
@@ -18688,22 +18688,22 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Black",
 		prevo: "Bugerpunch",
 		evoLevel: 8,
-		evos: ["Darkfly"],
+		evos: ["Umbree"],
 		eggGroups: ["Bug"],
 	},
-		darkfly: {
+		umbree: {
 		num: 2012,
-		name: "Darkfly",
+		name: "Umbree",
 		types: ["Bug", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 50, atk: 92, def: 54, spa: 41, spd: 57, spe: 103 },
-		abilities: { 0: "Shield Dust", H: "Technician" },
+		baseStats: { hp: 50, atk: 92, def: 49, spa: 54, spd: 57, spe: 103 },
+		abilities: { 0: "Shield Dust", H: "Tinted Lens" },
 		heightm: 0.6,
 		weightkg: 13.6,
 		color: "Black",
 		prevo: "Piccoon",
-		evoLevel: 12,
-		eggGroups: ["Field"],
+		evoLevel: 15,
+		eggGroups: ["Bug"],
 	},
 		whiskrat: {
 		num: 2013,
@@ -18738,7 +18738,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Kingrat",
 		types: ["Normal", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 110, atk: 100, def: 75, spa: 64, spd: 80, spe: 35 },
+		baseStats: { hp: 130, atk: 100, def: 75, spa: 64, spd: 80, spe: 35 },
 		abilities: { 0: "Hustle", 1: "Guts", H: "Poison Touch" },
 		heightm: 1.9,
 		weightkg: 116.1,
@@ -18780,7 +18780,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Roakirunner",
 		types: ["Flying", "Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 67, atk: 117, def: 67, spa: 67, spd: 68, spe: 125 },
+		baseStats: { hp: 67, atk: 119, def: 67, spa: 67, spd: 68, spe: 125 },
 		abilities: { 0: "Quick Feet", H: "Reckless" },
 		heightm: 1.9,
 		weightkg: 81.6,
@@ -18807,7 +18807,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Cheedough",
 		types: ["Fairy"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 64, atk: 93, def: 47, spa: 63, spd: 74, spe: 145 },
+		baseStats: { hp: 64, atk: 93, def: 63, spa: 47, spd: 74, spe: 145 },
 		abilities: { 0: "Intimidate", 1: "Natural Cure", H: "Pixilate" },
 		heightm: 1.2,
 		weightkg: 32.2,
@@ -18871,7 +18871,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 15,
 		eggGroups: ["Grass", "Monster"],
 	},
-	peaprab: {
+		peaprab: {
 		num: 2025,
 		name: "Peaprab",
 		types: ["Grass", "Water"],
@@ -18884,7 +18884,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Peaprabber"],
 		eggGroups: ["Grass", "Water 3"],
 	},
-	peaprabber: {
+		peaprabber: {
 		num: 2026,
 		name: "Peaprabber",
 		types: ["Grass", "Water"],
@@ -18899,7 +18899,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Palapace"],
 		eggGroups: ["Grass", "Water 3"],
 	},
-	palapace: {
+		palapace: {
 		num: 2027,
 		name: "Palapace",
 		types: ["Grass", "Water"],
@@ -18913,7 +18913,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 35,
 		eggGroups: ["Grass", "Water 3"],
 	},
-	crimido: {
+		crimido: {
 		num: 2028,
 		name: "Crimido",
 		types: ["Dark"],
@@ -18926,12 +18926,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Yakunut"],
 		eggGroups: ["Fairy", "Amorphous"],
 	},
-	yakunut: {
+		yakunut: {
 		num: 2029,
 		name: "Yakunut",
 		types: ["Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 81, atk: 112, def: 70, spa: 83, spd: 94, spe: 70 },
+		baseStats: { hp: 81, atk: 112, def: 70, spa: 94, spd: 83, spe: 70 },
 		abilities: { 0: "Pickpocket", 1: "Prankster", H: "Pickup" },
 		heightm: 1.5,
 		weightkg: 34.0,
@@ -18940,7 +18940,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 30,
 		eggGroups: ["Fairy", "Amorphous"],
 	},
-	sandbrew: {
+		sandbrew: {
 		num: 2030,
 		name: "Sandbrew",
 		types: ["Ground", "Water"],
@@ -18953,12 +18953,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Brewslash"],
 		eggGroups: ["Field"],
 	},
-	brewslash: {
+		brewslash: {
 		num: 2031,
 		name: "Brewslash",
 		types: ["Ground", "Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 65, atk: 100, def: 90, spa: 55, spd: 80, spe: 60 },
+		baseStats: { hp: 65, atk: 100, def: 90, spa: 80, spd: 55, spe: 60 },
 		abilities: { 0: "Flame Body", H: "Water Absorb" },
 		heightm: 1.0,
 		weightkg: 22.6,
@@ -18967,7 +18967,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 22,
 		eggGroups: ["Field"],
 	},
-	pog: {
+		pog: {
 		num: 2032,
 		name: "Pog",
 		types: ["Normal"],
@@ -18980,13 +18980,13 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Bloinket"],
 		eggGroups: ["Field"],
 	},
-	bloinket: {
+		bloinket: {
 		num: 2033,
 		name: "Bloinket",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 110, atk: 86, def: 85, spa: 55, spd: 76, spe: 75 },
-		abilities: { 0: "Thick Fat", H: "Magma Armor" },
+		baseStats: { hp: 110, atk: 89, def: 85, spa: 76, spd: 75, spe: 55 },
+		abilities: { 0: "Thick Fat", H: "Guts" },
 		heightm: 1.0,
 		weightkg: 24.9,
 		color: "Brown",
@@ -18994,12 +18994,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 28,
 		eggGroups: ["Field"],
 	},
-	fleach: {
+		fleach: {
 		num: 2034,
 		name: "Fleach",
 		types: ["Flying", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 35, atk: 42, def: 37, spa: 56, spd: 42, spe: 48 },
+		baseStats: { hp: 35, atk: 42, def: 37, spa: 42, spd: 48, spe: 56 },
 		abilities: { 0: "Swarm", 1: "Infested" },
 		heightm: 0.6,
 		weightkg: 22.7,
@@ -19007,12 +19007,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Fleabat"],
 		eggGroups: ["Flying", "Field"],
 	},
-	fleabat: {
+		fleabat: {
 		num: 2035,
 		name: "Fleabat",
 		types: ["Flying", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 65, atk: 80, def: 68, spa: 103, spd: 80, spe: 69 },
+		baseStats: { hp: 65, atk: 80, def: 68, spa: 80, spd: 69, spe: 103 },
 		abilities: { 0: "Swarm", 1: "Infested" },
 		heightm: 1.3,
 		weightkg: 34.0,
@@ -19021,12 +19021,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 20,
 		eggGroups: ["Flying", "Field"],
 	},
-	dugweo: {
+		dugweo: {
 		num: 2036,
 		name: "Dugweo",
 		types: ["Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 95, atk: 120, def: 80, spa: 100, spd: 40, spe: 70 },
+		baseStats: { hp: 95, atk: 120, def: 80, spa: 40, spd: 90, spe: 80 },
 		abilities: { 0: "Sand Veil", 1: "Thick Fat", H: "Sand Force" },
 		heightm: 2.2,
 		weightkg: 102.4,
@@ -19035,7 +19035,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "levelFriendship",
 		eggGroups: ["Field"],
 	},
-	sproot: {
+		sproot: {
 		num: 2037,
 		name: "Sproot",
 		types: ["Grass"],
@@ -19048,7 +19048,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Bittaroot"],
 		eggGroups: ["Grass"],
 	},
-	bittaroot: {
+		bittaroot: {
 		num: 2038,
 		name: "Bittaroot",
 		types: ["Grass"],
@@ -19062,12 +19062,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 26,
 		eggGroups: ["Grass"],
 	},
-	bittarule: {
+		bittarule: {
 		num: 2039,
 		name: "Bittarule",
 		types: ["Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 63, atk: 57, def: 62, spa: 105, spd: 98, spe: 59 },
+		baseStats: { hp: 63, atk: 57, def: 62, spa: 108, spd: 59, spe: 105 },
 		abilities: { 0: "Rattled", 1: "Chlorophyll" },
 		heightm: 1.2,
 		weightkg: 54.9,
@@ -19076,7 +19076,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 26,
 		eggGroups: ["Grass"],
 	},
-	granix: {
+		granix: {
 		num: 2040,
 		name: "Granix",
 		types: ["Rock", "Ground"],
@@ -19089,14 +19089,14 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Onix-Banerica"],
 		eggGroups: ["Mineral"],
 	},
-	obsilix: {
+		obsilix: {
 		num: 2041,
 		name: "Obsilix",
 		baseSpecies: "Onix",
 		forme: "Obsilix",
 		types: ["Rock"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 70, atk: 125, def: 120, spa: 105, spd: 55, spe: 55 },
+		baseStats: { hp: 70, atk: 125, def: 120, spa: 55, spd: 55, spe: 105 },
 		abilities: { 0: "Rock Head", 1: "Clear Body", H: "Weak Armor" },
 		heightm: 9.2,
 		weightkg: 522.6,
@@ -19104,12 +19104,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		changesFrom: "Onix-Banerica",
 		eggGroups: ["Mineral"],
 	},
-	khopedge: {
+		khopedge: {
 		num: 2042,
 		name: "Khopedge",
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 45, atk: 80, def: 37, spa: 28, spd: 35, spe: 100 },
+		baseStats: { hp: 45, atk: 80, def: 37, spa: 28, spd: 100, spe: 35 },
 		abilities: { 0: "No Guard" },
 		heightm: 1.6,
 		weightkg: 43.5,
@@ -19117,12 +19117,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Raegislash"],
 		eggGroups: ["Mineral"],
 	},
-	raegislash: {
+		raegislash: {
 		num: 2043,
 		name: "Raegislash",
 		types: ["Steel", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 60, atk: 140, def: 50, spa: 60, spd: 50, spe: 140 },
+		baseStats: { hp: 60, atk: 150, def: 100, spa: 50, spd: 100, spe: 60 },
 		abilities: { 0: "No Guard" },
 		heightm: 2.5,
 		weightkg: 70.3,
