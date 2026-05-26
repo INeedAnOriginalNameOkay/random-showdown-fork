@@ -6292,7 +6292,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyAtkPriority: 1,
 		onModifyAtk(atk, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Cubone' || pokemon.baseSpecies.baseSpecies === 'Marowak') {
+			if (pokemon.baseSpecies.baseSpecies === 'Cubone' || pokemon.baseSpecies.baseSpecies === 'Marowak'|| pokemon.baseSpecies.baseSpecies === 'Craboo'|| pokemon.baseSpecies.baseSpecies === 'Spookrab') {
 				return this.chainModify(2);
 			}
 		},
