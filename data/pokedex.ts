@@ -18697,7 +18697,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Umbree",
 		types: ["Bug", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 60, atk: 71, def: 49, spa: 92, spd: 50, spe: 83 },
+		baseStats: { hp: 60, atk: 92, def: 49, spa: 71, spd: 50, spe: 83 },
 		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
 		heightm: 0.6,
 		weightkg: 13.6,
