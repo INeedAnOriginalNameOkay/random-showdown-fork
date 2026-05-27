@@ -5603,7 +5603,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	twofaced: {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
-			if (pokemon.species.baseSpecies !== 'Weezing-Banerica' || pokemon.terastallized) return;
+			if (pokemon.species.baseSpecies !== 'Weezing' || pokemon.terastallized) return;
 			const targetForme = pokemon.species.name === 'Weezing-Banerica' ? 'Weezing-Banerica-Scary' : 'Weezing-Banerica';
 			pokemon.formeChange(targetForme);
 		},
@@ -5611,6 +5611,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Two-Faced",
 		rating: 1,
 		num: 258,
+	},
+
+	ignition: {
+		onModifyMovePriority: 1,
+		onModifyMove(move, attacker, defender) {
+			if (attacker.species.baseSpecies !== 'Blastilisk' || attacker.transformed) return;
+			if (move.type !== 'Fire') return;
+			const targetForme = ('Blastilisk-Lit');
+			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
+		name: "Ignition",
+		rating: 1,
+		num: 176,
 	},
 
 	// CAP
