@@ -20920,7 +20920,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Sneasless",
 		types: ["Ghost", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 72, atk: 127, def: 55, spa: 60, spd: 70, spe: 120 },
+		baseStats: { hp: 72, atk: 127, def: 55, spa: 60, spd: 76, spe: 120 },
 		abilities: { 0: "Pressure", 1: "Vital Spirit", H: "Wandering Spirit" },
 		heightm: 0.9,
 		weightkg: 28.0,
