@@ -6625,6 +6625,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "levelFriendship",
 		evoCondition: "at night",
 		eggGroups: ["Amorphous"],
+		evos: ["Spirichime"],
 		canHatch: true,
 	},
 //	absol: {
@@ -20146,6 +20147,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.9,
 		weightkg: 3.4,
 		color: "Blue",
+		prevo: "Chimecho",
+		evoLevel: 34,
 		eggGroups: ["Amorphous"],
 	},
 		rubberunt: {
