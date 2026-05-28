@@ -8,7 +8,8 @@ Methods:
 	Transfer [V]
 
 ex:
-	lightofruin: ["9L67"]
+	lightofruin: ["9L99"],
+	supergooberygoob: ["67L67"],
 */
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	missingno: {
@@ -100493,7 +100494,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	fryre: {
+	potacoal: {
 		learnset: {
 			attract: ["9M", "3M"],
 			bulkup: ["9M", "3M"],
@@ -100551,7 +100552,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	fronch: {
+	deputato: {
 		learnset: {
 			attract: ["9M", "3M"],
 			bulkup: ["9M", "3M"],
@@ -100601,7 +100602,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	frybros: {
+	fryriff: {
 		learnset: {
 			attract: ["9M", "3M"],
 			bulkup: ["9M", "3M"],
@@ -100816,7 +100817,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	bugerpunch: {
+	grumbra: {
 		learnset: {
 			agility: ["9E", "3E"],
 			bugbite: ["9L13", "3L13", "9M", "3M"],
@@ -100838,7 +100839,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	piccoon: {
+	chryslark: {
 		learnset: {
 			bugbite: ["9M", "3M"],
 			cut: ["9M", "3M"],
@@ -100849,7 +100850,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	darkfly: {
+	umbree: {
 		learnset: {
 			aerialace: ["9M", "3M"],
 			airslash: ["9M", "3M"],
