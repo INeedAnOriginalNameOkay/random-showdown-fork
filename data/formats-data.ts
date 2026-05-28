@@ -1039,14 +1039,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 
 	onix: {
 		isNonstandard: "Past",
-		tier: "OU",
-		natDexTier: "LC",
+		tier: "Illegal",
 	},
 
 	steelix: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
 	},
 
 /*
@@ -2172,30 +2170,22 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 
 	sneasel: {
 		isNonstandard: "Past",
-		tier: "OU",
-		doublesTier: "NFE",
-		natDexTier: "NFE",
+		tier: "Illegal",
 	},
 
 	sneaselhisui: {
 		isNonstandard: "Past",
-		tier: "OU",
-		doublesTier: "NFE",
-		natDexTier: "NFE",
+		tier: "Illegal",
 	},
 
 	weavile: {
 		isNonstandard: "Past",
-		tier: "UU",
-		doublesTier: "(DUU)",
-		natDexTier: "UUBL",
+		tier: "Illegal",
 	},
 
 	sneasler: {
 		isNonstandard: "Past",
-		tier: "Uber",
-		doublesTier: "DOU",
-		natDexTier: "Uber",
+		tier: "Illegal",
 	},
 
 /*
@@ -2781,14 +2771,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 
 	skitty: {
 		isNonstandard: "Past",
-		tier: "OU",
-		natDexTier: "LC",
+		tier: "Illegal",
 	},
 
 	delcatty: {
 		isNonstandard: "Past",
-		tier: "OU",
-		natDexTier: "RU",
+		tier: "Illegal",
 	},
 
 /*
