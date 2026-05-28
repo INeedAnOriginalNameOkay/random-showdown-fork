@@ -19899,7 +19899,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Skarmageddon",
 		types: ["Steel", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 70, atk: 90, def: 150, spa: 80, spd: 85, spe: 75 },
+		baseStats: { hp: 70, atk: 110, def: 150, spa: 60, spd: 85, spe: 75 },
 		abilities: { 0: "Defiant", 1: "Levitate", H: "Weak Armor" },
 		heightm: 2.4,
 		weightkg: 176.9,
