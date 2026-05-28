@@ -4576,6 +4576,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.7,
 		weightkg: 50.5,
 		color: "Gray",
+		prevo: "Skarbed",
+		evoLevl: 25,
+		evos: ["Skarmageddon"],
 		eggGroups: ["Flying"],
 	},
 	houndour: {
@@ -6610,6 +6613,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 2,
 		weightkg: 100,
 		color: "Green",
+		prevo: "Tropling",
+		evoLevel: 25,
+		evos: ["Bontropic"],
 		eggGroups: ["Monster", "Grass"],
 	},
 	chimecho: {
