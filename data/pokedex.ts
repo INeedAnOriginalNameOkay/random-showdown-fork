@@ -17462,7 +17462,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "move",
 		eggGroups: ["Grass","Dragon"],
 	},
-}
 //	rellor: {
 //		num: 953,
 //		name: "Rellor",
