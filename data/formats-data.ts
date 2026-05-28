@@ -4837,13 +4837,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	karrablast: {
 		isNonstandard: "Past",
-		tier: "OU",
-		natDexTier: "LC",
+		tier: "Illegal",
+		natDexTier: "Illegal",
 	},
-*/
+
 /*
 	escavalier: {
 		isNonstandard: "Past",
