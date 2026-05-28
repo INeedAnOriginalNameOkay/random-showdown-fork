@@ -4338,3 +4338,4 @@
 	chirukeru: {
 		name: "Chirukeru",
 	},
+};
