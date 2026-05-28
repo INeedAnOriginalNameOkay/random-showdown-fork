@@ -2292,6 +2292,12 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		shortDesc: "If Weezing-Banerica, it changes between Cute and Scary Mode at the end of each turn.",
 	},
 
+	ignition: {
+		name: "Ignition",
+		desc: "If this Pokemon is a Blastilisk , it will change to Blastilisk-Lit when it uses a Fire-type move.",
+		shortDesc: "If Blastilisk, it changes to Blastilisk-Lit when it uses a Fire move.",
+	},
+
 	// CAP
 	mountaineer: {
 		name: "Mountaineer",
