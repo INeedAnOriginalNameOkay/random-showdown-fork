@@ -8,8 +8,7 @@
 //// Note: This is the list of formats
 //// The rules that formats use are stored in data/rulesets.ts
 //
-//export const Formats: FormatList = [
-//];
+//export const Formats: FormatList = [];
 //--------------------------------------------------------------------------------
 //
 //If you specify a section that already exists, your format will be added to the bottom of that section.
@@ -17,7 +16,7 @@
 //The column value will be ignored for repeat sections.
 //*/
 //
-//export const Formats: import('../sim/dex-formats').FormatList = [
+export const Formats: import('../sim/dex-formats').FormatList = [
 //
 //	// S/V Singles
 //	///////////////////////////////////////////////////////////////////
@@ -5746,4 +5745,4 @@
 //		battle: { trunc: Math.trunc },
 //		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 //	},
-//];
+];
