@@ -3787,6 +3787,13 @@
 // 	},
 // };
 
+		capsakidbanerica: {
+			name: "Capsakid-Banerica",
+		},
+		scovillainbanerica: {
+			name: "Scovillain-Banerica",
+		},
+		
 // Newly added Fakemon names
 	burpider: {
 		name: "Burpider",
