@@ -2298,6 +2298,12 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		shortDesc: "If Blastilisk, it changes to Blastilisk-Lit when it uses a Fire move.",
 	},
 
+	equalizer: {
+		name: "Equalizer",
+		desc: "Boosts the power of sound-based moves by 1.3x.",
+		shortDesc: "Boosts power of sound-based moves by 1.3x.",
+	},
+
 	// CAP
 	mountaineer: {
 		name: "Mountaineer",

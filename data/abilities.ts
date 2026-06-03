@@ -5610,7 +5610,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
 		name: "Two-Faced",
 		rating: 1,
-		num: 258,
+		num: 500,
 	},
 
 	ignition: {
@@ -5624,7 +5624,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
 		name: "Ignition",
 		rating: 1,
-		num: 176,
+		num: 501,
+	},
+
+	equalizer: {
+		onBasePowerPriority: 7,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['sound']) {
+				this.debug('Equalizer boost');
+				return this.chainModify([5325, 4096]);
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Equalizer",
+		rating: 3,
+		num: 502,
 	},
 
 	// CAP
