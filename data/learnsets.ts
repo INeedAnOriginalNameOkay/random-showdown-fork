@@ -100712,6 +100712,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildfire: ["9E"],
 			smackdown: ["9M"],
 			saltcure: ["9M"],
+			knockoff: ["9M"],
+			firespin: ["9M"],
+			firelash: ["9M"],
 		},
 	},
 
@@ -100946,6 +100949,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			acrobatics: ["9M"],
 			trailblaze: ["9M"],
 			throatchop: ["9M"],
+			knockoff: ["9M"],
+			ceaselessedge: ["9M"],
 		},
 	},
 
@@ -103038,6 +103043,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gastroacid: ["9M"],
 			corrosivegas: ["9M"],
 			toxicspikes: ["9M"],
+			steameruption: ["9M"],
 		},
 	},
 
@@ -103312,6 +103318,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			throatchop: ["9M"],
 			psychoshift: ["9M"],
 			toxicspikes: ["9M"],
+			spokes: ["9M"],
 		},
 	},
 
@@ -104027,6 +104034,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gastroacid: ["9M"],
 			trailblaze: ["9M"],
 			gunkshot: ["9M"],
+			firstimpression: ["9M"]
 		},
 	},
 
@@ -107533,6 +107541,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			skyattack: ["9M"],
 			ironhead: ["9M"],
 			willowisp: ["9M"],
+			steelbeam: ["9M"],
 		},
 	},
 
@@ -107946,6 +107955,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gastroacid: ["9M"],
 			scaleshot: ["9M"],
 			breakingswipe: ["9M"],
+			dracometeor: ["9M"],
+			roost: ["9M"],
+			hurricane: ["9M"],
+			stealthrock: ["9M"],
 		},
 	},
 
@@ -108645,6 +108658,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thunderfang: ["9E"],
 			flipturn: ["9E", "9M"],
 			supercellslam: ["9M"],
+			electroshot: ["9M"],
 		},
 	},
 
@@ -109185,6 +109199,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			ironhead: ["9M"],
 			aurasphere: ["9M"],
 			darkpulse: ["9M"],
+			steameruption: ["9M"],
 		},
 	},
 
@@ -109708,6 +109723,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			upperhand: ["9M"],
 			flareblitz: ["9M"],
 			sludgebomb: ["9M"],
+			fakeout:["9M"],
+			doubleshock: ["9M"],
 		},
 	},
 
@@ -111462,6 +111479,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			syrupbomb: ["9M"],
 			lifedew: ["9M"],
 			taunt: ["9M"],
+			magmastorm: ["9M"],
+			burningbulwark: ["9M"],
 		},
 	},
 
@@ -111804,6 +111823,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			highjumpkick: ["9M"],
 			acrobatics: ["9M"],
 			tripleaxel: ["9M"],
+			closecombat: ["9M"],
 		},
 	},
 
