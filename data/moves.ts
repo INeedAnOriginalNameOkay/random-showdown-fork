@@ -6277,7 +6277,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return Math.floor(((255 - pokemon.happiness) * 10) / 25) || 1;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Frustration",
 		pp: 20,
 		priority: 0,
@@ -15025,7 +15025,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return Math.floor((pokemon.happiness * 10) / 25) || 1;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Return",
 		pp: 20,
 		priority: 0,
