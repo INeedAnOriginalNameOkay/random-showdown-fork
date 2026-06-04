@@ -2290,6 +2290,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Two-Faced",
 		desc: "If this Pokemon is a Weezing-Banerica, it changes formes between its Cute Mode and Scary Mode at the end of each turn.",
 		shortDesc: "If Weezing-Banerica, it changes between Cute and Scary Mode at the end of each turn.",
+
+		transform: "[POKEMON] underwent a mood swing!",
+		transformEnd: "[POKEMON] underwent a mood swing!",
 	},
 
 	ignition: {
@@ -2302,6 +2305,13 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Equalizer",
 		desc: "Boosts the power of sound-based moves by 1.3x.",
 		shortDesc: "Boosts power of sound-based moves by 1.3x.",
+	},
+
+	caramelize: {
+		name: "Caramelize",
+		shortDesc: "On switch-in, this Pokemon lowers the evasiveness of opponents 1 stage.",
+
+		start: "  A supersweet aroma is wafting from the caramel covering [POKEMON]!",
 	},
 
 	// CAP

@@ -5641,6 +5641,23 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 502,
 	},
 
+	caramelize: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Caramelize');
+			for (const target of pokemon.adjacentFoes()) {
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ evasion: -1 }, target, pokemon, null, true);
+				}
+			}
+		},
+		flags: {},
+		name: "Caramelize",
+		rating: 1.5,
+		num: 306,
+	},
+
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

@@ -2284,7 +2284,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ["Fire", "Fairy"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 120, atk: 41, def: 86, spa: 95, spd: 110, spe: 58 },
-		abilities: { 0: "Sweet Veil", 1: "Supersweet Syrup", H: "Sticky Hold" },
+		abilities: { 0: "Sweet Veil", 1: "Caramelize", H: "Sticky Hold" },
 		heightm: 1.4,
 		weightkg: 89.0,
 		color: "Pink",
