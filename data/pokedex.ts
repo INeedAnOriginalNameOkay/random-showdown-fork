@@ -18748,7 +18748,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 		whipsplash: {
 		num: 2007,
-		name: "Whispsplash",
+		name: "Whipsplash",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 48, atk: 47, def: 56, spa: 59, spd: 56, spe: 45 },
