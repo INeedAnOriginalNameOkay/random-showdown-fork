@@ -5641,7 +5641,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 502,
 	},
 
-	caramelize: {
+	caramellize: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Caramelize');
 			for (const target of pokemon.adjacentFoes()) {
@@ -5653,9 +5653,65 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		flags: {},
-		name: "Caramelize",
+		name: "Caramellize",
 		rating: 1.5,
 		num: 306,
+	},
+
+	unchained: {
+		onUpdate(pokemon) {
+			if (pokemon.volatiles['encore']) {
+				this.add('-activate', pokemon, 'ability: Unchained');
+				pokemon.removeVolatile('encore');
+				this.add('-end', pokemon, 'move: Encore', '[from] ability: Unchained');
+			}
+			if (pokemon.volatiles['torment']) {
+				this.add('-activate', pokemon, 'ability: Unchained');
+				pokemon.removeVolatile('torment');
+				this.add('-end', pokemon, 'move: Torment', '[from] ability: Unchained');
+			}
+			if (pokemon.volatiles['taunt']) {
+				this.add('-activate', pokemon, 'ability: Unchained');
+				pokemon.removeVolatile('taunt');
+				// Taunt's volatile already sends the -end message when removed
+			}
+			if (pokemon.volatiles['disable']) {
+				this.add('-activate', pokemon, 'ability: Unchained');
+				pokemon.removeVolatile('disable');
+				this.add('-end', pokemon, 'move: Disable', '[from] ability: Unchained');
+			}
+		},
+		onTryHit(pokemon, target, move) {
+			if (move.id === 'encore' || move.id === 'torment' || move.id === 'taunt' || move.id === 'disable') {
+				this.add('-immune', pokemon, '[from] ability: Unchained');
+				return null;
+			}
+		},
+
+		onModifyMove(move, pokemon) {
+			if (pokemon.volatiles['choicelock']) {
+				this.debug('removing choicelock');
+			}
+			pokemon.removeVolatile('choicelock');
+		},
+
+		onStart(pokemon) {
+			if(pokemon.item == 'assaultvest') {
+				this.singleEvent('End', pokemon.getItem(), pokemon.itemState, pokemon);
+			}
+		},
+
+		onModifySpDPriority: 1,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.item == 'assaultvest') {
+				return this.chainModify(1.5);
+			}
+		},
+
+		flags: { breakable: 1 },
+		name: "Unchained",
+		rating: 1.5,
+		num: 12,
 	},
 
 	// CAP

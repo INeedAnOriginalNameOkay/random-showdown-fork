@@ -21697,7 +21697,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 
 	mildew: {
-		num: 746,
+		num: 5010,
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
@@ -21710,6 +21710,46 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 		type: "Grass",
+	},
+
+	windblast: {
+		num: 5011,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Wind Blast",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, distance: 1, metronome: 1, wind: 1 },
+
+		secondary: {
+			chance: 10,
+			volatileStatus: 'confusion',
+		},
+		target: "any",
+		type: "Flying",
+		contestType: "Tough",
+	},
+
+	plunge: {
+		num: 5012,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Plunge",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1, metronome: 1 },
+
+		secondary: {
+			chance: 10,
+			boosts: {
+				spe: 1,
+			},
+		},
+		target: "any",
+		type: "Flying",
+		contestType: "Tough",
 	},
 
 	// CAP moves
