@@ -19934,7 +19934,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Bontropic",
 		types: ["Grass", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 110, atk: 77, def: 100, spa: 94, spd: 103, spe: 66 },
+		baseStats: { hp: 109, atk: 106, def: 100, spa: 93, spd: 103, spe: 49 },
 		abilities: { 0: "Grassy Surge", 1: "Solar Power", H: "Harvest" },
 		heightm: 2.4,
 		weightkg: 172.4,
