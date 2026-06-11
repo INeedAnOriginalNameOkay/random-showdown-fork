@@ -5600,6 +5600,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 278,
 	},
 
+// CMG Abilities
+
 	twofaced: {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
