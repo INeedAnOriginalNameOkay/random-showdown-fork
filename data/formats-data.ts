@@ -8351,7 +8351,7 @@ formatting template:
 	koffingbanerica: {
 		tier: "OU",
 	},
-	weezingbanerica: {
+	weezingbanericacute: {
 		tier: "OU",
 	},
 	weezingbanericascary: {
