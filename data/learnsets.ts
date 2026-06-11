@@ -49428,7 +49428,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigadrain: ["9M", "8M", "7T", "6T", "5T", "4M"],
 			gigaimpact: ["8M", "7M", "6M", "5M", "4M"],
 			grassknot: ["8M", "7M", "6M", "5M", "4M"],
-			grassyglide: ["8T"],
+			grassyglide: ["9M", "8T"],
 			grassyterrain: ["8M"],
 			growth: ["8L1", "7L1", "6L1", "5L1", "4L1"],
 			helpinghand: ["9M", "8M", "8L15", "7T", "7L13", "6T", "6L13", "5T", "5L13", "4T", "4L13"],
@@ -49474,7 +49474,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			defensecurl: ["9E"],
 			razorleaf: ["9E"],
 			sweetscent: ["9E"],
-			grassyglide: ["9M"],
 		},
 	},
 	shellos: {
@@ -103710,7 +103709,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 		},
 	},
-
+	*/
 	warroach: {
 		learnset: {
 			attract: ["9M", "3M"],
@@ -103841,7 +103840,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gastroacid: ["9M"],
 			trailblaze: ["9M"],
 			gunkshot: ["9M"],
-			firstimpression: ["9M"]
+			firstimpression: ["9M"],
 			dualwingbeat: ["9M"],
 			pounce: ["9M"],
 			naturepower: ["9M"],
@@ -110976,8 +110975,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			electroweb: ["9M"],
 			electricterrain: ["9M"],
 			mistyexplosion: ["9M"],
-		}
-	}
+		},
+	},
 
 // Scrapped/Event Mons
 	burfly: {
@@ -111044,8 +111043,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
-		}
-	}
+		},
+	},
 	
 	rattlespade: {
 		learnset: {
@@ -111080,8 +111079,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
-		}
-	}
+		},
+	},
 	
 	perlithon: {
 		learnset: {
@@ -111116,8 +111115,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
-		}
-	}
+		},
+	},
 	
 	turnipoot: {
 		learnset: {
@@ -111187,8 +111186,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 			darkpulse: ["9M"],
 			bodyslam: ["9M"],
-		}
-	}
+		},
+	},
 	
 	jackotre: {
 		learnset: {
@@ -111258,8 +111257,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mysticalfire: ["9M"],
 			heatwave: ["9M"],
 			trickroom: ["9M"],
-		}
-	}
+		},
+	},
 	
 	pompomp: {
 		learnset: {
@@ -111316,8 +111315,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
-		}
-	}
+		},
+	},
 	
 	pompalge: {
 		learnset: {
@@ -111374,8 +111373,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
-		}
-	}
+		},
+	},
 	
 	howblazer: {
 		learnset: {
@@ -111440,8 +111439,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			closecombat: ["9M"],
 			quickguard: ["9M"],
 			sleeptalk: ["9M"],
-		}
-	}
+		},
+	},
 	
 	steerpaw: {
 		learnset: {
@@ -111501,6 +111500,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			quickguard: ["9M"],
 			taunt: ["9M"],
 			sleeptalk: ["9M"],
-		}
-	}
+		},
+	},
 };
