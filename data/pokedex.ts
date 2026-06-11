@@ -19846,7 +19846,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Psychic", "Rock"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 80, atk: 75, def: 70, spa: 66, spd: 68, spe: 41 },
-		abilities: { 0: "Trace", 1: "Magic Bounce", H: "Psychic Surge },
+		abilities: { 0: "Trace", 1: "Magic Bounce", H: "Psychic Surge" },
 		heightm: 0.8,
 		weightkg: 59.0,
 		color: "Pink",
