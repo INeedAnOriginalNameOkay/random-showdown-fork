@@ -106141,6 +106141,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			electricterrain: ["9M"],
 			risingvoltage: ["9M"],
 			naturepower: ["9M"],
+			electroweb: ["9M"],
 		},
 	},
 
