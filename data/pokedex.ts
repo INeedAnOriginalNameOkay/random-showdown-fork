@@ -17555,6 +17555,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Caydra"],
 		prevo: "Capsakid-Banerica",
 		evoType: "levelMove",
+		evoMove: "Flame Burst",
 		eggGroups: ["Grass","Dragon"],
 	},
 //	rellor: {
