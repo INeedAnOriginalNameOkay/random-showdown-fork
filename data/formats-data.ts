@@ -1696,16 +1696,23 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 */
 	
-/*
+
 	dratini: {
 		tier: "OU",
 	},
-*/
-/*
+
+	dratinibanerica: {
+		tier: "OU",
+	}
+
 	dragonair: {
 		tier: "OU",
 	},
-*/
+
+	dragonairbanerica: {
+		tier: "OU",
+	},
+
 /*
 	dragonite: {
 		tier: "OU",
