@@ -8406,7 +8406,7 @@ formatting template:
 	chryslark: {
 		tier: "OU",
 	},
-	umbree: {
+	cresumbra: {
 		tier: "OU",
 	},
 	whiskrat: {
@@ -8916,7 +8916,7 @@ formatting template:
 	chirukeru: {
 		tier: "OU",
 	},
-		lureel: {
+	lureel: {
 		tier: "OU",
 	},
 	stymeel: {
@@ -8989,6 +8989,39 @@ formatting template:
 		tier: "OU",
 	},
 	dustinger: {
+		tier: "OU",
+	},
+	burfly: {
+		tier: "OU",
+	},
+	rattlespade: {
+		tier: "OU",
+	},
+	perlithon: {
+		tier: "OU",
+	},
+	turnipoot: {
+		tier: "OU",
+	},
+	jackotre: {
+		tier: "OU",
+	},
+	pompomp: {
+		tier: "OU",
+	},
+	pompalge: {
+		tier: "OU",
+	},
+	howblazer: {
+		tier: "OU",
+	},
+	steerpaw: {
+		tier: "OU",
+	},
+	pinchin: {
+		tier: "OU",
+	},
+	opatchum: {
 		tier: "OU",
 	},
 };

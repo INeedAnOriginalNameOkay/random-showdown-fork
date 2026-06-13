@@ -21246,6 +21246,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 
+// CMG Moves
+
 	lavasurf: {
 		num: 5000,
 		accuracy: 100,
@@ -21288,12 +21290,20 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 15,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, punch: 1, contact:1 },
+		secondary: {
+			chance: 10,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
 		target: "normal",
 		type: "Fairy",
 		contestType: "Cool",
 	},
 
-	gigadeathray: {
+	gigadeathray: { // Joke Move
 		num: 10000,
 		accuracy: 100,
 		basePower: 1000,
@@ -21308,7 +21318,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 
-	awakenpower: {
+	awakenpower: { // Unimagean Signature
 		num: 5003,
 		accuracy: 100,
 		basePower: 80,
@@ -21586,7 +21596,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 
-	slurpeup: {
+	slurpup: { // Spritsplash Signature
 		num: 5005,
 		accuracy: true,
 		basePower: 0,
@@ -21668,7 +21678,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		num: 5008,
 		accuracy: 100,
 		basePower: 250,
-		category: "Special",
+		category: "Physical",
 		name: "Kaboom",
 		pp: 5,
 		priority: 0,
@@ -21679,16 +21689,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Beautiful",
 	},
 
-	rapidfire: {
+	rapidfire: { // Fryrill Signature
 		num: 5009,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 25,
 		category: "Physical",
 		name: "Rapid Fire",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
-		multihit: [2, 5],
+		self: {
+			boosts: {
+				atk: -1,
+			},
+		},
+		multihit: 5,
+		multiaccuracy: true,
 		target: "normal",
 		type: "Fire",
 		zMove: { basePower: 140 },
@@ -21715,7 +21731,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	windblast: {
 		num: 5011,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 80,
 		category: "Special",
 		name: "Wind Blast",
 		pp: 10,
@@ -21723,7 +21739,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, distance: 1, metronome: 1, wind: 1 },
 
 		secondary: {
-			chance: 10,
+			chance: 20,
 			volatileStatus: 'confusion',
 		},
 		target: "any",
@@ -21734,7 +21750,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	plunge: {
 		num: 5012,
 		accuracy: 100,
-		basePower: 85,
+		basePower: 90,
 		category: "Physical",
 		name: "Plunge",
 		pp: 10,
@@ -21749,6 +21765,54 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "any",
 		type: "Flying",
+		contestType: "Tough",
+	},
+
+	silverthread: { // Opatchum Signature
+		num: 5013,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Silver Thread",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, slicing: 1 },
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Steel",
+		contestType: "Cool",
+	},
+
+	mustardrush: { // Burbacker Signature
+		num: 5014,
+		accuracy: 95,
+		basePower: 120,
+		category: "Physical",
+		name: "Mustard Rush",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		self: {
+			volatileStatus: 'confusion',
+		},
+		secondaries: [
+
+			{
+				chance: 100,
+				volatileStatus: 'confusion',
+			}, {
+				chance: 30,
+				volatileStatus: 'flinch',
+			}
+		],
+		target: "normal",
+		type: "Grass",
 		contestType: "Tough",
 	},
 
