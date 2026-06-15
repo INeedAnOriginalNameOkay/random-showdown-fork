@@ -8230,6 +8230,29 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 9,
 	},
 
+	hypersugar: {
+		name: "Hyper Sugar",
+		spritenum: 2005,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
+			return true;
+		},
+		onModifyMove(move, pokemon) {
+			if (move.name === 'Sugar Crash') {
+				move.basePower *= 1.1;
+				move.type = "Stellar";
+			}
+		},
+		forcedForme: "Cankerwar-Hyper",
+		itemUser: ["Cankerwar-Hyper"],
+		num: 3005,
+		gen: 10,
+		isNonstandard: "Future",
+	},
+
 	// CAP items
 
 	crucibellite: {

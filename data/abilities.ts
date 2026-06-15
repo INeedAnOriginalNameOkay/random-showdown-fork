@@ -5718,9 +5718,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 
 	sugarrush: {
 		onModifyMove(move) {
-			if (move?.flags['heal']) return this.boost({ spe: 1 });
+			if (move?.flags['heal']) {
+				this.boost({ spe: 1 });
+			}
 		},
-		flags: { },
+		flags: {},
 		name: "Sugar Rush",
 		rating: 3.5,
 		num: 505,
