@@ -4675,7 +4675,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (target.volatiles['substitute']) {
 					this.add('-immune', target);
 				} else {
-					this.boost({ evasion: -1 }, target, pokemon, null, true);
+					this.boost({ evasion: -1, spe: -1 }, target, pokemon, null, true);
 				}
 			}
 		},
@@ -5637,7 +5637,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				return this.chainModify([5325, 4096]);
 			}
 		},
-		flags: { breakable: 1 },
+		flags: {},
 		name: "Equalizer",
 		rating: 3,
 		num: 502,
@@ -5657,7 +5657,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Caramellize",
 		rating: 1.5,
-		num: 306,
+		num: 503,
 	},
 
 	unchained: {
@@ -5710,10 +5710,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 
-		flags: { breakable: 1 },
+		flags: {},
 		name: "Unchained",
 		rating: 1.5,
-		num: 12,
+		num: 504,
+	},
+
+	sugarrush: {
+		onModifyMove(move) {
+			if (move?.flags['heal']) return this.boost({ spe: 1 });
+		},
+		flags: { },
+		name: "Sugar Rush",
+		rating: 3.5,
+		num: 505,
 	},
 
 	// CAP

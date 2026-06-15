@@ -8126,6 +8126,110 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "Past",
 	},
 
+	// CMG
+
+	// Cheri - Electric, Rawst - Fire, Aspear - Ice, Chesto - Psychic, Pecha - Poison 
+	cherisugar: {
+		name: "Cheri Sugar",
+		spritenum: 2000,
+		fling: {
+			basePower: 60,
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status === 'par') {
+				pokemon.cureStatus();
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
+			return true;
+		},
+		forcedForme: "Cankerwar-Cheri",
+		itemUser: ["Cankerwar-Cheri"],
+		num: 3000,
+		gen: 9,
+	},
+	rawstsugar: {
+		name: "Rawst Sugar",
+		spritenum: 2001,
+		fling: {
+			basePower: 60,
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status === 'brn') {
+				pokemon.cureStatus();
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
+			return true;
+		},
+		forcedForme: "Cankerwar-Rawst",
+		itemUser: ["Cankerwar-Rawst"],
+		num: 3001,
+		gen: 9,
+	},
+	aspearsugar: {
+		name: "Aspear Sugar",
+		spritenum: 2002,
+		fling: {
+			basePower: 60,
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status === 'frz') {
+				pokemon.cureStatus();
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
+			return true;
+		},
+		forcedForme: "Cankerwar-Aspear",
+		itemUser: ["Cankerwar-Aspear"],
+		num: 3002,
+		gen: 9,
+	},
+	chestosugar: {
+		name: "Chesto Sugar",
+		spritenum: 2003,
+		fling: {
+			basePower: 60,
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status === 'slp') {
+				pokemon.cureStatus();
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
+			return true;
+		},
+		forcedForme: "Cankerwar-Chesto",
+		itemUser: ["Cankerwar-Chesto"],
+		num: 3003,
+		gen: 9,
+	},
+	pechasugar: {
+		name: "Pecha Sugar",
+		spritenum: 2004	,
+		fling: {
+			basePower: 60,
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status === 'psn' || pokemon.status === 'tox') {
+				pokemon.cureStatus();
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
+			return true;
+		},
+		forcedForme: "Cankerwar-Pecha",
+		itemUser: ["Cankerwar-Pecha"],
+		num: 3004,
+		gen: 9,
+	},
+
 	// CAP items
 
 	crucibellite: {

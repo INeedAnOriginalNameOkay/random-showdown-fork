@@ -21576,6 +21576,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Clever",
 	},
 
+	/*
 	blindrage: {
 		num: 5004,
 		accuracy: 85,
@@ -21595,6 +21596,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { effect: 'clearnegativeboost' },
 		contestType: "Cool",
 	},
+	*/
 
 	slurpup: { // Spritsplash Signature
 		num: 5005,
@@ -21698,6 +21700,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
+		smartTarget: true,
 		self: {
 			boosts: {
 				atk: -1,
@@ -21712,6 +21715,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Tough",
 	},
 
+	/*
 	mildew: {
 		num: 5010,
 		accuracy: 100,
@@ -21728,6 +21732,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Grass",
 	},
 
+	
 	windblast: {
 		num: 5011,
 		accuracy: 100,
@@ -21767,6 +21772,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Flying",
 		contestType: "Tough",
 	},
+	*/
 
 	silverthread: { // Opatchum Signature
 		num: 5013,
@@ -21795,25 +21801,184 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 120,
 		category: "Physical",
 		name: "Mustard Rush",
-		pp: 15,
+		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
-		self: {
-			volatileStatus: 'confusion',
-		},
+		flags: { contact: 1,protect: 1, mirror: 1, metronome: 1 },
+		
 		secondaries: [
-
 			{
 				chance: 100,
 				volatileStatus: 'confusion',
 			}, {
 				chance: 30,
 				volatileStatus: 'flinch',
-			}
+			}, {
+			chance: 100,
+				self: {
+				volatileStatus: 'confusion',
+				},
+			},
 		],
 		target: "normal",
 		type: "Grass",
 		contestType: "Tough",
+	},
+	nightwing: {
+		num: 5015,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Night Wing",
+		pp: 35,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, distance: 1, metronome: 1 },
+		target: "any",
+		type: "Dark",
+		contestType: "Cool",
+	},
+
+	// Cheri - Electric, Rawst - Fire, Aspear - Ice, Chesto - Psychic, Pecha - Poison 
+	sugarcrash: { //Canker Crush; Cankerwar Signature
+		num: 5016,
+		accuracy: 90,
+		basePower: 100,
+		category: "Physical",
+		name: "Sugar Crash",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, heal: 1 },
+		drain: [1, 2],
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+		},
+		onModifyType(move, pokemon) {
+			switch (pokemon.species.name) {
+			case 'Cankerwar-Cheri':
+				move.type = 'Electric';
+				break;
+			case 'Cankerwar-Rawst': 
+				move.type = 'Fire';
+				break;
+			case 'Cankerwar-Aspear':
+				move.type = 'Ice';
+				break;
+			case 'Cankerwar-Pecha':
+				move.type = 'Poison';
+				break;
+			case 'Cankerwar-Chesto':
+				move.type = 'Psychic';
+				break;
+			}
+		},
+		target: "normal",
+		type: "Rock",
+	},
+
+	diceroll: { // Luctre Signature
+		num: 5017,
+		accuracy: 100,
+		basePower: 30,
+		category: "Physical",
+		name: "Dice Roll",
+		pp: 30,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		multihit: [1, 6],
+		target: "normal",
+		type: "Dark",
+		zMove: { basePower: 140 },
+		maxMove: { basePower: 130 },
+		contestType: "Cool",
+	},
+
+	chanceattack: { // Luctre Signature
+		num: 5018,
+		accuracy: 100,
+		basePower: 0,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Chance Attack",
+		pp: 30,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onModifyMove(move, pokemon) {
+			const i = this.random(100);
+			if (i < 5) {
+				move.chanceattack = 4;
+				move.basePower = 10;
+			} else if (i < 15) {
+				move.chanceattack = 5;
+				move.basePower = 30;
+			} else if (i < 35) {
+				move.chanceattack = 6;
+				move.basePower = 50;
+			} else if (i < 65) {
+				move.chanceattack = 7;
+				move.basePower = 70;
+			} else if (i < 85) {
+				move.chanceattack = 8;
+				move.basePower = 90;
+			} else if (i < 95) {
+				move.chanceattack = 9;
+				move.basePower = 110;
+			} else {
+				move.chanceattack = 10;
+				move.basePower = 150;
+			}
+		},
+		onUseMoveMessage(pokemon, target, move) {
+			this.add('-activate', pokemon, 'move: Chance Attack', move.chanceattack);
+		},
+		target: "allAdjacentFoes",
+		type: "Dark",
+		zMove: { basePower: 140 },
+		maxMove: { basePower: 140 },
+		contestType: "Cool",
+	},
+
+	hauntedcry: {
+		num: 5019,
+		accuracy: 100,
+		basePower: 65,
+		category: "Special",
+		name: "Haunted Cry",
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Ghost",
+		contestType: "Cute",
+	},
+
+	powerglyph: { // Unimagean Signature
+		num: 5020,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Power Glyph",
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 20,
+			boosts: {
+				atk: -1,
+				def: -1,
+				spa: -1,
+				spd: -1,
+				spe: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Psychic",
+		contestType: "Cute",
 	},
 
 	// CAP moves

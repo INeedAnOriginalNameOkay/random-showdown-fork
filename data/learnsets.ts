@@ -43948,6 +43948,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "7L1", "6L1", "5L1", "4L1"],
 			yawn: ["9L13", "7L13", "6L13"],
 			zenheadbutt: ["9M", "7T", "6T", "5T", "4T"],
+			hauntedcry: ["9M"],
 		},
 	},
 	chimecho: {
@@ -44049,6 +44050,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sonicboom: ["9E"],
 			willowisp: ["9E"],
 			healblock: ["9M"],
+			hauntedcry: ["9M"],
 		},
 		eventData: [
 			{generation: 3, level: 10, gender: "M", moves: ["wrap", "growl", "astonish"], pokeball: "pokeball"},
@@ -104602,6 +104604,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trickroom: ["9M", "3M"],
 			waterpulse: ["9M", "3M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104670,6 +104673,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poweruppunch: ["9M"],
 			tickle: ["9M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104727,6 +104731,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M", "3M"],
 			uturn: ["9M", "3M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104775,6 +104780,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			glare: ["9M"],
 			poltergeist: ["9M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104820,6 +104826,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trickroom: ["9M", "3M"],
 			willowisp: ["9L40", "3L40"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104874,6 +104881,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			healblock: ["9M"],
 			psychicnoise: ["9M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104928,6 +104936,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			steelbeam: ["9M"],
 			psychicnoise: ["9M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -105077,6 +105086,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			powertrip: ["9M"],
 			mysticalpower: ["9M"],
 			naturepower: ["9M"],
+			powerglyph: ["9M"],
 		},
 	},
 
@@ -105256,6 +105266,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			storedpower: ["9E"],
 			tickle: ["9M"],
 			naturepower: ["9M"],
+			diceroll: ["9M"],
+			chanceattack: ["9M"],
 		},
 	},
 
@@ -105308,6 +105320,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9M", "3M"],
 			woodhammer: ["9E", "3E"],
 			naturepower: ["9M"],
+			sugarcrash: ["9M"],
 		},
 	},
 
@@ -105364,6 +105377,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			coaching: ["9M"],
 			swordsdance: ["9M"],
 			naturepower: ["9M"],
+			sugarcrash: ["9M"],
 		},
 	},
 
@@ -105429,6 +105443,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			foulplay: ["9M"],
 			poweruppunch: ["9M"],
 			naturepower: ["9M"],
+			sugarcrash: ["9M"],
 		},
 	},
 
@@ -106484,6 +106499,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			expandingforce: ["9M"],
 			futuresight: ["9M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -106776,6 +106792,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			futuresight: ["9M"],
 			terrainpulse: ["9M"],
 			naturepower: ["9M"],
+			electroshot: ["9M"],
 		},
 	},
 
@@ -108904,6 +108921,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psychicnoise: ["9M"],
 			wavecrash: ["9M"],
 			naturepower: ["9M"],
+			hauntedcry: ["9M"],
 		},
 	},
 
@@ -110582,6 +110600,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			superpower: ["9M"],
 			swordsdance: ["9M"],
 			naturepower: ["9M"],
+			mightycleave: ["9M"]
 		},
 	},
 
