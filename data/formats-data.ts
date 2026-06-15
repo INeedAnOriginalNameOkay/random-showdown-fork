@@ -1199,13 +1199,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 */
-/*
+
 	weezing: {
 		tier: "OU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
-*/
+
 /*
 	weezinggalar: {
 		tier: "OU",
@@ -1696,16 +1696,23 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 */
 	
-/*
+
 	dratini: {
 		tier: "OU",
 	},
-*/
-/*
+
+	dratinibanerica: {
+		tier: "OU",
+	}
+
 	dragonair: {
 		tier: "OU",
 	},
-*/
+
+	dragonairbanerica: {
+		tier: "OU",
+	},
+
 /*
 	dragonite: {
 		tier: "OU",
@@ -7705,13 +7712,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 */
-/*
+
 	scovillain: {
 		tier: "OU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
-*/
+
 /*
 	scovillainmega: {
 		isNonstandard: "Future",
@@ -8351,7 +8358,7 @@ formatting template:
 	koffingbanerica: {
 		tier: "OU",
 	},
-	weezingbanerica: {
+	weezingbanericacute: {
 		tier: "OU",
 	},
 	weezingbanericascary: {
@@ -8399,7 +8406,7 @@ formatting template:
 	chryslark: {
 		tier: "OU",
 	},
-	umbree: {
+	cresumbra: {
 		tier: "OU",
 	},
 	whiskrat: {
@@ -8907,6 +8914,114 @@ formatting template:
 		tier: "OU",
 	},
 	chirukeru: {
+		tier: "OU",
+	},
+	lureel: {
+		tier: "OU",
+	},
+	stymeel: {
+		tier: "OU",
+	},
+	dreadgeel: {
+		tier: "OU",
+	},
+	trubbishbanerica: {
+		tier: "OU",
+	},
+	garbiathan: {
+		tier: "OU",
+	},
+	crustroctave: {
+		tier: "OU",
+	},
+	coralstra: {
+		tier: "OU",
+	},
+	mankyte: {
+		tier: "OU",
+	},
+	dynaray: {
+		tier: "OU",
+	},
+	weakrill: {
+		tier: "OU",
+	},
+	prawnxer: {
+		tier: "OU",
+	},
+	shrimpion: {
+		tier: "OU",
+	},
+	numelbanerica: {
+		tier: "OU",
+	},
+	yakalanche: {
+		tier: "OU",
+	},
+	spectrofin: {
+		tier: "OU",
+	},
+	frilldeep: {
+		tier: "OU",
+	},
+	snoozel: {
+		tier: "OU",
+	},
+	airret: {
+		tier: "OU",
+	},
+	spindabanerica: {
+		tier: "OU",
+	},
+	spinmorda: {
+		tier: "OU",
+	},
+	cawthic: {
+		tier: "OU",
+	},
+	skyder: {
+		tier: "OU",
+	},
+	aracnimb: {
+		tier: "OU",
+	},
+	dusbun: {
+		tier: "OU",
+	},
+	dustinger: {
+		tier: "OU",
+	},
+	burfly: {
+		tier: "OU",
+	},
+	rattlespade: {
+		tier: "OU",
+	},
+	perlithon: {
+		tier: "OU",
+	},
+	turnipoot: {
+		tier: "OU",
+	},
+	jackotre: {
+		tier: "OU",
+	},
+	pompomp: {
+		tier: "OU",
+	},
+	pompalge: {
+		tier: "OU",
+	},
+	howblazer: {
+		tier: "OU",
+	},
+	steerpaw: {
+		tier: "OU",
+	},
+	pinchin: {
+		tier: "OU",
+	},
+	opatchum: {
 		tier: "OU",
 	},
 };
