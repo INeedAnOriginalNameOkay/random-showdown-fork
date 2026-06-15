@@ -44050,7 +44050,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sonicboom: ["9E"],
 			willowisp: ["9E"],
 			healblock: ["9M"],
-			hauntedcry: ["9M"],
 		},
 		eventData: [
 			{generation: 3, level: 10, gender: "M", moves: ["wrap", "growl", "astonish"], pokeball: "pokeball"},
@@ -104604,7 +104603,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trickroom: ["9M", "3M"],
 			waterpulse: ["9M", "3M"],
 			naturepower: ["9M"],
-			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104673,7 +104671,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poweruppunch: ["9M"],
 			tickle: ["9M"],
 			naturepower: ["9M"],
-			hauntedcry: ["9M"],
 		},
 	},
 
@@ -104731,7 +104728,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M", "3M"],
 			uturn: ["9M", "3M"],
 			naturepower: ["9M"],
-			hauntedcry: ["9M"],
 		},
 	},
 
@@ -105266,8 +105262,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			storedpower: ["9E"],
 			tickle: ["9M"],
 			naturepower: ["9M"],
-			diceroll: ["9M"],
-			chanceattack: ["9M"],
 		},
 	},
 
@@ -106499,7 +106493,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			expandingforce: ["9M"],
 			futuresight: ["9M"],
 			naturepower: ["9M"],
-			hauntedcry: ["9M"],
 		},
 	},
 
@@ -110992,6 +110985,38 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
+	mochiron: {
+		learnset: {
+			revivalblessing: ["9M"],
+			voltswitch: ["9M"],
+			thunderbolt: ["9M"],
+			thunder: ["9M"],
+			lightscreen: ["9M"],
+			reflect: ["9M"],
+			nuzzle: ["9M"],
+			playrough: ["9M"],
+			thunderpunch: ["9M"],
+			bodyslam: ["9M"],
+			discharge: ["9M"],
+			fakeout: ["9M"],
+			thunderwave: ["9M"],
+			babydolleyes: ["9M"],
+			faketears: ["9M"],
+			followme: ["9M"],
+			superfang: ["9M"],
+			helpinghand: ["9M"],
+			charm: ["9M"],
+			lifedew: ["9M"],
+			barrier: ["9M"],
+			amnesia: ["9M"],
+			recover: ["9M"],
+			refresh: ["9M"],
+			electroweb: ["9M"],
+			electricterrain: ["9M"],
+			mistyexplosion: ["9M"],
+		},
+	},
+
 	carontron: {
 		learnset: {
 			revivalblessing: ["9M"],
@@ -111021,7 +111046,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			electroweb: ["9M"],
 			electricterrain: ["9M"],
 			mistyexplosion: ["9M"],
-			refresh: ["9M"],
 		},
 	},
 

@@ -1703,7 +1703,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 
 	dratinibanerica: {
 		tier: "OU",
-	}
+	},
 
 	dragonair: {
 		tier: "OU",
