@@ -5690,7 +5690,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 
-		onModifyMove(move, pokemon) {
+		onResidual(pokemon) {
 			if (pokemon.volatiles['choicelock']) {
 				this.debug('removing choicelock');
 			}
@@ -5698,14 +5698,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 
 		onStart(pokemon) {
-			if(pokemon.item == 'assaultvest') {
+			if(pokemon.item == 'Assault Vest') {
 				this.singleEvent('End', pokemon.getItem(), pokemon.itemState, pokemon);
 			}
 		},
 
 		onModifySpDPriority: 1,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.item == 'assaultvest') {
+			if (pokemon.item == 'Assault Vest') {
 				return this.chainModify(1.5);
 			}
 		},
