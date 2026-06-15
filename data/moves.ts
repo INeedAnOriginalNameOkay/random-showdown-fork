@@ -21869,6 +21869,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'Cankerwar-Chesto':
 				move.type = 'Psychic';
 				break;
+			case 'Cankerwar-Hyper':
+				move.type = 'Stellar';
+				break;
 			}
 		},
 		target: "normal",

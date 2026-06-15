@@ -20070,6 +20070,24 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "Pecha Sugar",
 		changesFrom: "Cankerwar",
 	},
+	cankerwarhyper: {
+		num: 2090,
+		name: "Cankerwar-Hyper",
+		baseSpecies: "Cankerwar",
+		forme: "Pecha",
+		types: ["Rock", "Fighting"],
+		genderRatio: { M: 0.0, F: 1.0 },
+		baseStats: { hp: 90, atk: 140, def: 90, spa: 65, spd: 75, spe: 65 },
+		abilities: { 0: "Sturdy", 1: "Rocky Payload", H: "Sugar Rush" },
+		heightm: 1.7,
+		weightkg: 103.2,
+		color: "Gray",
+		prevo: "Cankerore",
+		evoLevel: 43,
+		eggGroups: ["Monster", "Humanlike"],
+		requiredItem: "Hyper Sugar",
+		changesFrom: "Cankerwar",
+	},
 // Cankerwar Formes End
 		skarbed: {
 		num: 2091,
@@ -21549,7 +21567,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 25,
 		eggGroups: ["Field", "Humanlike"],
 	},
-		Cawthic: {
+		cawthic: {
 		num: 2196,
 		name: "",
 		types: ["Ghost", "Flying"],
