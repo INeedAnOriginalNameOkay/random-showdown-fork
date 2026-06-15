@@ -21036,7 +21036,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fairy", "Fire"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 63, atk: 67, def: 40, spa: 98, spd: 57, spe: 115 },
-		abilities: { 0: "Honey Gather", 1: "Cheek Pouch", H: "Misty Surge" },
+		abilities: { 0: "Supersweet Syrup", 1: "Cheek Pouch", H: "Misty Surge" },
 		heightm: 0.6,
 		weightkg: 4.9,
 		color: "Red",

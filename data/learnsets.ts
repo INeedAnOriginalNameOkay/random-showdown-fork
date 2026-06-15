@@ -105262,6 +105262,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			storedpower: ["9E"],
 			tickle: ["9M"],
 			naturepower: ["9M"],
+			recycle: ["9M"],
 		},
 	},
 
