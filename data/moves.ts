@@ -21285,7 +21285,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		num: 5002,
 		accuracy: 100,
 		basePower: 75,
-		category: "Special",
+		category: "Physical",
 		name: "Pixie Punch",
 		pp: 15,
 		priority: 0,
