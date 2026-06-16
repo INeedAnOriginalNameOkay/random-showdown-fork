@@ -5698,14 +5698,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 
 		onStart(pokemon) {
-			if(pokemon.item == 'Assault Vest') {
+			if(pokemon.item === 'assaultvest') {
 				this.singleEvent('End', pokemon.getItem(), pokemon.itemState, pokemon);
 			}
 		},
 
 		onModifySpDPriority: 1,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.item == 'Assault Vest') {
+			if (pokemon.item === 'assaultvest') {
 				return this.chainModify(1.5);
 			}
 		},
