@@ -5105,6 +5105,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 */
+
+	golettbanerica: {
+		tier: "OU",
+	},
+
 /*
 	golurk: {
 		tier: "PU",

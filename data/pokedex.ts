@@ -2517,7 +2517,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 35,
 		eggGroups: ["Amorphous"],
 		otherFormes: ["Weezing-Galar"],
-		formeOrder: ["Weezing", "Weezing-Galar"],
+		formeOrder: ["Weezing", "Weezing-Galar","Weezing-Banerica-Cute","Weezing-Banerica-Scary"],
 	},
 //	weezinggalar: {
 //		num: 110,
@@ -2551,7 +2551,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 35,
 		eggGroups: ["Amorphous","Fairy"],
 		otherFormes: ["Weezing-Banerica-Scary"],
-		formeOrder: ["Weezing-Banerica", "Weezing-Banerica-Scary"],
+		formeOrder: ["Weezing-Banerica-Cute", "Weezing-Banerica-Scary"],
 	},
 	weezingbanericascary: {
 		num: 110,
@@ -2568,7 +2568,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 35,
 		eggGroups: ["Amorphous","Fairy"],
 		otherFormes: ["Weezing-Banerica-Cute"],
-		formeOrder: ["Weezing-Banerica-Cute", "Weezing-Banerica-Scary"],
+		formeOrder: ["Weezing-Banerica-Scary", "Weezing-Banerica-Cute"],
 	},
 //	rhyhorn: {
 //		num: 111,
