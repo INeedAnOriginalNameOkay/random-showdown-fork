@@ -110400,6 +110400,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
 			naturepower: ["9M"],
+			growth: ["9M"],
+			willowisp: ["9M"],
 		},
 	},
 
@@ -110463,6 +110465,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyglide: ["9M"],
 			chloroblast: ["9M"],
 			naturepower: ["9M"],
+			growth: ["9M"],
+			sunnyday: ["9M"],
 		},
 	},
 
