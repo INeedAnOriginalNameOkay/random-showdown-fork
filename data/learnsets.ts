@@ -111711,6 +111711,7 @@ lureel: {
 			recover: ["9M"],
 			eruption: ["9M"],
 			instruct: ["9M"],
+			hydrosteam: ["9M"],
 		},
 	},
 
