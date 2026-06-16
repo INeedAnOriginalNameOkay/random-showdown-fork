@@ -5232,7 +5232,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 //		evoLevel: 20,
 //		evos: ["Obstagoon"],
 //		eggGroups: ["Field"],
-	},
+//	},
 		linoonebanerica: {
 		num: 264,
 		name: "Linoone-Banerica",
@@ -21665,7 +21665,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 		
 		
-
+		
 
 //		: {
 //		num: 2,
@@ -21856,34 +21856,5 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "useItem",
 		evoItem: "Big Pearl",
 		eggGroups: ["Field"],
-	},
+	}
 };
-//	
-//	
-//		: {
-//		num: 2,
-//		name: "",
-//		baseSpecies: "Yamask",
-//		forme: "Region0Mega",
-//		types: ["", ""],
-//		genderRatio: { M: 0.5, F: 0.5 },
-//		baseStats: { hp: , atk: , def: , spa: , spd: , spe:  },
-//		abilities: { 0: "", 1: "", H: "" },
-//		heightm: .,
-//		weightkg: .,
-//		color: "RedBlueYellowGreenBlackBrownPurpleGrayWhitePink",
-//		prevo: "",
-//		evoType: "tradezlevelMovezlevelFriendshipzuseItemzother",
-//		evoCondition: "",
-//		evoItem: "",
-//		evoMove: "",	
-//		evoLevel: ,
-//		evos: [""],
-//		eggGroups: ["", ""],
-//		requiredItem: "Venusaurite",
-//		otherFormes: ["WeezingScary"],
-//		formeOrder: ["WeezingCute", "WeezingScary"],
-//		changesFrom: "Venusaur",
-//		canGigantamax: "G-Max Wildfire",
-//	}
-
