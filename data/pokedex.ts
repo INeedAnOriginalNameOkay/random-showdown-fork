@@ -19975,9 +19975,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Cankerore",
 		evoLevel: 43,
 		eggGroups: ["Monster", "Humanlike"],
-		otherFormes: ["Cankerwar-Cheri", "Cankerwar-Rawst", "Cankerwar-Aspear", "Cankerwar-Pecha", "Cankerwar-Chesto"],
-		formeOrder: ["Cankerwar", "Cankerwar-Cheri", "Cankerwar-Rawst", "Cankerwar-Aspear", "Cankerwar-Pecha", "Cankerwar-Chesto"],
-		// Cheri - Electric, Rawst - Fire, Aspear - Ice, Chesto - Psychic, Pecha - Poison 
+		otherFormes: ["Cankerwar-Cheri", "Cankerwar-Rawst", "Cankerwar-Aspear", "Cankerwar-Pecha", "Cankerwar-Chesto","Cankerwar-Hyper"],
+		formeOrder: ["Cankerwar", "Cankerwar-Cheri", "Cankerwar-Rawst", "Cankerwar-Aspear", "Cankerwar-Pecha", "Cankerwar-Chesto","Cankerwar-Hyper"],
+		// Cheri - Electric, Rawst - Fire, Aspear - Ice, Chesto - Psychic, Pecha - Poison, Hyper - Stellar
 	},
 // Cankerwar Formes
 		cankerwarcheri: {
