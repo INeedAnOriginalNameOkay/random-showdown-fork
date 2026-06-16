@@ -2518,13 +2518,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	zigzagoon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "NFE",
 	},
-*/
+
 /*
 	zigzagoongalar: {
 		isNonstandard: "Past",
@@ -2532,6 +2532,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "LC",
 	},
 */
+
+	zigzagoonbanerica: {
+		tier: "OU",
+	},
+
 /*
 	linoone: {
 		isNonstandard: "Past",
@@ -2539,6 +2544,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
+
+	linoonebanerica: {
+		tier: "OU",
+	},
+
 /*
 	linoonegalar: {
 		isNonstandard: "Past",
@@ -9022,6 +9032,9 @@ formatting template:
 		tier: "OU",
 	},
 	opatchum: {
+		tier: "OU",
+	},
+	consteloon: {
 		tier: "OU",
 	},
 };
