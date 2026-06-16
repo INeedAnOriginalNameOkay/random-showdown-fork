@@ -21665,7 +21665,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 		
 		
-		
+
 
 //		: {
 //		num: 2,
@@ -21857,7 +21857,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoItem: "Big Pearl",
 		eggGroups: ["Field"],
 	},
-	
+};
 //	
 //	
 //		: {
@@ -21886,4 +21886,4 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 //		changesFrom: "Venusaur",
 //		canGigantamax: "G-Max Wildfire",
 //	}
-};
+
