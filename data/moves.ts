@@ -21874,6 +21874,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				break;
 			}
 		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.species.name === 'Cankerwar-Hyper') {
+				move.basePower = 150;
+				move.target = "allAdjacentFoes";
+			}
+		},
+
 		target: "normal",
 		type: "Rock",
 	},
