@@ -21701,9 +21701,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
 		smartTarget: true,
-		self: {
-			boosts: {
-				atk: -1,
+		secondary: {
+			self: {
+				boosts: {
+					atk: -1,
+				},
 			},
 		},
 		multihit: 5,
@@ -21991,6 +21993,37 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Psychic",
 		contestType: "Cute",
+	},
+
+	supernova: { // Consteloon Signature
+		num: 5021,
+		accuracy: true,
+		basePower: 100,
+		category: "Special",
+		name: "Supernova",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onBasePower(basePower, source) {
+			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
+				this.debug('terrain buff');
+				return this.chainModify(2);
+			}
+		},
+		onModifyMove(move, source, target) {
+			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
+				move.target = 'allAdjacentFoes';
+				move.boosts = { spa: -2 };
+			}
+		},
+		secondary: {
+			chance: 30,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Dragon",
 	},
 
 	// CAP moves

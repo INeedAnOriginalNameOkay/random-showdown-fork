@@ -5716,7 +5716,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 504,
 	},
 
-	sugarrush: {
+	sugarrush: { // Cankerwar Sig
 		onModifyMove(move) {
 			if (move?.flags['heal']) {
 				this.boost({ spe: 1 });
@@ -5726,6 +5726,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Sugar Rush",
 		rating: 3.5,
 		num: 505,
+	},
+
+	celestialguard: { // Consteloon Sig
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ghost' || move.type === 'Dark' || move.type === 'Fairy') {
+				this.debug('Celestial Guard Atk weaken');
+				return this.chainModify(0.25);
+			}
+		},
+		onSourceModifySpAPriority: 5,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ghost' || move.type === 'Dark' || move.type === 'Fairy') {
+				this.debug('Celestial Guard SpA weaken');
+				return this.chainModify(0.25);
+			}
+		},
+		
+		flags: { breakable: 1 },
+		name: "Celestial Guard",
+		rating: 3,
+		num: 506,
 	},
 
 	// CAP

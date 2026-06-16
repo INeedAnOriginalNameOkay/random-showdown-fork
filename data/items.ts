@@ -8144,8 +8144,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
 			return true;
 		},
-		forcedForme: "Cankerwar-Cheri",
-		itemUser: ["Cankerwar-Cheri"],
+		onModifyMove(move, pokemon) {
+			if (move.name === 'Sugar Crash') {
+				move.basePower *= 1.1;
+			}
+		},
+		forcedForme: "Cankerwar-Nagae",
+		itemUser: ["Cankerwar-Nagae"],
 		num: 3000,
 		gen: 9,
 	},
@@ -8164,8 +8169,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
 			return true;
 		},
-		forcedForme: "Cankerwar-Rawst",
-		itemUser: ["Cankerwar-Rawst"],
+		onModifyMove(move, pokemon) {
+			if (move.name === 'Sugar Crash') {
+				move.basePower *= 1.1;
+			}
+		},
+		forcedForme: "Cankerwar-Mokou",
+		itemUser: ["Cankerwar-Mokou"],
 		num: 3001,
 		gen: 9,
 	},
@@ -8184,8 +8194,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
 			return true;
 		},
-		forcedForme: "Cankerwar-Aspear",
-		itemUser: ["Cankerwar-Aspear"],
+		onModifyMove(move, pokemon) {
+			if (move.name === 'Sugar Crash') {
+				move.basePower *= 1.1;
+			}
+		},
+		forcedForme: "Cankerwar-Cirno",
+		itemUser: ["Cankerwar-Cirno"],
 		num: 3002,
 		gen: 9,
 	},
@@ -8204,8 +8219,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
 			return true;
 		},
-		forcedForme: "Cankerwar-Chesto",
-		itemUser: ["Cankerwar-Chesto"],
+		onModifyMove(move, pokemon) {
+			if (move.name === 'Sugar Crash') {
+				move.basePower *= 1.1;
+			}
+		},
+		forcedForme: "Cankerwar-Yakumo",
+		itemUser: ["Cankerwar-Yakumo"],
 		num: 3003,
 		gen: 9,
 	},
@@ -8224,8 +8244,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (source.baseSpecies.baseSpecies === 'Cankerwar') return false;
 			return true;
 		},
-		forcedForme: "Cankerwar-Pecha",
-		itemUser: ["Cankerwar-Pecha"],
+		onModifyMove(move, pokemon) {
+			if (move.name === 'Sugar Crash') {
+				move.basePower *= 1.1;
+			}
+		},
+		forcedForme: "Cankerwar-Melancholy",
+		itemUser: ["Cankerwar-Melancholy"],
 		num: 3004,
 		gen: 9,
 	},
