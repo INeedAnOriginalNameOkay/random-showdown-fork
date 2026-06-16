@@ -5232,7 +5232,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 //		evoLevel: 20,
 //		evos: ["Obstagoon"],
 //		eggGroups: ["Field"],
-//	},
+	},
 		linoonebanerica: {
 		num: 264,
 		name: "Linoone-Banerica",
@@ -5248,7 +5248,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 20,
 		evos: ["Consteloon"],
 		eggGroups: ["Field"],
-//	},
+	},
 //	wurmple: {
 //		num: 265,
 //		name: "Wurmple",
