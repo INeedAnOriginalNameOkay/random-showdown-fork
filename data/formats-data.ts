@@ -4861,6 +4861,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Illegal",
 	},
 
+	karrablastbanerica: {
+		tier: "OU",
+	},
+
 /*
 	escavalier: {
 		isNonstandard: "Past",
@@ -5051,6 +5055,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "LC",
 	},
 */
+
+	shelmetbanerica: {
+		tier: "OU",
+	},
+
 /*
 	accelgor: {
 		isNonstandard: "Past",
@@ -7717,16 +7726,24 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	capsakid: {
 		tier: "OU",
 	},
-*/
+
+	capsakidbanerica: {
+		tier: "OU",
+	},
+
 
 	scovillain: {
 		tier: "OU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
+	},
+
+	scovillainbanerica: {
+		tier: "OU",
 	},
 
 /*
