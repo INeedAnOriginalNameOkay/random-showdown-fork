@@ -5751,23 +5751,51 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 
 	conductor: {
-		onPrepareHit(source, target, move) {
+		onAnyPrepareHit(source, target, move) {
 			if (move.category === 'Status' || move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
 				move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax || !move.flags['sound']) return;
 			move.multihit = 2;
 			move.multihitType = 'parentalbond';
 		},
 		// Damage modifier implemented in BattleActions#modifyDamage()
+		/*
 		onSourceModifySecondaries(secondaries, target, source, move) {
 			if (move.multihitType === 'parentalbond' && move.id === 'secretpower' && move.hit < 2) {
 				// hack to prevent accidentally suppressing King's Rock/Razor Fang
 				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
 			}
 		},
+		*/
 		flags: {},
 		name: "Conductor",
 		rating: 4.5,
 		num: 185,
+	},
+
+	radialguard: {
+		onImmunity(type, pokemon) {
+			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+		},
+		onAllyImmunity(type, pokemon) {
+			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+		},
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (move.flags['powder'] && target !== source && this.dex.getImmunity('powder', target)) {
+				this.add('-immune', target, '[from] ability: Radial Guard');
+				return null;
+			}
+		},
+		onAllyTryHit(target, source, move) {
+			if (move.flags['powder'] && target !== source && this.dex.getImmunity('powder', target)) {
+				this.add('-immune', target, '[from] ability: Radial Guard');
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Radial Guard",
+		rating: 2,
+		num: 142,
 	},
 
 	// CAP
