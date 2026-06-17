@@ -21723,20 +21723,20 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
 		smartTarget: true,
-		secondary: {
-			self: {
-				boosts: {
-					atk: -1,
-				},
-			},
-		},
-		multihit: 5,
+		multihit: [1.6],
 		multiaccuracy: true,
 		target: "normal",
 		type: "Fire",
 		zMove: { basePower: 140 },
 		maxMove: { basePower: 130 },
 		contestType: "Tough",
+		condition: {
+			onResidualOrder: 6,
+			onResidual(pokemon) {
+				pokemon.boosts.atk -= 2;
+				this.add('-boost', pokemon, 'atk', -2);
+			},
+		}
 	},
 
 	/*
@@ -22068,7 +22068,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onModifyMove(move, source, target) {
 			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
 				move.target = 'allAdjacent';
-				move.self.boosts = { spa: -2 };
+				source.boosts.spa -= 2;
 			}
 		},
 		secondary: {
