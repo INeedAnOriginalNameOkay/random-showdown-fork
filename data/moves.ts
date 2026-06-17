@@ -21270,7 +21270,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Shooting Star",
 		pp: 5,
 		priority: 0,
-		heal: [3, 10],
 		flags: { protect: 1, mirror: 1, metronome: 1, charge: 1, heal: 1 },
 		onTryMove(attacker, defender, move) {
 			if (!attacker.removeVolatile(move.id)) {
@@ -21284,6 +21283,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		
 		onTryHit(target, source, move) {
+			source.heal(Math.floor(source.baseMaxhp* 0.3));
 			if (source.isAlly(target)) {
 				move.basePower = 0;
 				move.infiltrates = true;
