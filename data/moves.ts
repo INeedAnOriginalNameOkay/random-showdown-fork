@@ -21264,17 +21264,46 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 
 	shootingstar: {
 		num: 5001,
-		accuracy: 90,
-		basePower: 130,
+		accuracy: 100,
+		basePower: 120,
 		category: "Special",
 		name: "Shooting Star",
 		pp: 5,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
-		self: {
-			boosts: {
-				spa: -2,
+		flags: { protect: 1, mirror: 1, metronome: 1, charge: 1, heal: 1 },
+		slotCondition: 'Wish',
+		condition: {
+			onStart(pokemon, source) {
+				this.effectState.hp = source.maxhp * 0.3;
+				this.effectState.startingTurn = this.getOverflowedTurnCount();
+				if (this.effectState.startingTurn === 255) {
+					this.hint(`In Gen 8+, Wish will never resolve when used on the ${this.turn}th turn.`);
+				}
 			},
+			onResidualOrder: 4,
+			onResidual(target: Pokemon) {
+				if (this.getOverflowedTurnCount() <= this.effectState.startingTurn) return;
+				target.side.removeSlotCondition(this.getAtSlot(this.effectState.sourceSlot), 'wish');
+			},
+			onEnd(target) {
+				if (target && !target.fainted) {
+					const damage = this.heal(this.effectState.hp, target, target);
+					if (damage) {
+						this.add('-heal', target, target.getHealth, '[from] move: Shooting Star', '[wisher] ' + this.effectState.source.name);
+					}
+				}
+			},
+		},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
 		},
 		target: "normal",
 		type: "Fairy",

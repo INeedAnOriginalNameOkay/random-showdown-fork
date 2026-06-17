@@ -21599,7 +21599,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 		cawthic: {
 		num: 2196,
-		name: "",
+		name: "Cawthic",
 		types: ["Ghost", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 78, atk: 57, def: 67, spa: 120, spd: 85, spe: 93 },

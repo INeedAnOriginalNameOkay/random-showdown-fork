@@ -5769,7 +5769,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Conductor",
 		rating: 4.5,
-		num: 185,
+		num: 507,
 	},
 
 	radialguard: {
@@ -5795,7 +5795,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { breakable: 1 },
 		name: "Radial Guard",
 		rating: 2,
-		num: 142,
+		num: 508,
 	},
 
 	// CAP
