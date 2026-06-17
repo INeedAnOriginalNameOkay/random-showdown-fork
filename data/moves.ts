@@ -21872,6 +21872,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, heal: 1 },
 		drain: [1, 2],
+		target: "normal",
+		type: "Rock",
+		
 		onModifyType(move, pokemon) {
 			switch (pokemon.species.name) {
 				case 'Cankerwar-Nagae':
@@ -21939,9 +21942,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			chance: 10,
 			volatileStatus: 'flinch',
 		}
-
-		target: "normal",
-		type: "Rock",
 	},
 
 	diceroll: { // Luctre Signature
