@@ -21271,7 +21271,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 5,
 		priority: 0,
 		heal: [3, 10],
-		flags: {  mirror: 1, metronome: 1, charge: 1, heal: 1 },
+		flags: { mirror: 1, metronome: 1, charge: 1, heal: 1 },
 		onTryMove(attacker, defender, move) {
 			if (!attacker.removeVolatile(move.id)) {
 				this.add('-prepare', attacker, move.name);
@@ -21288,6 +21288,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				move.basePower = 0;
 				move.infiltrates = true;
 			}
+			//if an opponent is protecting
 			else if (target.isProtected()) {
 				move.basePower = 0;
 			}
