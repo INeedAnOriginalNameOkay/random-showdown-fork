@@ -321,6 +321,9 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return this.chainModify(1.5);
 		},
 		onDisableMove(pokemon) {
+			if (pokemon.ability === 'unchained') {
+				return;
+			}
 			for (const moveSlot of pokemon.moveSlots) {
 				const move = this.dex.moves.get(moveSlot.id);
 				if (move.category === 'Status' && move.id !== 'mefirst') {
