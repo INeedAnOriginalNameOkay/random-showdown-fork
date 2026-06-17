@@ -21271,7 +21271,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 5,
 		priority: 0,
 		heal: [3, 10],
-		flags: { mirror: 1, metronome: 1, charge: 1, heal: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, charge: 1, heal: 1 },
 		onTryMove(attacker, defender, move) {
 			if (!attacker.removeVolatile(move.id)) {
 				this.add('-prepare', attacker, move.name);
@@ -21288,21 +21288,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				move.basePower = 0;
 				move.infiltrates = true;
 			}
-			//if an opponent is protecting
-			else if (target.isProtected()) {
-				move.basePower = 0;
-			}
 		},
 
 		onHit(target, source, move) {
 			if (source.isAlly(target)) {
-				if (!this.heal(Math.floor(target.baseMaxhp * 0.3))) {
+				if (!this.heal(Math.floor(target.baseMaxhp * (2/3)))) {
 					return this.NOT_FAIL;
 				}
 			}
 		},
 
-		target: "allAdjacent",
+		target: "normal",
 		type: "Fairy",
 		contestType: "Beautiful",
 	},

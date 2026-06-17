@@ -31594,7 +31594,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragonpulse: ["9M"],
 			focusblast: ["9M"],
 			weatherball: ["9M"],
-			shootingstar: ["9M"],
 			strength: ["9M"],
 		},
 	},
@@ -101026,7 +101025,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			safeguard: ["9E", "3E"],
 			scald: ["9M", "3M", "9E", "3E"],
 			secretpower: ["9M", "3M"],
-			shootingstar: ["9M", "3M"],
 			stomp: ["9L21", "3L21", "9M", "3M"],
 			substitute: ["9M", "3M"],
 			surf: ["9M", "3M"],
@@ -103638,7 +103636,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandtomb: ["9M", "3M"],
 			secretpower: ["9M", "3M"],
 			selfdestruct: ["9L19", "3L19"],
-			shootingstar: ["9M", "3M"],
 			sleeppowder: ["9L4", "3L4"],
 			smokescreen: ["9L7", "3L7"],
 			spore: ["9E", "3E"],
@@ -103684,7 +103681,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandtomb: ["9M", "3M"],
 			secretpower: ["9M", "3M"],
 			selfdestruct: ["9L20", "3L20"],
-			shootingstar: ["9M", "3M"],
 			sleeppowder: ["9L4", "3L4"],
 			smokescreen: ["9L7", "3L7"],
 			stockpile: ["9L15", "3L15"],
@@ -103738,7 +103734,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandtomb: ["9M", "3M"],
 			secretpower: ["9M", "3M"],
 			selfdestruct: ["9L20", "3L20"],
-			shootingstar: ["9M", "3M"],
 			sleeppowder: ["9L4", "3L4"],
 			smokescreen: ["9L1", "3L1"],
 			stockpile: ["9L15", "3L15"],
@@ -104330,7 +104325,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandtomb: ["9M", "3M"],
 			secretpower: ["9M", "3M"],
 			shiftgear: ["9L44", "3L44"],
-			shootingstar: ["9M", "3M"],
 			signalbeam: ["9M", "3M"],
 			skillswap: ["9M", "3M"],
 			smartstrike: ["9E", "9M", "3M"],
@@ -105737,7 +105731,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandattack: ["9L4", "3L4"],
 			sandtomb: ["9M", "3M"],
 			secretpower: ["9M", "3M"],
-			shootingstar: ["9M", "3M"],
 			slash: ["9L24", "3L24"],
 			smartstrike: ["9M", "3M"],
 			spikes: ["9L44", "3L44"],
@@ -105787,7 +105780,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandattack: ["9L4", "3L4"],
 			sandtomb: ["9M", "3M"],
 			secretpower: ["9M", "3M"],
-			shootingstar: ["9M", "3M"],
 			slash: ["9L26", "3L26"],
 			smartstrike: ["9M", "3M"],
 			spikes: ["9L48", "3L48"],
@@ -111548,7 +111540,6 @@ lureel: {
 			icebeam: ["9M"],
 			waterspout: ["9M"],
 			mudslap: ["9M"],
-			protect: ["9M"],
 		},
 	},
 
@@ -111619,7 +111610,6 @@ lureel: {
 			icebeam: ["9M"],
 			waterspout: ["9M"],
 			mudslap: ["9M"],
-			protect: ["9M"],
 		},
 	},
 
@@ -112697,7 +112687,6 @@ lureel: {
 			sleeptalk: ["9M"],
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -112734,7 +112723,6 @@ lureel: {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -112771,7 +112759,6 @@ lureel: {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -112843,7 +112830,6 @@ lureel: {
 			zenheadbutt: ["9M"],
 			darkpulse: ["9M"],
 			bodyslam: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -112915,7 +112901,6 @@ lureel: {
 			mysticalfire: ["9M"],
 			heatwave: ["9M"],
 			trickroom: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -112974,7 +112959,6 @@ lureel: {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -113033,7 +113017,6 @@ lureel: {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -113100,7 +113083,6 @@ lureel: {
 			closecombat: ["9M"],
 			quickguard: ["9M"],
 			sleeptalk: ["9M"],
-			protect: ["9M"],
 		},
 	},
 	
@@ -113162,7 +113144,6 @@ lureel: {
 			quickguard: ["9M"],
 			taunt: ["9M"],
 			sleeptalk: ["9M"],
-			protect: ["9M"],
 		},
 	},
 
