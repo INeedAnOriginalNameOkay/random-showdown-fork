@@ -8271,8 +8271,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				move.type = "Stellar";
 			}
 		},
-		forcedForme: "Cankerwar-Hyper",
-		itemUser: ["Cankerwar-Hyper"],
+		forcedForme: "Cankerwar-Remilia",
+		itemUser: ["Cankerwar-Remilia"],
 		num: 3005,
 		gen: 10,
 		isNonstandard: "Future",
