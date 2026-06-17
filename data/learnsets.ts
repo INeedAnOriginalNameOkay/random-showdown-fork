@@ -104347,6 +104347,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headlongrush: ["9M"],
 			temperflare: ["9M"],
 			naturepower: ["9M"],
+			spinout: ["9M"],
 		},
 	},
 

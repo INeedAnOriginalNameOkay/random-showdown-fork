@@ -5705,7 +5705,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 
 	sugarrush: { // Cankerwar Sig
 		onModifyMove(move) {
-			if (move?.id === 5016) {
+			if (move.id === 'sugarcrash') {
 				this.boost({ spe: 1 });
 			}
 		},
@@ -5783,6 +5783,29 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Radial Guard",
 		rating: 2,
 		num: 508,
+	},
+
+	infested: {
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target)) {
+				target.addVolatile('partiallytrapped')
+			}
+		},
+		flags: {},
+		name: "Infested",
+		rating: 2,
+		num: 509,
+	},
+
+	predator: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			if (target?.volatiles['partiallytrapped'] || target?.volatiles['trapped']) return this.chainModify([6144, 4096]);
+		},
+		flags: {},
+		name: "Predator",
+		rating: 2,
+		num: 510,
 	},
 
 	// CAP
