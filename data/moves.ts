@@ -21874,7 +21874,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		drain: [1, 2],
 		target: "normal",
 		type: "Rock",
-		
+
 		onModifyType(move, pokemon) {
 			switch (pokemon.species.name) {
 				case 'Cankerwar-Nagae':
@@ -22067,8 +22067,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		onModifyMove(move, source, target) {
 			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
-				move.target = 'allAdjacentFoes';
-				move.boosts = { spa: -2 };
+				move.target = 'allAdjacent';
+				move.self.boosts = { spa: -2 };
 			}
 		},
 		secondary: {
