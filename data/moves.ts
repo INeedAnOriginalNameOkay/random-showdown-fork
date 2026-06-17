@@ -21894,10 +21894,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					break;
 			}
 		},
-		secondary: {
-			chance: 10,
-			volatileStatus: 'flinch',
-		}
+
 		onModifyMove(move, pokemon) {
 			switch (pokemon.species.name) {
 				case "Cankerwar":
@@ -21937,6 +21934,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					break;
 			}
 		},
+		
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+		}
 
 		target: "normal",
 		type: "Rock",
