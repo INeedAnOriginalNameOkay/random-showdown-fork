@@ -21882,22 +21882,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		onModifyType(move, pokemon) {
 			switch (pokemon.species.name) {
-			case 'Cankerwar-Cheri':
+			case 'Cankerwar-Nagae':
 				move.type = 'Electric';
 				break;
-			case 'Cankerwar-Rawst': 
+			case 'Cankerwar-Mokou': 
 				move.type = 'Fire';
 				break;
-			case 'Cankerwar-Aspear':
+			case 'Cankerwar-Cirno':
 				move.type = 'Ice';
 				break;
-			case 'Cankerwar-Pecha':
+			case 'Cankerwar-Melancholy':
 				move.type = 'Poison';
 				break;
-			case 'Cankerwar-Chesto':
+			case 'Cankerwar-Yakumo':
 				move.type = 'Psychic';
 				break;
-			case 'Cankerwar-Hyper':
+			case 'Cankerwar-Remilia':
 				move.type = 'Stellar';
 				break;
 			}
@@ -21905,9 +21905,27 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 
 		//evil attack
 		onModifyMove(move, pokemon) {
-			if (pokemon.species.name === 'Cankerwar-Hyper') {
-				move.basePower = 150;
-				move.target = "allAdjacentFoes";
+			switch (pokemon.species.name) {
+				case 'Cankerwar-Nagae':
+					chance: 100,
+					status: 'par',
+					break;
+				case 'Cankerwar-Mokou': 
+					move.type = 'Fire';
+					break;
+				case 'Cankerwar-Cirno':
+					move.type = 'Ice';
+					break;
+				case 'Cankerwar-Melancholy':
+					move.type = 'Poison';
+					break;
+				case 'Cankerwar-Yakumo':
+					move.type = 'Psychic';
+					break;
+				case 'Cankerwar-Remilia':
+					move.basePower = 150;
+					move.target = "allAdjacentFoes";
+					break;
 			}
 		},
 

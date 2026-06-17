@@ -8146,7 +8146,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
-				move.basePower *= 1.1;
+				move.basePower *= 1.2;
 			}
 		},
 		forcedForme: "Cankerwar-Nagae",
@@ -8171,7 +8171,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
-				move.basePower *= 1.1;
+				move.basePower *= 1.2;
 			}
 		},
 		forcedForme: "Cankerwar-Mokou",
@@ -8196,7 +8196,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
-				move.basePower *= 1.1;
+				move.basePower *= 1.2;
 			}
 		},
 		forcedForme: "Cankerwar-Cirno",
@@ -8221,7 +8221,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
-				move.basePower *= 1.1;
+				move.basePower *= 1.2;
 			}
 		},
 		forcedForme: "Cankerwar-Yakumo",
@@ -8246,7 +8246,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
-				move.basePower *= 1.1;
+				move.basePower *= 1.2;
 			}
 		},
 		forcedForme: "Cankerwar-Melancholy",
@@ -8267,7 +8267,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
-				move.basePower *= 1.1;
+				move.basePower *= 1.2;
 				move.type = "Stellar";
 			}
 		},

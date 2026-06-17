@@ -105645,7 +105645,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			calmmind: ["9M", "3M"],
 			dazzlinggleam: ["9M", "3M"],
 			drainingkiss: ["9M", "3M"],
-			// drainpunch: ["9M", "3M"],
+			drainpunch: ["9M", "3M"],
 			earthquake: ["9M", "3M"],
 			fakeout: ["9L1", "3L1"],
 			firepunch: ["9M", "3M"],
