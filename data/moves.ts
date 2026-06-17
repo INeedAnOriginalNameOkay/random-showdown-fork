@@ -21270,42 +21270,38 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Shooting Star",
 		pp: 5,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1, charge: 1, heal: 1 },
-		slotCondition: 'Wish',
-		condition: {
-			onStart(pokemon, source) {
-				this.effectState.hp = source.maxhp * 0.3;
-				this.effectState.startingTurn = this.getOverflowedTurnCount();
-				if (this.effectState.startingTurn === 255) {
-					this.hint(`In Gen 8+, Wish will never resolve when used on the ${this.turn}th turn.`);
-				}
-			},
-			onResidualOrder: 4,
-			onResidual(target: Pokemon) {
-				if (this.getOverflowedTurnCount() <= this.effectState.startingTurn) return;
-				target.side.removeSlotCondition(this.getAtSlot(this.effectState.sourceSlot), 'wish');
-			},
-			onEnd(target) {
-				if (target && !target.fainted) {
-					const damage = this.heal(this.effectState.hp, target, target);
-					if (damage) {
-						this.add('-heal', target, target.getHealth, '[from] move: Shooting Star', '[wisher] ' + this.effectState.source.name);
-					}
-				}
-			},
-		},
+		heal: [3, 10],
+		flags: {  mirror: 1, metronome: 1, charge: 1, heal: 1 },
 		onTryMove(attacker, defender, move) {
-			if (attacker.removeVolatile(move.id)) {
-				return;
+			if (!attacker.removeVolatile(move.id)) {
+				this.add('-prepare', attacker, move.name);
+				if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+					return;
+				}
+				attacker.addVolatile('twoturnmove', defender);
+				return null;
 			}
-			this.add('-prepare', attacker, move.name);
-			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
-				return;
-			}
-			attacker.addVolatile('twoturnmove', defender);
-			return null;
 		},
-		target: "normal",
+		
+		onTryHit(target, source, move) {
+			if (source.isAlly(target)) {
+				move.basePower = 0;
+				move.infiltrates = true;
+			}
+			else if (target.isProtected()) {
+				move.basePower = 0;
+			}
+		},
+
+		onHit(target, source, move) {
+			if (source.isAlly(target)) {
+				if (!this.heal(Math.floor(target.baseMaxhp * 0.3))) {
+					return this.NOT_FAIL;
+				}
+			}
+		},
+
+		target: "allAdjacent",
 		type: "Fairy",
 		contestType: "Beautiful",
 	},
@@ -21340,7 +21336,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Gigadeath Ray",
 		pp: 5,
 		priority: 4,
-		flags: { protect: 1, metronome: 1,},
+		flags: { metronome: 1,},
 		multihit: [2, 2],
 		target: "allAdjacentFoes",
 		type: "Fairy",
