@@ -21874,55 +21874,57 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		drain: [1, 2],
 		onModifyType(move, pokemon) {
 			switch (pokemon.species.name) {
-			case 'Cankerwar-Nagae':
-				move.type = 'Electric';
-				break;
-			case 'Cankerwar-Mokou': 
-				move.type = 'Fire';
-				break;
-			case 'Cankerwar-Cirno':
-				move.type = 'Ice';
-				break;
-			case 'Cankerwar-Melancholy':
-				move.type = 'Poison';
-				break;
-			case 'Cankerwar-Yakumo':
-				move.type = 'Psychic';
-				break;
-			case 'Cankerwar-Remilia':
-				move.type = 'Stellar';
-				break;
+				case 'Cankerwar-Nagae':
+					move.type = 'Electric';
+					break;
+				case 'Cankerwar-Mokou': 
+					move.type = 'Fire';
+					break;
+				case 'Cankerwar-Cirno':
+					move.type = 'Ice';
+					break;
+				case 'Cankerwar-Melancholy':
+					move.type = 'Poison';
+					break;
+				case 'Cankerwar-Yakumo':
+					move.type = 'Psychic';
+					break;
+				case 'Cankerwar-Remilia':
+					move.type = 'Stellar';
+					break;
 			}
 		},
-
-		//evil attacks
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+		}
 		onModifyMove(move, pokemon) {
 			switch (pokemon.species.name) {
-				case "Cankerwar"
+				case "Cankerwar":
 					move.secondaries.push({
-						chance: 10,
+						chance: 20,
 						volatileStatus: 'flinch',
 					})
 					break;
-				case "Cankerwar-Mokou"
+				case "Cankerwar-Mokou":
 					move.secondaries.push({
 						chance: 10,
 						volatileStatus: 'brn',
 					})
 					break;
-				case "Cankerwar-Nagae"
+				case "Cankerwar-Nagae":
 					move.secondaries.push({
 						chance: 10,
 						volatileStatus: 'par',
 					})
 					break;
-				case "Cankerwar-Melancholy"
+				case "Cankerwar-Melancholy":
 					move.secondaries.push({
 						chance: 10,
 						volatileStatus: 'psn',
 					})
 					break;
-				case "Cankerwar-Yakumo"
+				case "Cankerwar-Yakumo":
 					move.secondaries.push({
 						chance: 10,
 						volatileStatus: 'slp',
