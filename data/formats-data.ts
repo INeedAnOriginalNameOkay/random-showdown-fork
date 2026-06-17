@@ -2518,13 +2518,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	zigzagoon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "NFE",
 	},
-*/
+
 /*
 	zigzagoongalar: {
 		isNonstandard: "Past",
@@ -2532,6 +2532,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "LC",
 	},
 */
+
+	zigzagoonbanerica: {
+		tier: "OU",
+	},
+
 /*
 	linoone: {
 		isNonstandard: "Past",
@@ -2539,6 +2544,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
+
+	linoonebanerica: {
+		tier: "OU",
+	},
+
 /*
 	linoonegalar: {
 		isNonstandard: "Past",
@@ -4851,6 +4861,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Illegal",
 	},
 
+	karrablastbanerica: {
+		tier: "OU",
+	},
+
 /*
 	escavalier: {
 		isNonstandard: "Past",
@@ -5041,6 +5055,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "LC",
 	},
 */
+
+	shelmetbanerica: {
+		tier: "OU",
+	},
+
 /*
 	accelgor: {
 		isNonstandard: "Past",
@@ -5086,6 +5105,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 */
+
+	golettbanerica: {
+		tier: "OU",
+	},
+
 /*
 	golurk: {
 		tier: "PU",
@@ -7707,16 +7731,24 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	capsakid: {
 		tier: "OU",
 	},
-*/
+
+	capsakidbanerica: {
+		tier: "OU",
+	},
+
 
 	scovillain: {
 		tier: "OU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
+	},
+
+	scovillainbanerica: {
+		tier: "OU",
 	},
 
 /*
@@ -9022,6 +9054,9 @@ formatting template:
 		tier: "OU",
 	},
 	opatchum: {
+		tier: "OU",
+	},
+	consteloon: {
 		tier: "OU",
 	},
 };
