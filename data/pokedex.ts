@@ -20005,8 +20005,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Cankerore",
 		evoLevel: 43,
 		eggGroups: ["Monster", "Humanlike"],
-		otherFormes: ["Cankerwar-Nagae", "Cankerwar-Mokou", "Cankerwar-Cirno", "Cankerwar-Melancholy", "Cankerwar-Yakumo","Cankerwar-Hyper"],
-		formeOrder: ["Cankerwar", "Cankerwar-Nagae", "Cankerwar-Mokou", "Cankerwar-Cirno", "Cankerwar-Melancholy", "Cankerwar-Yakumo","Cankerwar-Hyper"],
+		otherFormes: ["Cankerwar-Nagae", "Cankerwar-Mokou", "Cankerwar-Cirno", "Cankerwar-Melancholy", "Cankerwar-Yakumo","Cankerwar-Remilia"],
+		formeOrder: ["Cankerwar", "Cankerwar-Nagae", "Cankerwar-Mokou", "Cankerwar-Cirno", "Cankerwar-Melancholy", "Cankerwar-Yakumo","Cankerwar-Remilia"],
 		// Cheri - Electric, Rawst - Fire, Aspear - Ice, Chesto - Psychic, Pecha - Poison, Hyper - Stellar
 	},
 // Cankerwar Formes
@@ -20100,14 +20100,14 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "Pecha Sugar",
 		changesFrom: "Cankerwar",
 	},
-	cankerwarhyper: {
+	cankerwarremilia: {
 		num: 2090,
-		name: "Cankerwar-Hyper",
+		name: "Cankerwar-Remilia",
 		baseSpecies: "Cankerwar",
-		forme: "Hyper",
+		forme: "Remilia",
 		types: ["Rock", "Fighting"],
 		genderRatio: { M: 0.0, F: 1.0 },
-		baseStats: { hp: 90, atk: 140, def: 90, spa: 65, spd: 75, spe: 65 },
+		baseStats: { hp: 90, atk: 140, def: 70, spa: 65, spd: 65, spe: 95 },
 		abilities: { 0: "Sturdy", 1: "Rocky Payload", H: "Sugar Rush" },
 		heightm: 1.7,
 		weightkg: 103.2,

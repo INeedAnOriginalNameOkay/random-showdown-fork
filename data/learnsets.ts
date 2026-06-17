@@ -111283,6 +111283,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			electroweb: ["9M"],
 			electricterrain: ["9M"],
 			mistyexplosion: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111315,6 +111316,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			electroweb: ["9M"],
 			electricterrain: ["9M"],
 			mistyexplosion: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111367,6 +111369,7 @@ lureel: {
 			stockpile: ["9M"],
 			spitup: ["9M"],
 			swallow: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111420,6 +111423,7 @@ lureel: {
 			stockpile: ["9M"],
 			spitup: ["9M"],
 			swallow: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111473,6 +111477,7 @@ lureel: {
 			stockpile: ["9M"],
 			spitup: ["9M"],
 			swallow: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111543,6 +111548,7 @@ lureel: {
 			icebeam: ["9M"],
 			waterspout: ["9M"],
 			mudslap: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111613,6 +111619,7 @@ lureel: {
 			icebeam: ["9M"],
 			waterspout: ["9M"],
 			mudslap: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111663,6 +111670,7 @@ lureel: {
 			recover: ["9M"],
 			eruption: ["9M"],
 			instruct: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111714,6 +111722,7 @@ lureel: {
 			eruption: ["9M"],
 			instruct: ["9M"],
 			hydrosteam: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111757,6 +111766,7 @@ lureel: {
 			babydolleyes: ["9M"],
 			paraboliccharge: ["9M"],
 			nuzzle: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111800,6 +111810,7 @@ lureel: {
 			babydolleyes: ["9M"],
 			paraboliccharge: ["9M"],
 			nuzzle: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111849,6 +111860,7 @@ lureel: {
 			throatchop: ["9M"],
 			strugglebug: ["9M"],
 			quickattack: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111898,6 +111910,7 @@ lureel: {
 			throatchop: ["9M"],
 			strugglebug: ["9M"],
 			quickattack: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111947,6 +111960,7 @@ lureel: {
 			throatchop: ["9M"],
 			strugglebug: ["9M"],
 			quickattack: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -111982,6 +111996,7 @@ lureel: {
 			counter: ["9M"],
 			bodypress: ["9M"],
 			slackoff: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112017,6 +112032,7 @@ lureel: {
 			counter: ["9M"],
 			bodypress: ["9M"],
 			slackoff: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112055,6 +112071,7 @@ lureel: {
 			confuseray: ["9M"],
 			icywind: ["9M"],
 			glare: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112094,6 +112111,7 @@ lureel: {
 			confuseray: ["9M"],
 			icywind: ["9M"],
 			glare: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112129,6 +112147,7 @@ lureel: {
 			swagger: ["9M"],
 			charm: ["9M"],
 			extremespeed: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112164,6 +112183,7 @@ lureel: {
 			swagger: ["9M"],
 			charm: ["9M"],
 			extremespeed: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112215,6 +112235,7 @@ lureel: {
 			thunderpunch: ["9M"],
 			icehammer: ["9M"],
 			superpower: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112266,6 +112287,7 @@ lureel: {
 			thunderpunch: ["9M"],
 			icehammer: ["9M"],
 			superpower: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112322,6 +112344,7 @@ lureel: {
 			magiccoat: ["9M"],
 			raindance: ["9M"],
 			sunnyday: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112392,6 +112415,7 @@ lureel: {
 			miracleeye: ["9M"],
 			explosion: ["9M"],
 			psychic: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112462,6 +112486,7 @@ lureel: {
 			miracleeye: ["9M"],
 			explosion: ["9M"],
 			psychic: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112532,6 +112557,7 @@ lureel: {
 			stomp: ["9M"],
 			nuzzle: ["9M"],
 			playnice: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112602,6 +112628,7 @@ lureel: {
 			stomp: ["9M"],
 			nuzzle: ["9M"],
 			playnice: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -112670,6 +112697,7 @@ lureel: {
 			sleeptalk: ["9M"],
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -112706,6 +112734,7 @@ lureel: {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -112742,6 +112771,7 @@ lureel: {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -112813,6 +112843,7 @@ lureel: {
 			zenheadbutt: ["9M"],
 			darkpulse: ["9M"],
 			bodyslam: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -112884,6 +112915,7 @@ lureel: {
 			mysticalfire: ["9M"],
 			heatwave: ["9M"],
 			trickroom: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -112942,6 +112974,7 @@ lureel: {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -113000,6 +113033,7 @@ lureel: {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -113066,6 +113100,7 @@ lureel: {
 			closecombat: ["9M"],
 			quickguard: ["9M"],
 			sleeptalk: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	
@@ -113127,6 +113162,7 @@ lureel: {
 			quickguard: ["9M"],
 			taunt: ["9M"],
 			sleeptalk: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -113183,6 +113219,7 @@ lureel: {
 			ironhead: ["9M"],
 			recover: ["9M"],
 			suckerpunch: ["9M"],
+			protect: ["9M"],
 		},
 	},
 
@@ -113239,6 +113276,7 @@ lureel: {
 			ironhead: ["9M"],
 			recover: ["9M"],
 			suckerpunch: ["9M"],
+			protect: ["9M"],
 		},
 	},
 	consteloon: {
@@ -113371,6 +113409,7 @@ lureel: {
 			lunardance: ["9M"],
 			lunarblessing: ["9M"],
 			defog: ["9M"],
+			shootingstar: ["9M"],
 		},
 	},
 };
