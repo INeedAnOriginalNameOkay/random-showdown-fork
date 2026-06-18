@@ -108756,6 +108756,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 			sandstorm: ["9M"],
 			sunnyday: ["9M"],
+			flareblitz: ["9M"],
+			lavaplume: ["9M"],
+			flamethrower: ["9M"],
 		},
 	},
 
@@ -108812,6 +108815,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 			sandstorm: ["9M"],
 			sunnyday: ["9M"],
+			flareblitz: ["9M"],
+			lavaplume: ["9M"],
+			flamethrower: ["9M"],
 		},
 	},
 
