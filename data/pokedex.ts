@@ -21732,7 +21732,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		prevo: "Rattlespade",
 		evoLevel: 30,
-		eggGroups: ["Rattlespade"],
+		eggGroups: ["Field"],
 	},
 		turnipoot: {
 		num: 3004,
