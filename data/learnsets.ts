@@ -103342,6 +103342,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			foulplay: ["9M"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			electroweb: ["9M"],
 		},
 	},
 
