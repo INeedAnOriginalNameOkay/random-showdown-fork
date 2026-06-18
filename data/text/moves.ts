@@ -7650,4 +7650,116 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+
+	//new moves
+
+	lavasurf: {
+		name: "Lava Surf",
+		desc: "The user hits all adjacent Pokemon.",
+		shortDesc: "Hits all adjacent Pokemon.",
+	},
+
+	shootingstar: {
+		name: "Shooting Star",
+		desc: "Charges turn 1. Will heal the target if it is an ally. Heals the user for 30% of its maximum HP.",
+		shortDesc: "Charges turn 1. Heals if target is an ally. Heals user for 30% of max HP.",
+	},
+
+	pixiepunch: {
+		name: "Pixie Punch",
+		desc: "Has a 10% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "10% chance to raise user's Attack by 1.",
+	},
+
+	gigadeathray: {
+		name: "Gigadeath Ray",
+		desc: "Power is equal to 1000.",
+		shortDesc: "Power is equal to 1000.",
+	},
+
+	awakenpower: {
+		name: "Awaken Power",
+		desc: "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
+		shortDesc: "Varies in type based on the user's IVs.",
+	},
+
+	slurpup: {
+		name: "Slurpup",
+		desc: "The user recovers 50% of its maximum HP. If it is raining, the user recovers 2/3 of its maximum HP instead.",
+		shortDesc: "Recovers 50% of max HP; 2/3 in rain.",
+	},
+
+	bassboost: {
+		name: "Bass Boost",
+		desc: "Power doubles with each successful hit, up to a maximum of 160 power. The power is reset if this move misses or another move is used.",
+		shortDesc: "Power doubles with each hit, up to 160.",
+	},
+
+	wildfire: {
+		name: "Wildfire",
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target.",
+	},
+
+	kaboom: {
+		name: "Kaboom",
+		desc: "The user explodes, dealing damage to all adjacent Pokemon.",
+		shortDesc: "The user explodes, dealing damage to all adjacent Pokemon.",
+	},
+
+	rapidfire: {
+		name: "Rapid Fire",
+		desc: "The user fires up to 6 shots at the target; lowers the user's Attack by 2 stages.",
+		shortDesc: "Hits 1 to 6 times; lowers user's Attack by 2 stages.",
+	},
+
+	silverthread: {
+		name: "Silver Thread",
+		desc: "Has a 100% chance to lower the target's Defense by 1 stage. 100% chance to deal a critical hit",
+		shortDesc: "Lowers the target's Defense by 1 stage; will always crit.",
+	},
+
+	mustardrush: {
+		name: "Mustard Rush",
+		desc: "Confuses both the user and the target. 30% chance to flinch.",
+		shortDesc: "Confuses both the user and the target. 30% chance to flinch.",
+	},
+
+	nightwing: {
+		name: "Night Wing",
+		shortDesc: "No additonal effect",
+	},
+
+	sugarcrash: {
+		name: "Sugar Crash",
+		desc: "Recovers 50% of damage dealt with a 10% chance to flinch. If the user is Cankerwar, type and effects change depending on the user's form. Electric with a 10% paralysis chance for Nagae. Fire with a 10% burn chance for Mokou. Ice with a 10% freeze chacne for Cirno. Poison with a 10% poison chance for Melancholy, Psychic with a 10% sleep chance for Yakumo. Gains an additoinal 10% flinch chance without a sugar.",
+		shortDesc: "Recovers 50% of damage dealt. Type and effects depend on the user's form."
+	},
+
+	diceroll: {
+		name: "Dice Roll",
+		shortDesc: "Hits 1 to 6 times."
+	},
+
+	chanceattack: {
+		name: "Chance Attack",
+		shortDesc: "Base Power is random (10-150)."
+	},
+
+	hauntedcry: {
+		name: "Haunted Cry",
+		shortDesc: "Decreases Attack by 1 stage."
+	},
+
+	powerglyph: {
+		name: "Power Glyph",
+		shortDesc: "20% to lower all stats by 1 stage."
+	},
+
+	supernova: {
+		name: "Supernova",
+		shortDesc: "30% chance to lower SpD. When in Psychic Terrain, 2x dmg & lowers SpA by 2 stages."
+	}
+
+
 };

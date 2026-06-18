@@ -4338,4 +4338,109 @@
 	chirukeru: {
 		name: "Chirukeru",
 	},
+	lureel: {
+		name: "Lureel",
+	},
+	stymeel: {
+		name: "Stymeel",
+	},
+	dreadgeel: {
+		name: "Dreadgeel",
+	},
+	garbiathan: {
+		name: "Garbiathan",
+	},
+	crustoctave: {
+		name: "Crustoctave",
+	},
+	coralstra: {
+		name: "Coralstra",
+	},
+	mankyte: {
+		name: "Mankyte",
+	},
+	dynaray: {
+		name: "Dynaray",
+	},
+	weakrill: {
+		name: "Weakrill",
+	},
+	prawnxer: {
+		name: "Prawnxer",
+	},
+	shrimpion: {
+		name: "Shrimpion",
+	},
+	yakalanche: {
+		name: "Yakalanche",
+	},
+	spectrofin: {
+		name: "Spectrofin",
+	},
+	frilldeep: {
+		name: "Frilldeep",
+	},
+	snoozel: {
+		name: "Snoozel",
+	},
+	airret: {
+		name: "Airret",
+	},
+	spinmorda: {
+		name: "Spinmorda",
+	},
+	cawthic: {
+		name: "Cawthic",
+	},
+	skyder: {
+		name: "Skyder",
+	},
+	aracnimb: {
+		name: "Aracnimb",
+	},
+	dusbun: {
+		name: "Dusbun",
+	},
+	dustinger: {
+		name: "Dustinger",
+	},
+
+	//scrapped & event
+
+	burfly: {
+		name: "Burfly",
+	},
+	rattlespade: {
+		name: "Rattlespade",
+	},
+	perlithon: {
+		name: "Perlithon",
+	},
+	turnipoot: {
+		name: "Turnipoot",
+	},
+	jackotre: {
+		name: "Jackotre",
+	},
+	pompomp: {
+		name: "Pompomp",
+	},
+	pompalge: {
+		name: "Pompalge",
+	},
+	howlblazer: {
+		name: "Howlblazer",
+	},
+	steerpaw: {
+		name: "Steerpaw",
+	},
+	pinchin: {
+		name: "Pinchin",
+	},
+	opatchum: {
+		name: "Opatchum",
+	},
+	consteloon: {
+		name: "Consteloon",
+	}
 };

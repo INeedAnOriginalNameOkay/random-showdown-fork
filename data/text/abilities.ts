@@ -2297,7 +2297,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 	ignition: {
 		name: "Ignition",
-		desc: "If this Pokemon is a Blastilisk , it will change to Blastilisk-Lit when it uses a Fire-type move.",
+		desc: "If this Pokemon is a Blastilisk, it will change to Blastilisk-Lit when it uses a Fire-type move.",
 		shortDesc: "If Blastilisk, it changes to Blastilisk-Lit when it uses a Fire move.",
 	},
 
@@ -2307,11 +2307,48 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		shortDesc: "Boosts power of sound-based moves by 1.3x.",
 	},
 
-	caramelize: {
-		name: "Caramelize",
+	caramellize: {
+		name: "Caramellize",
 		shortDesc: "On switch-in, this Pokemon lowers the evasiveness of opponents 1 stage.",
 
 		start: "  A supersweet aroma is wafting from the caramel covering [POKEMON]!",
+	},
+
+	unchained: {
+		name: "Unchained",
+		shortDesc: "Moves cannot be restricted by moves and items.",
+		desc: "Moves cannot be restricted by moves and items.",
+		start: "  [POKEMON] broke free from its restraints!",
+	},
+
+	sugarrush: {
+		name: "Sugar Rush",
+		shortDesc: "Increses Speed by 1 stage when using Sugar Crash.",
+		desc: "Increases the Speed of this Pokemon by 1 stage when it uses the move Sugar Crash.",
+	},
+
+	celestialguard: {
+		name: "Celestial Guard",
+		shortDesc: "Reduces the power of incoming Ghost, Dark, and Fairy-type moves by 0.4x.",
+		desc: "Reduces the power of incoming Ghost, Dark, and Fairy-type moves by 0.4x.",
+	},
+
+	conductor: {
+		name: "Conductor",
+		shortDesc: "All sounds moves hit twice.",
+		desc: "Sound moves hit twice, with the second hit being 1/4 power.",
+	},
+
+	radialguard: {
+		name: "Radial Guard",
+		shortDesc: "Allies are immune to sandstorm, hail, and powder moves.",
+		desc: "This Pokemon and its allies are immune to sandstorm, hail, and powder moves.",
+	},
+
+	alkaline: {
+		name: "Alkaline",
+		shortDesc: "Fire-type moves are more powerful in rain.",
+		desc: "Fire-type moves deal 1.5x damage in rain.",
 	},
 
 	// CAP

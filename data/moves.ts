@@ -21280,10 +21280,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				attacker.addVolatile('twoturnmove', defender);
 				return null;
 			}
+			else {
+				this.heal(Math.floor(attacker.baseMaxhp * 0.3), attacker, attacker);
+				this.add('-heal', attacker, attacker.getHealth, '[from] move: Shooting Star');
+			}
 		},
 		
 		onTryHit(target, source, move) {
-			source.heal(Math.floor(source.baseMaxhp* 0.3));
 			if (source.isAlly(target)) {
 				move.basePower = 0;
 				move.infiltrates = true;
@@ -21297,6 +21300,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				}
 			}
 		},
+
 
 		target: "normal",
 		type: "Fairy",
@@ -21723,7 +21727,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
 		smartTarget: true,
-		multihit: [1.6],
+		multihit: 6,
 		multiaccuracy: true,
 		target: "normal",
 		type: "Fire",
@@ -21895,6 +21899,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				case 'Cankerwar-Remilia':
 					move.type = 'Fairy';
 					break;
+				default:
+					break;
 			}
 		},
 
@@ -21934,6 +21940,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					move.basePower = 120;
 					move.target = "allAdjacentFoes";
 					break;
+				default:
+					break;
+				
 			}
 		},
 		
