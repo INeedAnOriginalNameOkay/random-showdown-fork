@@ -19924,6 +19924,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5.9,
 		color: "Black",
 		eggGroups: ["Monster", "Amorphous"],
+		otherFormes: ["Jackotre"],
+		formeOrder: ["Luctre", "Jackotre"],
 	},
 		venemin: {
 		num: 2085,
@@ -20105,9 +20107,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Cankerwar-Remilia",
 		baseSpecies: "Cankerwar",
 		forme: "Remilia",
-		types: ["Fighting"],
+		types: ["Fairy", "Fighting"],
 		genderRatio: { M: 0.0, F: 1.0 },
-		baseStats: { hp: 90, atk: 140, def: 70, spa: 65, spd: 65, spe: 95 },
+		baseStats: { hp: 90, atk: 140, def: 80, spa: 65, spd: 86, spe: 98 },
 		abilities: { 0: "Sturdy", 1: "Rocky Payload", H: "Sugar Rush" },
 		heightm: 1.7,
 		weightkg: 103.2,
@@ -20117,6 +20119,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Humanlike"],
 		requiredItem: "Hyper Sugar",
 		changesFrom: "Cankerwar",
+		tags: ['Sub-Legendary'],
 	},
 // Cankerwar Formes End
 		skarbed: {
@@ -21749,6 +21752,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		jackotre: {
 		num: 3005,
 		name: "Jackotre",
+		otherFormes: ["Luctre"],
 		types: ["Grass", "Fire"],
 		gender: "N",
 		baseStats: { hp: 88, atk: 88, def: 88, spa: 88, spd: 88, spe: 160 },

@@ -21893,7 +21893,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					move.type = 'Psychic';
 					break;
 				case 'Cankerwar-Remilia':
-					move.type = 'Stellar';
+					move.type = 'Fairy';
 					break;
 			}
 		},
@@ -21931,9 +21931,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					})
 					break;
 				case 'Cankerwar-Remilia':
-					move.basePower = 150;
+					move.basePower = 120;
 					move.target = "allAdjacentFoes";
-					move.forceSTAB = true;
 					break;
 			}
 		},
