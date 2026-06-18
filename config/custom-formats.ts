@@ -7,14 +7,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "Potassium Extended OU",
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', 'Terastal Clause'],
-		banlist: ['Uber', 'AG', 'Moody', 'King\'s Rock', 'Razor Fang'],
+		banlist: ['Uber', 'AG', 'Moody', 'King\'s Rock', 'Razor Fang','Froakie','Frogadier','Greninja','Greninja-Bond'],
 	},
 	{
 		name: "Potassium Extended Doubles OU",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'NatDex Mod','Terastal Clause'],
-		banlist: ['DUber'],
+		banlist: ['DUber','Froakie','Frogadier','Greninja','Greninja-Bond'],
 	},
 	{
 		name: "Custom Game",
@@ -33,7 +33,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		bestOfDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3'],
-		banlist: ['Restricted Legendary', 'Mythical', 'Sub-Legendary'],
+		banlist: ['Sub-Legendary','Froakie','Frogadier','Greninja'],
 	},
 	{
 		name: "Potatium VGC Regular",
@@ -43,7 +43,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		bestOfDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3'],
-		banlist: ['Restricted Legendary', 'Mythical'],
+		banlist: ['Froakie','Frogadier','Greninja'],
 	},
 	{
 		name: "Potatium VGC Restricted",
@@ -54,6 +54,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		bestOfDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Limit Two Restricted', 'Force Open Team Sheets', 'Best of = 3'],
 		restricted: ['Restricted Legendary', 'Mythical'],
+		banlist: ['Froakie','Frogadier','Greninja'],
 	},
 	
 ]
