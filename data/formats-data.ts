@@ -8675,6 +8675,9 @@ formatting template:
 	cankerwar: {
 		tier: "OU",
 	},
+	cankerwarremilia: {
+		tier: "Uber",
+	},
 	skarbed: {
 		tier: "OU",
 	},

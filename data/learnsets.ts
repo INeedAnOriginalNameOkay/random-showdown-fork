@@ -103541,7 +103541,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9L44", "3L44", "9M", "3M", "9E", "3E"],
 			trick: ["9M", "3M"],
 			trickroom: ["9M", "3M"],
-			tailwind: ["9M"]
+			tailwind: ["9M"],
 			venoshock: ["9M", "3M"],
 			naturepower: ["9M"],
 		},

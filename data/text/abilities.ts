@@ -2316,8 +2316,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 	unchained: {
 		name: "Unchained",
-		shortDesc: "Moves cannot be restricted by moves and items.",
-		desc: "Moves cannot be restricted by moves and items.",
+		shortDesc: "Moves cannot be restricted by other moves and items.",
+		desc: "Moves cannot be restricted.",
 		start: "  [POKEMON] broke free from its restraints!",
 	},
 
@@ -2347,8 +2347,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 	alkaline: {
 		name: "Alkaline",
-		shortDesc: "Fire-type moves are more powerful in rain.",
-		desc: "Fire-type moves deal 1.5x damage in rain.",
+		shortDesc: "Fire- and Rock-type moves 1.5x in rain.",
+		desc: "Fire- and Rock-type moves deal 1.5x damage in rain.",
 	},
 
 	// CAP

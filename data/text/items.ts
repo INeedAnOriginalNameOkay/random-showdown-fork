@@ -2618,32 +2618,32 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 
 	cherisugar: {
 		name: "Cheri Sugar",
-		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x.",
 	},
 
 	rawstsugar: {
 		name: "Rawst Sugar",
-		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x.",
 	},
 
 	aspearsugar: {
 		name: "Aspear Sugar",
-		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x.",
 	},
 
 	chestosugar: {
 		name: "Chesto Sugar",
-		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x.",
 	},
 
 	pechasugar: {
 		name: "Pecha Sugar",
-		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x.",
 	},
 
 	hypersugar: {
 		name: "Hyper Sugar",
-		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x.",
 	},
 
 	// CAP items

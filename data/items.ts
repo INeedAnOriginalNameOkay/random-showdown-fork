@@ -8276,8 +8276,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		forcedForme: "Cankerwar-Remilia",
 		itemUser: ["Cankerwar-Remilia"],
 		num: 3005,
-		gen: 10,
-		isNonstandard: "Future",
+		gen: 9,
 	},
 
 	// CAP items

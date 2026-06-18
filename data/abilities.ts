@@ -5697,7 +5697,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			pokemon.removeVolatile('choicelock');
 		},
 
-		flags: {},
+		flags: {cantsuppress: 1},
 		name: "Unchained",
 		rating: 1.5,
 		num: 504,
@@ -5753,7 +5753,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		*/
-		flags: {},
+		onTryHit(target, source, move) {
+			if (target !== source && move.flags['sound']) {
+				this.add('-immune', target, '[from] ability: Soundproof');
+				return null;
+			}
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (move.flags['sound']) {
+				this.add('-immune', this.effectState.target, '[from] ability: Soundproof');
+			}
+		},
+		flags: {breakable: 1},
 		name: "Conductor",
 		rating: 4.5,
 		num: 507,
@@ -5784,9 +5795,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 508,
 	},
+
 	alkaline: {
 		onBasePower(basePower, pokemon, target, move) {
 			if (move.type === 'Fire' && (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) ) return this.chainModify([12288, 4096]);
+			if (move.type === 'Rock' && (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) ) return this.chainModify([6144, 4096]);
 		},
 		flags: {},
 		name: "Alkaline",
