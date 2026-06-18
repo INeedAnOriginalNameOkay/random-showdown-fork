@@ -5739,7 +5739,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 
 	conductor: {
 		onAnyPrepareHit(source, target, move) {
-			if (move.category === 'Status' || move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
+			if (move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
 				move.flags['futuremove'] || move.isZ || move.isMax || !move.flags['sound']) return;
 			move.multihit = 2;
 			move.multihitType = 'parentalbond';
