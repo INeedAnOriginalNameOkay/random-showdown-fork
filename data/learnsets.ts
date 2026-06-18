@@ -111651,7 +111651,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	crustroctave: {
+	crustoctave: {
 		learnset: {
 			firespin: ["9M"],
 			steameruption: ["9M"],
