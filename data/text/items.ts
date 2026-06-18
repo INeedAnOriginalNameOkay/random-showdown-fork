@@ -2614,6 +2614,38 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "(Gen 2) Holder is cured if it is poisoned. Single use.",
 	},
 
+	//cmg items
+
+	cherisugar: {
+		name: "Cheri Sugar",
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+	},
+
+	rawstsugar: {
+		name: "Rawst Sugar",
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+	},
+
+	aspearsugar: {
+		name: "Aspear Sugar",
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+	},
+
+	chestosugar: {
+		name: "Chesto Sugar",
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+	},
+
+	pechasugar: {
+		name: "Pecha Sugar",
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+	},
+
+	hypersugar: {
+		name: "Hyper Sugar",
+		shortDesc: "If held by a Cankerwar, changes its form. Boosts the power of Sugar Crash by 1.2x."m
+	},
+
 	// CAP items
 
 	crucibellite: {

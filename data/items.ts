@@ -8271,7 +8271,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onModifyMove(move, pokemon) {
 			if (move.name === 'Sugar Crash') {
 				move.basePower *= 1.2;
-				move.type = "Stellar";
 			}
 		},
 		forcedForme: "Cankerwar-Remilia",
