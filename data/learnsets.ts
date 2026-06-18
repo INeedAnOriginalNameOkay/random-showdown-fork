@@ -102054,6 +102054,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9M", "3M"],
 			trick: ["9M", "3M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -102120,6 +102121,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fling: ["9M"],
 			foulplay: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -102896,6 +102898,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9M", "3M"],
 			vitalthrow: ["9L24", "3L24"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -102960,6 +102963,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			kingsshield: ["9M"],
 			machpunch: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -103337,6 +103341,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			voltswitch: ["9L36"],
 			foulplay: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -103400,6 +103405,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			strengthsap: ["9M"],
 			throatchop: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -103477,6 +103483,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fling: ["9M"],
 			poweruppunch: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -105242,6 +105249,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlwind: ["9E", "3E"],
 			wingattack: ["9L16", "3L16"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -105314,6 +105322,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dualwingbeat: ["9M"],
 			shadowsneak: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -109667,8 +109676,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			liquidation: ["9M"],
 			rapidspin: ["9M"],
 			naturepower: ["9M"],
-
-			skittersmack: ["9M"],		},
+			feint: ["9M"],
+			skittersmack: ["9M"],		
+		},
 	},
 
 	sucrouse: {
@@ -110087,6 +110097,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9L36", "3L36"],
 			xscissor: ["9M", "3M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -110164,6 +110175,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			foulplay: ["9M"],
 			poweruppunch: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -110322,6 +110334,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M", "3M"],
 			uturn: ["9M", "3M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -110387,6 +110400,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			pounce: ["9M"],
 			skittersmack: ["9M"],
 			naturepower: ["9M"],
+			feint: ["9M"],
 		},
 	},
 
@@ -111334,7 +111348,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-lureel: {
+	lureel: {
 		learnset: {
 			hydropump: ["9M"],
 			liquidation: ["9M"],
@@ -112852,6 +112866,7 @@ lureel: {
 			zenheadbutt: ["9M"],
 			darkpulse: ["9M"],
 			bodyslam: ["9M"],
+			feint: ["9M"],
 		},
 	},
 	
@@ -112981,6 +112996,7 @@ lureel: {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
+			feint: ["9M"],
 		},
 	},
 	
@@ -113039,6 +113055,7 @@ lureel: {
 			fakeout: ["9M"],
 			reversal: ["9M"],
 			endeavor: ["9M"],
+			feint: ["9M"],
 		},
 	},
 	

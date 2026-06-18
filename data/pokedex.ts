@@ -19497,7 +19497,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Dark", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 62, atk: 60, def: 47, spa: 68, spd: 75, spe: 54 },
-		abilities: { 0: "Immunity", 1: "Unnerve", H: "Poison Heal" },
+		abilities: { 0: "Immunity", 1: "Unnerve", H: "Prankster" },
 		heightm: 0.7,
 		weightkg: 15.9,
 		color: "Black",
