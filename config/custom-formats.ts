@@ -13,8 +13,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "Potassium Extended Doubles OU",
 		mod: 'gen9',
 		gameType: 'doubles',
-		ruleset: ['Standard Doubles', 'NatDex Mod','Terastal Clause','Froakie','Frogadier','Greninja','Greninja-Bond'],
-		banlist: ['DUber'],
+		ruleset: ['Standard Doubles', 'NatDex Mod','Terastal Clause'],
+		banlist: ['DUber','Froakie','Frogadier','Greninja','Greninja-Bond'],
 	},
 	{
 		name: "Custom Game",
