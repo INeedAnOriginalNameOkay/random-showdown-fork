@@ -5740,7 +5740,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	conductor: {
 		onAnyPrepareHit(source, target, move) {
 			if (move.category === 'Status' || move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
-				move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax || !move.flags['sound']) return;
+				move.flags['futuremove'] || move.isZ || move.isMax || !move.flags['sound']) return;
 			move.multihit = 2;
 			move.multihitType = 'parentalbond';
 		},
@@ -5755,13 +5755,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		*/
 		onTryHit(target, source, move) {
 			if (target !== source && move.flags['sound']) {
-				this.add('-immune', target, '[from] ability: Soundproof');
+				this.add('-immune', target, '[from] ability: Conductor');
 				return null;
 			}
 		},
 		onAllyTryHitSide(target, source, move) {
 			if (move.flags['sound']) {
-				this.add('-immune', this.effectState.target, '[from] ability: Soundproof');
+				this.add('-immune', this.effectState.target, '[from] ability: Conductor');
 			}
 		},
 		flags: {breakable: 1},
