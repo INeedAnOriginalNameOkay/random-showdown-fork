@@ -22085,6 +22085,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			boosts: {
 				spd: -1,
 			},
+			chance: 30,
+			boosts: {
+				spa: -1,
+			},
 		},
 		target: "normal",
 		type: "Dragon",
