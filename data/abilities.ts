@@ -5796,6 +5796,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 508,
 	},
 
+
+
 	alkaline: {
 		onBasePower(basePower, pokemon, target, move) {
 			if (move.type === 'Fire' && (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) ) return this.chainModify([12288, 4096]);
@@ -5804,9 +5806,31 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Alkaline",
 		rating: 3,
-		num: 33,
+		num: 509,
 	},
 
+	infested: {
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target)) {
+				target.addVolatile('partiallytrapped');
+			}
+		},
+		flags: {},
+		name: "Infested",
+		rating: 2,
+		num: 510,
+	},
+
+	predator: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			if (target?.volatiles['partiallytrapped'] || target?.volatiles['trapped'] || target.trapped) return this.chainModify([5325, 4096]);
+		},
+		flags: {},
+		name: "Predator",
+		rating: 3,
+		num: 511,
+	},
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

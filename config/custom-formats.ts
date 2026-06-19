@@ -32,7 +32,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod'],
 		banlist: ['Sub-Legendary','Froakie','Frogadier','Greninja'],
 	},
 	{
@@ -42,7 +42,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod'],
 		banlist: ['Froakie','Frogadier','Greninja'],
 	},
 	{
@@ -52,7 +52,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Limit Two Restricted', 'Force Open Team Sheets', 'Best of = 3'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Limit Two Restricted', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod'],
 		restricted: ['Restricted Legendary', 'Mythical'],
 		banlist: ['Froakie','Frogadier','Greninja'],
 	},
