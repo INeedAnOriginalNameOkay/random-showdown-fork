@@ -102122,6 +102122,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			foulplay: ["9M"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			partingshot: ["9M"],
 		},
 	},
 
@@ -107195,6 +107196,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			spiritbreak: ["9M"],
 			terrainpulse: ["9M"],
 			naturepower: ["9M"],
+			filletaway: ["9M"],
 		},
 	},
 
@@ -107248,6 +107250,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterfall: ["9M", "3M"],
 			watersport: ["9E", "3E"],
 			naturepower: ["9M"],
+			filletaway: ["9M"],
 		},
 	},
 
