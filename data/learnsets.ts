@@ -35017,6 +35017,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragondance: ["9M"],
 			dragonpulse: ["9M"],
 			dragontail: ["9M"],
+			psychicterrain: ["9M"],
 		},
 	},
 	obstagoon: {
@@ -113689,6 +113690,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			defog: ["9M"],
 			shootingstar: ["9M"],
 			weatherball: ["9M"],
+			psychicterrain: ["9M"],
 		},
 	},
 };
