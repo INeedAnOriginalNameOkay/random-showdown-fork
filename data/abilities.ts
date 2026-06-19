@@ -5720,14 +5720,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onSourceModifyAtk(atk, attacker, defender, move) {
 			if (move.type === 'Ghost' || move.type === 'Dark' || move.type === 'Fairy') {
 				this.debug('Celestial Guard Atk weaken');
-				return this.chainModify(0.4);
+				return this.chainModify(0.25);
 			}
 		},
 		onSourceModifySpAPriority: 5,
 		onSourceModifySpA(atk, attacker, defender, move) {
 			if (move.type === 'Ghost' || move.type === 'Dark' || move.type === 'Fairy') {
 				this.debug('Celestial Guard SpA weaken');
-				return this.chainModify(0.4);
+				return this.chainModify(0.25);
 			}
 		},
 		

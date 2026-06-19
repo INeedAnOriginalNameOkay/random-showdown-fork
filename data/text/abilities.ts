@@ -2329,8 +2329,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 	celestialguard: {
 		name: "Celestial Guard",
-		shortDesc: "Reduces the power of incoming Ghost, Dark, and Fairy-type moves by 0.4x.",
-		desc: "Reduces the power of incoming Ghost, Dark, and Fairy-type moves by 0.4x.",
+		shortDesc: "Reduces the power of incoming Ghost, Dark, and Fairy-type moves by 0.25x.",
+		desc: "Reduces the power of incoming Ghost, Dark, and Fairy-type moves by 0.25x.",
 	},
 
 	conductor: {

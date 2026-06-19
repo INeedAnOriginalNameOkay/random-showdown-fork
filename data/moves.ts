@@ -21721,7 +21721,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	rapidfire: { // Fryrill Signature
 		num: 5009,
 		accuracy: 95,
-		basePower: 25,
+		basePower: 20,
 		category: "Physical",
 		name: "Rapid Fire",
 		pp: 10,
@@ -21738,8 +21738,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		condition: {
 			onResidualOrder: 6,
 			onResidual(pokemon) {
-				pokemon.boosts.atk -= 2;
-				this.add('-boost', pokemon, 'atk', -2);
+				pokemon.boosts.atk -= 1;
+				this.add('-boost', pokemon, 'atk', -1);
 			},
 		}
 	},
@@ -22088,6 +22088,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 		type: "Dragon",
+		contestType: "Beautiful",
+	},
+
+	boilingsymphony: {
+		num: 5022,
+		accuracy: 90,
+		basePower: 80,
+		category: "Special",
+		name: "Boiling Symphony",
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, sound: 1 },
+		secondary: {
+			chance: 25,
+			status: 'brn',
+		},
+		target: "allAdjacentFoes",
+		type: "Water",
+		contestType: "Beautiful",
 	},
 
 	// CAP moves
