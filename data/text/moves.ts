@@ -7661,8 +7661,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 	shootingstar: {
 		name: "Shooting Star",
-		desc: "Charges turn 1. Will heal the target if it is an ally. Heals the user for 30% of its maximum HP.",
-		shortDesc: "Charges turn 1. Heals if target is an ally. Heals user for 30% of max HP.",
+		desc: "Charges turn 1. Will heal the target for 2/3 of max HP if it is an ally. Heals the user for 30% of its maximum HP.",
+		shortDesc: "Charges turn 1. Heals if target is an ally. Heals user.",
 	},
 
 	pixiepunch: {
@@ -7697,16 +7697,15 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 	wildfire: {
 		name: "Wildfire",
-		desc: "Has a 10% chance to burn the target.",
-		shortDesc: "10% chance to burn the target.",
+		desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+		shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
 	},
 
 	kaboom: {
 		name: "Kaboom",
 		desc: "The user explodes, dealing damage to all adjacent Pokemon.",
-		shortDesc: "The user explodes, dealing damage to all adjacent Pokemon.",
+		shortDesc: "The user explodes."
 	},
-
 	rapidfire: {
 		name: "Rapid Fire",
 		desc: "The user fires up to 6 shots at the target; lowers the user's Attack by 2 stages.",
@@ -7716,13 +7715,13 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	silverthread: {
 		name: "Silver Thread",
 		desc: "Has a 100% chance to lower the target's Defense by 1 stage. 100% chance to deal a critical hit",
-		shortDesc: "Lowers the target's Defense by 1 stage; will always crit.",
+		shortDesc: "Lowers target's defense; will always crit.",
 	},
 
 	mustardrush: {
 		name: "Mustard Rush",
 		desc: "Confuses both the user and the target. 30% chance to flinch.",
-		shortDesc: "Confuses both the user and the target. 30% chance to flinch.",
+		shortDesc: "Confuses user and the target. 30% flinch chance.",
 	},
 
 	nightwing: {
@@ -7733,7 +7732,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	sugarcrash: {
 		name: "Sugar Crash",
 		desc: "Recovers 50% of damage dealt with a 10% chance to flinch. If the user is Cankerwar, type and effects change depending on the user's form. Electric with a 10% paralysis chance for Nagae. Fire with a 10% burn chance for Mokou. Ice with a 10% freeze chacne for Cirno. Poison with a 10% poison chance for Melancholy, Psychic with a 10% sleep chance for Yakumo. Gains an additoinal 10% flinch chance without a sugar.",
-		shortDesc: "Recovers 50% of damage dealt. Type and effects depend on the user's form."
+		shortDesc: "Type and effects depend on the user's form."
 	},
 
 	diceroll: {
@@ -7758,7 +7757,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 	supernova: {
 		name: "Supernova",
-		shortDesc: "30% chance to lower SpD. When in Psychic Terrain, 2x dmg & lowers SpA by 2 stages."
+		desc: "30% chance to lower SpD. When in Psychic Terrain, 2x dmg & lowers SpA by 2 stages.",
+		shortDesc: "2x dmg, spread, & -2 SpA in Psychic Terrain."
 	}
 
 

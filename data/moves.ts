@@ -21282,13 +21282,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				attacker.addVolatile('twoturnmove', defender);
 				return null;
 			}
-			else {
-				this.heal(Math.floor(attacker.baseMaxhp * 0.3), attacker, attacker);
-				this.add('-heal', attacker, attacker.getHealth, '[from] move: Shooting Star');
-			}
 		},
 		
 		onTryHit(target, source, move) {
+			this.heal(Math.floor(source.baseMaxhp * 0.3), source, source);
+			this.add('-heal', source, source.getHealth, '[from] move: Shooting Star');
+
 			if (source.isAlly(target)) {
 				move.basePower = 0;
 				move.infiltrates = true;

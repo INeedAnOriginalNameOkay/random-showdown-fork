@@ -2966,20 +2966,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RUBL",
 	},
 */
-/*
+
 	wailmer: {
 		isNonstandard: "Past",
 		tier: "OU",
 		natDexTier: "LC",
 	},
-*/
-/*
+
+
 	wailord: {
 		isNonstandard: "Past",
 		tier: "OU",
 		natDexTier: "RU",
 	},
-*/
+
 /*
 	numel: {
 		tier: "LC",
