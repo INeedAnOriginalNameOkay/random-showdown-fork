@@ -17011,6 +17011,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		smartTarget: true,
 		target: "normal",
 		type: "Steel",
 		contestType: "Cool",
@@ -21271,6 +21272,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, charge: 1, heal: 1 },
+		smartTarget: true,
 		onTryMove(attacker, defender, move) {
 			if (!attacker.removeVolatile(move.id)) {
 				this.add('-prepare', attacker, move.name);
@@ -22075,7 +22077,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onModifyMove(move, source, target) {
 			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
 				move.target = 'allAdjacent';
-				source.boosts.spa -= 2;
+				source.boosts.spa = -1;
 			}
 		},
 		secondary: {
