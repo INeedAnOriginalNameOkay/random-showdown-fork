@@ -103131,6 +103131,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watergun: ["9E", "3E"],
 			waterpulse: ["9M", "3M"],
 			naturepower: ["9M"],
+			muddywater: ["9M"],
+			tidyup: ["9M"],
 		},
 	},
 
@@ -103194,6 +103196,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hydropump: ["9M"],
 			terrainpulse: ["9M"],
 			naturepower: ["9M"],
+			muddywater: ["9M"],
+			tidyup: ["9M"],
 		},
 	},
 
@@ -103821,6 +103825,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragontail: ["9M"],
 			roar: ["9M"],
 			naturepower: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -103883,6 +103888,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			roar: ["9M"],
 			wavecrash: ["9M"],
 			naturepower: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -107983,6 +107989,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gastroacid: ["9M"],
 			swordsdance: ["9M"],
 			naturepower: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -108047,6 +108054,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mysticalfire: ["9M"],
 			terrainpulse: ["9M"],
 			naturepower: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -108778,6 +108786,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flareblitz: ["9M"],
 			lavaplume: ["9M"],
 			flamethrower: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -108837,6 +108846,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flareblitz: ["9M"],
 			lavaplume: ["9M"],
 			flamethrower: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -111633,6 +111643,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mudslap: ["9M"],
 			weatherball: ["9M"],
 			sleeptalk: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
@@ -111705,6 +111716,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mudslap: ["9M"],
 			weatherball: ["9M"],
 			sleeptalk: ["9M"],
+			muddywater: ["9M"],
 		},
 	},
 
