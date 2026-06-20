@@ -109400,6 +109400,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poweruppunch: ["9M"],
 			terrainpulse: ["9M"],
 			naturepower: ["9M"],
+			weatherball: ["9M"],
 		},
 	},
 
