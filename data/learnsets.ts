@@ -103133,6 +103133,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 			muddywater: ["9M"],
 			tidyup: ["9M"],
+			wideguard: ["9M"],
+			quickguard: ["9M"],
 		},
 	},
 
@@ -103198,6 +103200,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 			muddywater: ["9M"],
 			tidyup: ["9M"],
+			wideguard: ["9M"],
+			quickguard: ["9M"],
 		},
 	},
 
@@ -103413,6 +103417,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			throatchop: ["9M"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -105260,6 +105265,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L16", "3L16"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -105589,6 +105595,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			woodhammer: ["9E", "3E"],
 			naturepower: ["9M"],
 			sugarcrash: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -105646,6 +105653,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			swordsdance: ["9M"],
 			naturepower: ["9M"],
 			sugarcrash: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -109514,6 +109522,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["9L32", "3L32"],
 			xscissor: ["9M", "3M"],
 			naturepower: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -110359,6 +110368,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "3M"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -110425,6 +110435,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			skittersmack: ["9M"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
@@ -111192,6 +111203,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			memento: ["9E"],
 			faketears: ["9E"],
 			naturepower: ["9M"],
+			beatup: ["9M"],
 		},
 	},
 
