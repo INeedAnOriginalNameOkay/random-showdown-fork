@@ -5705,7 +5705,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 
 	sugarrush: { // Cankerwar Sig
 		onModifyMove(move) {
-			if (move?.id === 'Sugar Crash') {
+			if (move?.id === '5016') {
 				this.boost({ spe: 1 });
 			}
 		},
