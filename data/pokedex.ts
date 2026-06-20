@@ -19104,7 +19104,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Cortoise",
 		types: ["Grass", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 80, atk: 100, def: 50, spa: 55, spd: 85, spe: 31 },
+		baseStats: { hp: 80, atk: 100, def: 50, spa: 64, spd: 85, spe: 31 },
 		abilities: { 0: "Water Absorb", 1: "Sturdy", H: "Well-Baked Body" },
 		heightm: 1.5,
 		weightkg: 60.8,

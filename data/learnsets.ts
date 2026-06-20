@@ -110658,6 +110658,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9M", "3M"],
 			weatherball: ["9M", "3M"],
 			naturepower: ["9M"],
+			worryseed: ["9M"],
+			dragoncheer: ["9M"],
 		},
 	},
 
@@ -110710,6 +110712,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 			growth: ["9M"],
 			willowisp: ["9M"],
+			worryseed: ["9M"],
+			dragoncheer: ["9M"],
 		},
 	},
 
@@ -110774,6 +110778,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			chloroblast: ["9M"],
 			naturepower: ["9M"],
 			dragoncheer: ["9M"],
+			worryseed: ["9M"],
 		},
 	},
 
