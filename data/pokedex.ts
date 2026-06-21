@@ -19458,7 +19458,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Vidofage",
 		types: ["Electric", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 30, atk: 45, def: 70, spa: 52, spd: 70, spe: 128 },
+		baseStats: { hp: 30, atk: 55, def: 70, spa: 72, spd: 70, spe: 128 },
 		abilities: { 0: "Static", 1:"Opportunist", H: "Electric Surge" },
 		heightm: 1.0,
 		weightkg: 36.7,
