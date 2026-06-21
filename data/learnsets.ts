@@ -103265,6 +103265,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vacuumwave: ["9E", "3E"],
 			venoshock: ["9M", "3M"],
 			naturepower: ["9M"],
+			fakeout: ["9M"],
 		},
 	},
 
@@ -103322,6 +103323,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodypress: ["9M"],
 			poweruppunch: ["9M"],
 			naturepower: ["9M"],
+			fakeout: ["9M"],
 		},
 	},
 
