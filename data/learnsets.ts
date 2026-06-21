@@ -100665,6 +100665,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9L22", "3L22"],
 			uturn: ["9M", "3M"],
 			naturepower: ["9M"],
+			grasspledge: ["9M"],
 		},
 	},
 
@@ -100719,6 +100720,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "3M"],
 			vitalthrow: ["9L0", "3L0", "9L1", "3L1"],
 			naturepower: ["9M"],
+			grasspledge: ["9M"],
+
 		},
 	},
 
@@ -100808,6 +100811,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poweruppunch: ["9M"],
 			naturepower: ["9M"],
 			mustardrush: ["9M"],
+			grasspledge: ["9M"],
+
 		},
 	},
 
@@ -100867,6 +100872,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildfire: ["9E", "3E"],
 			willowisp: ["9L21", "3L21"],
 			naturepower: ["9M"],
+			firepledge: ["9M"],
 		},
 	},
 
@@ -100918,6 +100924,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "3M"],
 			willowisp: ["9L25", "3L25"],
 			naturepower: ["9M"],
+			firepledge: ["9M"],
 		},
 	},
 
@@ -100989,6 +100996,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rapidfire: ["9M"],
 			scorchingsands: ["9M"],
 			bulletseed: ["9M"],
+			firepledge: ["9M"],
 		},
 	},
 
@@ -101040,6 +101048,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "3M"],
 			whirlpool: ["9L29", "3L29"],
 			naturepower: ["9M"],
+			waterpledge: ["9M"],
+
 		},
 	},
 
@@ -101086,6 +101096,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "3M"],
 			whirlpool: ["9L37", "3L37"],
 			naturepower: ["9M"],
+			waterpledge: ["9M"],
 		},
 	},
 
@@ -101146,6 +101157,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lifedew: ["9M"],
 			naturepower: ["9M"],
 			slurpup: ["9M"],
+			waterpledge: ["9M"],
 		},
 	},
 
@@ -110800,7 +110812,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			chloroblast: ["9M"],
 			naturepower: ["9M"],
 			dragoncheer: ["9M"],
-			worryseed: ["9M"],
 		},
 	},
 
@@ -112992,6 +113003,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
+			grasspledge: ["9M"],
+
 		},
 	},
 	
