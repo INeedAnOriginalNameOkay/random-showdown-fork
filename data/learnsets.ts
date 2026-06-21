@@ -102407,6 +102407,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L14", "3L14"],
 			xscissor: ["9M", "3M"],
 			naturepower: ["9M"],
+			ragepowder: ["9M"],
 		},
 	},
 
@@ -102467,6 +102468,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dualwingbeat: ["9M"],
 			pounce: ["9M"],
 			naturepower: ["9M"],
+			ragepowder: ["9M"],
 		},
 	},
 
@@ -109226,7 +109228,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["9M", "3M"],
 			weatherball: ["9M", "3M"],
 			whirlpool: ["9L36", "3L36"],
-			bassboostpotassium: ["9L40"],
 			psychicnoise: ["9M"],
 			wavecrash: ["9M"],
 			naturepower: ["9M"],
