@@ -18791,6 +18791,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 4.5,
 		color: "Red",
 		evos: ["Vegoir"],
+		nfe: true,
 		eggGroups: ["Grass", "Bug"],
 	},
 		vegoir: {
@@ -18806,6 +18807,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Burpider",
 		evoLevel: 15,
 		evos: ["Burbacker", "Burfly"],
+		nfe: true,
 		eggGroups: ["Grass", "Bug"],
 	},
 		burbacker: {
