@@ -21272,7 +21272,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Geladon",
 		types: ["Ice", "Fairy"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 90, atk: 85, def: 58, spa: 98, spd: 54, spe: 90 },
+		baseStats: { hp: 90, atk: 65, def: 58, spa: 118, spd: 54, spe: 90 },
 		abilities: { 0: "Ice Body", 1: "Slush Rush", H: "Competitive" },
 		heightm: 0.9,
 		weightkg: 29.9,

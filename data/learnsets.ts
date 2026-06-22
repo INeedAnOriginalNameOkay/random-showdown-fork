@@ -108123,6 +108123,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			terrainpulse: ["9M"],
 			naturepower: ["9M"],
 			muddywater: ["9M"],
+			hex: ["9M"],
 		},
 	},
 
