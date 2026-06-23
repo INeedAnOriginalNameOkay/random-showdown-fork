@@ -7757,8 +7757,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 	supernova: {
 		name: "Supernova",
-		desc: "30% chance to lower SpD or SpA. When in Psychic Terrain, 2x dmg & lowers SpA by 1 stage.",
-		shortDesc: "2x dmg, spread, & -1 SpA in Psychic Terrain."
+		desc: "30% chance to lower SpD. When in Psychic Terrain, 2x dmg.",
+		shortDesc: "2x dmg & spread in Psychic Terrain."
 	}
 
 

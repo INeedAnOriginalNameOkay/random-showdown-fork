@@ -21853,7 +21853,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Consteloon",
 		types: ["Psychic", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 99, atk: 50, def: 86, spa: 90, spd: 86, spe: 109 },
+		baseStats: { hp: 99, atk: 50, def: 81, spa: 100, spd: 81, spe: 109 },
 		abilities: { 0: "Celestial Guard", 1: "Magic Guard", H: "Serene Grace" },
 		heightm: 1.0,
 		weightkg: 71.0,

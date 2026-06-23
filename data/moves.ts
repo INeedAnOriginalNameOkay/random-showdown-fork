@@ -22077,14 +22077,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onModifyMove(move, source, target) {
 			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
 				move.target = 'allAdjacent';
-				source.boosts.spa = -1;
+				source.boosts.spa = 1;
 			}
 		},
 		secondary: {
 			chance: 30,
 			boosts: {
 				spd: -1,
-				spa: -1,
 			},
 		},
 		target: "normal",
