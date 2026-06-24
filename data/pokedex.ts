@@ -2201,6 +2201,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		evos: ["Obsillix"],
 		evoType: "other",
+		nfe: true,
 		eggGroups: ["Mineral"],
 	},
 //	drowzee: {
@@ -2502,6 +2503,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 1.3,
 		color: "Pink",
 		evos: ["Weezing-Banerica"],
+		nfe: true,
 		eggGroups: ["Amorphous","Fairy"],
 	},
 	weezing: {
@@ -3316,6 +3318,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 3.3,
 		color: "Blue",
 		evos: ["Dragonair-Banerica"],
+		nfe: true,
 		eggGroups: ["Water 1", "Dragon"],
 	},
 	dragonair: {
@@ -3344,6 +3347,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 16.5,
 		color: "Blue",
 		evos: ["Dragonyrm"],
+		nfe: true,
 		eggGroups: ["Water 1", "Dragon"],
 	},
 //	dragonite: {
@@ -4434,6 +4438,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 28,
 		color: "Black",
 		evos: ["Sneasless"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 	/*
@@ -4607,6 +4612,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Skarbed",
 		evoLevel: 25,
 		evos: ["Skarmageddon"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 	houndour: {
@@ -5200,6 +5206,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 16.5,
 		color: "Red",
 		evos: ["Linoone-Banerica"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 	linoone: {
@@ -5247,6 +5254,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Zigzagoon-Banerica",
 		evoLevel: 20,
 		evos: ["Consteloon"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 //	wurmple: {
@@ -5748,6 +5756,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.6,
 		weightkg: 11,
 		color: "Purple",
+		nfe: true,
 		evos: ["Delcatty-Banerica"],
 		eggGroups: ["Field", "Fairy"],
 	},
@@ -6154,6 +6163,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.7,
 		weightkg: 30.0,
 		color: "White",
+		nfe: true,
 		evos: ["Yakalanche"],
 		eggGroups: ["Field"],
 	},
@@ -6243,6 +6253,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.1,
 		weightkg: 5,
 		color: "Blue",
+		nfe: true,
 		evos: ["Spinmorda"],
 		eggGroups: ["Field", "Human-Like"],
 	},
@@ -10432,6 +10443,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 32.0,
 		color: "Green",
 		evos: ["Garbiathan"],
+		nfe: true,
 		eggGroups: ["Mineral", "Water 2"],
 	},
 	garbodor: {
@@ -10763,6 +10775,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5.9,
 		color: "Green",
 		evos: ["Escavager"],
+		nfe: true,
 		eggGroups: ["Bug", "Monster"],
 	},
 //	escavalier: {
@@ -11140,6 +11153,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 7.7,
 		color: "Red",
 		evos: ["Accelgurai"],
+		nfe: true,
 		eggGroups: ["Bug", "Water 2"],
 	},
 	accelgor: {
@@ -11245,6 +11259,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 92.0,
 		color: "Pink",
 		evos: ["Golzerker"],
+		nfe: true,
 		eggGroups: ["Mineral"],
 	},
 //	golurk: {
@@ -17555,6 +17570,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 3,
 		color: "Yellow",
 		evos: ["Scovillain-Banerica"],
+		nfe: true,
 		eggGroups: ["Grass","Dragon"],
 	},
 	scovillain: {
@@ -17583,6 +17599,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 15,
 		color: "Yellow",
 		evos: ["Caydra"],
+		nfe: true,
 		prevo: "Capsakid-Banerica",
 		evoType: "levelMove",
 		evoMove: "Flame Burst",
@@ -18835,6 +18852,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 2.3,
 		color: "Yellow",
 		evos: ["Deputato"],
+		nfe: true,
 		eggGroups: ["Mineral", "Flying"],
 	},
 		deputato: {
@@ -18849,6 +18867,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		prevo: "Potacoal",
 		evoLevel: 15,
+		nfe: true,
 		eggGroups: ["Mineral", "Flying"],
 	},
 		fryriff: {
@@ -18876,6 +18895,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 18.0,
 		color: "Blue",
 		evos: ["Splacup"],
+		nfe: true,
 		eggGroups: ["Field", "Water 1"],
 	},
 		splacup: {
@@ -18891,6 +18911,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Whipsplash",
 		evoLevel: 15,
 		evos: ["Spritsplash"],
+		nfe: true,
 		eggGroups: ["Field", "Water 1"],
 	},
 		spritsplash: {
@@ -18905,6 +18926,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		prevo: "Splacup",
 		evoLevel: 35,
+		nfe: true,
 		eggGroups: ["Field", "Water 1"],
 	},
 		grumbra: {
@@ -18917,6 +18939,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.7,
 		weightkg: 4.5,
 		color: "Black",
+		nfe: true,
 		evos: ["chryslark"],
 		eggGroups: ["Bug"],
 	},
@@ -18933,6 +18956,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "grumbra",
 		evoLevel: 8,
 		evos: ["Cresumbra"],
+		nfe: true,
 		eggGroups: ["Bug"],
 	},
 		cresumbra: {
@@ -18960,6 +18984,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 15.9,
 		color: "Black",
 		evos: ["Odorent"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		odorent: {
@@ -18975,6 +19000,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Whiskrat",
 		evoLevel: 19,
 		evos: ["Kingrat"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		kingrat: {
@@ -19002,6 +19028,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5.9,
 		color: "Brown",
 		evos: ["Kiwalker"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		kiwalker: {
@@ -19017,6 +19044,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Kiwiki",
 		evoLevel: 15,
 		evos: ["Roakirunner"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		roakirunner: {
@@ -19044,6 +19072,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 9.1,
 		color: "Brown",
 		evos: ["Cheedough"],
+		nfe: true,
 		eggGroups: ["Field", "Fairy"],
 	},
 		cheedough: {
@@ -19072,6 +19101,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 6.0,
 		color: "Yellow",
 		evos: ["Carontron"],
+		nfe: true,
 		eggGroups: ["Field", "Fairy"],
 	},
 		carontron: {
@@ -19099,6 +19129,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 7.3,
 		color: "Brown",
 		evos: ["Cortoise"],
+		nfe: true,
 		eggGroups: ["Grass", "Monster"],
 	},
 		cortoise: {
@@ -19126,6 +19157,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 4.5,
 		color: "Green",
 		evos: ["Peaprabber"],
+		nfe: true,
 		eggGroups: ["Grass", "Water 3"],
 	},
 		peaprabber: {
@@ -19141,6 +19173,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Peaprab",
 		evoLevel: 16,
 		evos: ["Palapace"],
+		nfe: true,
 		eggGroups: ["Grass", "Water 3"],
 	},
 		palapace: {
@@ -19168,6 +19201,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 22.7,
 		color: "Pink",
 		evos: ["Yakunut"],
+		nfe: true,
 		eggGroups: ["Fairy", "Amorphous"],
 	},
 		yakunut: {
@@ -19195,6 +19229,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 16.3,
 		color: "Brown",
 		evos: ["Brewslash"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		brewslash: {
@@ -19222,6 +19257,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5.4,
 		color: "Red",
 		evos: ["Bloinket"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		bloinket: {
@@ -19249,6 +19285,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 22.7,
 		color: "Blue",
 		evos: ["Fleabat"],
+		nfe: true,
 		eggGroups: ["Flying", "Field"],
 	},
 		fleabat: {
@@ -19263,6 +19300,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		prevo: "Fleach",
 		evoLevel: 20,
+		nfe: true,
 		eggGroups: ["Flying", "Field"],
 	},
 		dugweo: {
@@ -19290,6 +19328,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.9,
 		color: "Green",
 		evos: ["Bittaroot", "Turnipoot"],
+		nfe: true,
 		eggGroups: ["Grass"],
 	},
 		bittaroot: {
@@ -19304,6 +19343,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Green",
 		prevo: "Sproot",
 		evoLevel: 26,
+		nfe: true,
 		eggGroups: ["Grass"],
 	},
 		bittarule: {
@@ -19331,6 +19371,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 181.4,
 		color: "Gray",
 		evos: ["Onix-Banerica"],
+		nfe: true,
 		eggGroups: ["Mineral"],
 	},
 		obsilix: {
@@ -19358,6 +19399,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 43.5,
 		color: "Gray",
 		evos: ["Raegislash"],
+		nfe: true,
 		eggGroups: ["Mineral"],
 	},
 		raegislash: {
@@ -19385,6 +19427,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 23.1,
 		color: "Brown",
 		evos: ["Noctrance"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		noctrance: {
@@ -19412,6 +19455,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 55.3,
 		color: "Gray",
 		evos: ["Gretank"],
+		nfe: true,
 		eggGroups: ["Mineral"],
 	},
 		gretank: {
@@ -19439,6 +19483,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 24.9,
 		color: "White",
 		evos: ["Fetrawl"],
+		nfe: true,
 		eggGroups: ["Mineral", "Humanlike"],
 	},
 		fetrawl: {
@@ -19478,6 +19523,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 23.1,
 		color: "Gray",
 		evos: ["Polutowoodo"],
+		nfe: true,
 		eggGroups: ["Grass", "Humanlike"],
 	},
 		polutowoodo: {
@@ -19504,6 +19550,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 15.9,
 		color: "Black",
 		evos: ["Corvonic"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		corvonic: {
@@ -19531,6 +19578,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 9.5,
 		color: "Black",
 		evos: ["Kashroom"],
+		nfe: true,
 		eggGroups: ["Grass"],
 	},
 		kashroom: {
@@ -19546,6 +19594,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Mushboom",
 		evoLevel: 21,
 		evos: ["Catashroome"],
+		nfe: true,
 		eggGroups: ["Grass"],
 	},
 		catashroome: {
@@ -19573,6 +19622,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 38.6,
 		color: "Blue",
 		evos: ["Nekocean"],
+		nfe: true,
 		eggGroups: ["Water 2", "Field"],
 	},
 		nekocean: {
@@ -19612,6 +19662,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 4.5,
 		color: "Brown",
 		evos: ["Corence"],
+		nfe: true,
 		eggGroups: ["Bug", "Dragon"],
 	},
 		corence: {
@@ -19627,6 +19678,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Roachwrath"],
 		prevo: "Warroach",
 		evoLevel: 25,
+		nfe: true,
 		eggGroups: ["Bug", "Dragon"],
 	},
 		roachwrath: {
@@ -19654,6 +19706,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13.6,
 		color: "Gray",
 		evos: ["Jawbull"],
+		nfe: true,
 		eggGroups: ["Field", "Mineral"],
 	},
 		jawbull: {
@@ -19681,6 +19734,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 32.4,
 		color: "Red",
 		evos: ["Nautiwheel"],
+		nfe: true,
 		eggGroups: ["Bug", "Mineral"],
 	},
 		nautiwheel: {
@@ -19708,6 +19762,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 4.0,
 		color: "Blue",
 		evos: ["Loliwhirl"],
+		nfe: true,
 		eggGroups: ["Fairy"],
 	},
 		loliwhirl: {
@@ -19720,9 +19775,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.0,
 		weightkg: 16.0,
 		color: "Blue",
-		evos: ["Loliwrath"],
+		evos: ["Loliwrath", "Lolitoed"],
 		prevo: "Loliwag",
 		evoLevel: 25,
+		nfe: true,
 		eggGroups: ["Fairy"],
 	},
 		loliwrath: {
@@ -19737,6 +19793,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
+		prevo: "Loliwhirl",
 		eggGroups: ["Fairy"],
 	},
 		lolitoed: {
@@ -19751,6 +19808,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Green",
 		evoType: "useItem",
 		evoItem: "King's Rock",
+		prevo: "Loliwhirl",
 		eggGroups: ["Fairy"],
 	},
 		soukie: {
@@ -19764,6 +19822,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 12.3,
 		color: "Black",
 		evos: ["Soulaster"],
+		nfe: true,
 		eggGroups: ["Amorphous", "Humanlike"],
 	},
 		soulaster: {
@@ -19791,6 +19850,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 33.4,
 		color: "Black",
 		evos: ["Gothinc"],
+		nfe: true,
 		eggGroups: ["Fairy", "Humanlike"],
 	},
 		gothinc: {
@@ -19818,6 +19878,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 24.7,
 		color: "Yellow",
 		evos: ["Ringeist"],
+		nfe: true,
 		eggGroups: ["Mineral", "Amorphous"],
 	},
 		ringeist: {
@@ -19833,6 +19894,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Bellurker"],
 		prevo: "Jinghoul",
 		evoLevel: 35,
+		nfe: true,
 		eggGroups: ["Mineral", "Amorphous"],
 	},
 		bellurker: {
@@ -19860,6 +19922,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13.4,
 		color: "Green",
 		evos: ["Actroguen"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		actroguen: {
@@ -19899,6 +19962,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 59.0,
 		color: "Pink",
 		evos: ["Cyrphant"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		cyrphant: {
@@ -19939,7 +20003,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.8,
 		weightkg: 13.4,
 		color: "Purple",
-		evos: ["Vulgenum"],
+		evos: ["Vulgenum","Venetatori"],
+		nfe: true,
 		eggGroups: ["Bug", "Monster"],
 	},
 		vulgenum: {
@@ -19966,6 +20031,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.8,
 		weightkg: 13.4,
 		color: "Purple",
+		prevo: "Venemin",
 		eggGroups: ["Bug", "Monster"],
 	},
 		cankore: {
@@ -19979,6 +20045,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 16.4,
 		color: "Gray",
 		evos: ["Cankerore"],
+		nfe: true,
 		eggGroups: ["Monster", "Humanlike"],
 	},
 		cankerore: {
@@ -19994,6 +20061,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Cankerwar"],
 		prevo: "Cankore",
 		evoLevel: 27,
+		nfe: true,
 		eggGroups: ["Monster", "Humanlike"],
 	},
 		cankerwar: {
@@ -20135,6 +20203,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 36.3,
 		color: "Gray",
 		evos: ["Skarmory"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		skarmageddon: {
@@ -20162,6 +20231,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 29.9,
 		color: "Green",
 		evos: ["Tropius"],
+		nfe: true,
 		eggGroups: ["Monster", "Grass"],
 	},
 		bontropic: {
@@ -20242,6 +20312,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.7,
 		color: "Black",
 		evos: ["Tennekio"],
+		nfe: true,
 		eggGroups: ["Field", "Fairy"],
 	},
 		tennekio: {
@@ -20269,6 +20340,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 1.2,
 		color: "Yellow",
 		evos: ["Gilltric"],
+		nfe: true,
 		eggGroups: ["Monster", "Dragon"],
 	},
 		gilltric: {
@@ -20296,6 +20368,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 1.2,
 		color: "Yellow",
 		evos: ["Millirod"],
+		nfe: true,
 		eggGroups: ["Bug"],
 	},
 		millirod: {
@@ -20323,6 +20396,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 9.6,
 		color: "Red",
 		evos: ["Conflacon"],
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		conflacon: {
@@ -20338,6 +20412,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Falkrieg"],
 		prevo: "Flacon",
 		evoLevel: 26,
+		nfe: true,
 		eggGroups: ["Flying"],
 	},
 		falkrieg: {
@@ -20365,6 +20440,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 7.6,
 		color: "Black",
 		evos: ["Spookrab"],
+		nfe: true,
 		eggGroups: ["Water 3"],
 	},
 		spookrab: {
@@ -20406,6 +20482,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 3.3,
 		color: "Blue",
 		evos: ["Flexwyrm"],
+		nfe: true,
 		eggGroups: ["Dragon", "Mineral"],
 	},
 		flexwyrm: {
@@ -20421,6 +20498,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Gluegon"],
 		prevo: "Rubberunt",
 		evoLevel: 35,
+		nfe: true,
 		eggGroups: ["Dragon", "Mineral"],
 	},
 		gluegon: {
@@ -20448,6 +20526,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 245.3,
 		color: "Blue",
 		evos: ["Octomartion"],
+		nfe: true,
 		eggGroups: ["Amorphous"],
 	},
 		octomartion: {
@@ -20475,6 +20554,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5.4,
 		color: "Purple",
 		evos: ["Angelly"],
+		nfe: true,
 		eggGroups: ["Water 3", "Amorphous"],
 	},
 		angelly: {
@@ -20490,6 +20570,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Ogelanym"],
 		prevo: "Jelight",
 		evoLevel: 27,
+		nfe: true,
 		eggGroups: ["Water 3", "Amorphous"],
 	},
 		ogelanym: {
@@ -20517,6 +20598,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 11.3,
 		color: "Red",
 		evos: ["Slappmon"],
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 		slappmon: {
@@ -20544,6 +20626,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.3,
 		color: "White",
 		evos: ["Voltrout"],
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 		voltrout: {
@@ -20559,6 +20642,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Zeushi"],
 		prevo: "Codory",
 		evoLevel: 25,
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 		zeushi: {
@@ -20586,6 +20670,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 16.5,
 		color: "Blue",
 		evos: ["Algelon"],
+		nfe: true,
 		eggGroups: ["Water 1", "Water 3"],
 	},
 		algelon: {
@@ -20627,6 +20712,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.5,
 		color: "Green",
 		evos: ["Growthana"],
+		nfe: true,
 		eggGroups: ["Amorphous", "Grass"],
 	},
 		growthana: {
@@ -20642,6 +20728,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Voltacunda"],
 		prevo: "Slipeel",
 		evoLevel: 30,
+		nfe: true,
 		eggGroups: ["Amorphous", "Grass"],
 	},
 		voltacunda: {
@@ -20669,6 +20756,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 9.0,
 		color: "Blue",
 		evos: ["Bombattle"],
+		nfe: true,
 		eggGroups: ["Monster", "Water 2"],
 	},
 		bombattle: {
@@ -20684,6 +20772,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Frigablitz"],
 		prevo: "Shipshot",
 		evoLevel: 29,
+		nfe: true,
 		eggGroups: ["Monster", "Water 2"],
 	},
 		frigablitz: {
@@ -20711,6 +20800,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 30.0,
 		color: "Purple",
 		evos: ["Cthughu"],
+		nfe: true,
 		eggGroups: ["Amorphous", "Monster"],
 	},
 		cthughu: {
@@ -20738,6 +20828,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 14.7,
 		color: "Green",
 		evos: ["Barktic", "Howblazer", "Steerpaw"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		barktic: {
@@ -20779,6 +20870,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 9.5,
 		color: "Yellow",
 		evos: ["Batterbeat"],
+		nfe: true,
 		eggGroups: ["Undiscovered"],
 	},
 		batterbeat: {
@@ -20794,6 +20886,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Batterion"],
 		prevo: "Batterell",
 		evoLevel: 20,
+		nfe: true,
 		eggGroups: ["Humanlike", "Monster"],
 	},
 		batterion: {
@@ -20821,6 +20914,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 30.0,
 		color: "Yellow",
 		evos: ["Moshubi"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		moshubi: {
@@ -20848,6 +20942,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 30.0,
 		color: "Yellow",
 		evos: ["Penceel"],
+		nfe: true,
 		eggGroups: ["Water 2", "Amorphous"],
 	},
 		penceel: {
@@ -20863,6 +20958,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Cronger"],
 		prevo: "Gulpaint",
 		evoLevel: 30,
+		nfe: true,
 		eggGroups: ["Water 2", "Amorphous"],
 	},
 		cronger: {
@@ -20890,6 +20986,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 12.5,
 		color: "Gray",
 		evos: ["Kracket"],
+		nfe: true,
 		eggGroups: ["Water 3", "Mineral"],
 	},
 		kracket: {
@@ -20917,6 +21014,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 29.6,
 		color: "Gray",
 		evos: ["Oryctaxite"],
+		nfe: true,
 		eggGroups: ["Grass", "Mineral"],
 	},
 		oryctaxite: {
@@ -20944,6 +21042,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 150,
 		color: "Green",
 		evos: ["Crawlem"],
+		nfe: true,
 		eggGroups: ["Monster", "Mineral"],
 	},
 		crawlem: {
@@ -20959,6 +21058,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Brawlem"],
 		prevo: "Turrock",
 		evoLevel: 35,
+		nfe: true,
 		eggGroups: ["Monster", "Mineral"],
 	},
 		brawlem: {
@@ -21013,6 +21113,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 11.2,
 		color: "White",
 		evos: ["Astralagus"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		astralagus: {
@@ -21025,6 +21126,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1,
 		weightkg: 27,
 		color: "White",
+		nfe: true,
 		evos: ["Haroken"],
 		prevo: "Wrabit",
 		evoLevel: 25,
@@ -21106,6 +21208,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.6,
 		weightkg: 15.0,
 		color: "Blue",
+		nfe: true,
 		evos: ["Crosshimi"],
 		eggGroups: ["Water 2"],
 	},
@@ -21134,6 +21237,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.1,
 		color: "Black",
 		evos: ["Goobearo"],
+		nfe: true,
 		eggGroups: ["Amorphous"],
 	},
 		goobearo: {
@@ -21188,6 +21292,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 90.0,
 		color: "Yellow",
 		evos: ["Sphinxiel"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		sphinxiel: {
@@ -21214,6 +21319,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.4,
 		weightkg: 4.2,
 		color: "Brown",
+		nfe: true,
 		evos: ["Katalyn"],
 		eggGroups: ["Field"],
 	},
@@ -21254,6 +21360,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 6.3,
 		color: "Brown",
 		evos: ["Geladon"],
+		nfe: true,
 		eggGroups: ["Water 1", "Amorphous"],
 	},
 		geladonnorth: {
@@ -21325,6 +21432,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 18.0,
 		color: "Gray",
 		evos: ["Sedimelt"],
+		nfe: true,
 		eggGroups: ["Monster", "Dragon"],
 	},
 		sedimelt: {
@@ -21338,6 +21446,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 98.0,
 		color: "Gray",
 		evos: ["Kelvorost"],
+		nfe: true,
 		prevo: "Roccryo",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Dragon"],
@@ -21379,6 +21488,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.58,
 		color: "Blue",
 		evos: ["Stymeel"],
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 		stymeel: {
@@ -21394,6 +21504,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Lureel",
 		evoLevel: 27,
 		evos: ["Dreadgeel"],
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 		dreadgeel: {
@@ -21435,6 +21546,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 20.4,
 		color: "Red",
 		evos: ["Coralstra"],
+		nfe: true,
 		eggGroups: ["Water 1", "Water 3"],
 	},
 		coralstra: {
@@ -21462,6 +21574,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 20.0,
 		color: "Yellow",
 		evos: ["Dynaray"],
+		nfe: true,
 		eggGroups: ["Water 1"],
 	},
 		dynaray: {
@@ -21489,6 +21602,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.3,
 		color: "Red",
 		evos: ["Prawnxer"],
+		nfe: true,
 		eggGroups: ["Water 3", "Bug"],
 	},
 		prawnxer: {
@@ -21504,6 +21618,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Weakrill",
 		evoLevel: 18,
 		evos: ["Shrimpion"],
+		nfe: true,
 		eggGroups: ["Water 3", "Bug"],
 	},
 		shrimpion: {
@@ -21545,6 +21660,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 47.2,
 		color: "Purple",
 		evos: ["Frilldeep"],
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 		frilldeep: {
@@ -21573,6 +21689,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 1.2,
 		color: "Blue",
 		evos: ["Airret"],
+		nfe: true,
 		eggGroups: ["Field"],
 	},
 		airret: {
@@ -21626,6 +21743,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 62.0,
 		color: "Black",
 		evos: ["Aracnimb"],
+		nfe: true,
 		eggGroups: ["Bug"],
 	},
 		aracnimb: {
@@ -21653,6 +21771,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0.01,
 		color: "Brown",
 		evos: ["Dustinger"],
+		nfe: true,
 		eggGroups: ["Field", "Amorphous"],
 	},
 		dustinger: {
