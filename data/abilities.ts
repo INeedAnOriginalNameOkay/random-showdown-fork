@@ -5606,7 +5606,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
 			if (pokemon.species.baseSpecies !== 'Weezing' || pokemon.terastallized) return;
-			const targetForme = pokemon.species.name === 'Weezing-Banerica' ? 'Weezing-Banerica-Scary' : 'Weezing-Banerica';
+			const targetForme = pokemon.species.name === 'Weezing-Banerica-Cute' ? 'Weezing-Banerica-Scary' : 'Weezing-Banerica-Cute';
 			pokemon.formeChange(targetForme);
 		},
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
