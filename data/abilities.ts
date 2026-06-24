@@ -5620,15 +5620,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onModifyMove(move, attacker, defender) {
 			if (attacker.species.baseSpecies !== 'Blastilisk' || attacker.transformed) return;
 			if (move.type !== 'Fire') return;
-			const targetForme = ('Blastilisk-Lit');
-			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
+			if (attacker.species.name !== 'Blastlilsk-Lit') attacker.formeChange('Blastlilsk-Lit');
 		},
+
+		onSwitchOut(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Blastilisk') return;
+			if (pokemon.species.forme === 'Lit') {
+				pokemon.formeChange('Blastlilsk-Lit', this.effect, true);
+			}
+		},
+
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Fire') {
 				move.accuracy = true;
 				if (target.species.baseSpecies !== 'Blastilisk' || target.transformed) return null;
-				const targetForme = ('Blastilisk-Lit');
-				if (target.species.name !== targetForme) target.formeChange(targetForme);
+				if (target.species.name !== 'Blastlilsk-Lit') target.formeChange('Blastlilsk-Lit');
 				this.add('-immune', target, '[from] ability: Ignition');
 				return null;
 			}

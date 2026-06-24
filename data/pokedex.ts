@@ -20220,6 +20220,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 2096,
 		name: "Blastilisk-Lit",
 		types: ["Fire"],
+		forme: 'Lit',
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 60, atk: 120, def: 65, spa: 155, spd: 80, spe: 120 },
 		abilities: { 0: "Ignition" },
