@@ -20221,7 +20221,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Blastilisk-Lit",
 		types: ["Fire"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 60, atk: 80, def: 55, spa: 155, spd: 70, spe: 120 },
+		baseStats: { hp: 60, atk: 120, def: 65, spa: 155, spd: 80, spe: 120 },
 		abilities: { 0: "Ignition" },
 		heightm: 1.7,
 		weightkg: 37.6,
