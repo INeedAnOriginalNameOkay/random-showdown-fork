@@ -20053,7 +20053,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Cankerore",
 		types: ["Rock", "Fighting"],
 		genderRatio: { M: 0.0,F: 1.0 },
-		baseStats: { hp: 67, atk: 105, def: 80, spa: 50, spd: 57, spe: 60 },
+		baseStats: { hp: 67, atk: 105, def: 80, spa: 50, spd: 58, spe: 60 },
 		abilities: { 0: "Sturdy", 1: "Rocky Payload", H: "Sugar Rush" },
 		heightm: 1.4,
 		weightkg: 54.2,
