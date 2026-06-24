@@ -5606,7 +5606,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
 			if (pokemon.species.baseSpecies !== 'Weezing' || pokemon.terastallized) return;
-			const targetForme = pokemon.species.name === 'Weezing-Banerica' ? 'Weezing-Banerica-Scary' : 'Weezing-Banerica';
+			const targetForme = pokemon.species.name === 'Weezing-Banerica-Cute' ? 'Weezing-Banerica-Scary' : 'Weezing-Banerica-Cute';
 			pokemon.formeChange(targetForme);
 		},
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
@@ -5620,7 +5620,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onModifyMove(move, attacker, defender) {
 			if (attacker.species.baseSpecies !== 'Blastilisk' || attacker.transformed) return;
 			if (move.type !== 'Fire') return;
-			if (attacker.species.name !== 'Blastilsk-Lit') attacker.formeChange('Blastilsk-Lit');
+			if (attacker.species.name !== 'Blastilisk-Lit') attacker.formeChange('Blastilisk-Lit');
 		},
 
 		onSwitchOut(pokemon) {
@@ -5634,7 +5634,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (target !== source && move.type === 'Fire') {
 				move.accuracy = true;
 				if (target.species.baseSpecies !== 'Blastilisk' || target.transformed) return null;
-				if (target.species.name !== 'Blastilsk-Lit') target.formeChange('Blastilsk-Lit');
+				if (target.species.name !== 'Blastilsk-Lit') target.formeChange('Blastilisk-Lit');
 				this.add('-immune', target, '[from] ability: Ignition');
 				return null;
 			}
@@ -5661,7 +5661,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 
 	caramellize: {
 		onStart(pokemon) {
-			this.add('-ability', pokemon, 'Caramelize');
+			this.add('-ability', pokemon, 'Caramellize');
 			for (const target of pokemon.adjacentFoes()) {
 				if (target.volatiles['substitute']) {
 					this.add('-immune', target);
@@ -5828,7 +5828,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	infested: {
 		onDamagingHit(damage, target, source, move) {
 			if (this.checkMoveMakesContact(move, source, target)) {
-				target.addVolatile('partiallytrapped');
+				source.addVolatile('partiallytrapped');
 			}
 		},
 		flags: {},
@@ -5840,7 +5840,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	predator: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon, target, move) {
-			if (target?.volatiles['partiallytrapped'] || target?.volatiles['trapped'] || target.trapped) return this.chainModify([5325, 4096]);
+			if (target?.volatiles['partiallytrapped'] || target?.volatiles['trapped'] || target.trapped) return this.chainModify([6142, 4096]);
 		},
 		flags: {},
 		name: "Predator",
