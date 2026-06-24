@@ -5626,7 +5626,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onSwitchOut(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Blastilisk') return;
 			if (pokemon.species.forme === 'Lit') {
-				pokemon.formeChange('Blastilsk-Lit', this.effect, true);
+				pokemon.formeChange('Blastilisk-Lit', this.effect, true);
 			}
 		},
 
@@ -5721,7 +5721,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 
 	sugarrush: { // Cankerwar Sig
 		onModifyMove(move) {
-			if (move.id === '5016') {
+			if (move.id === 'sugarcrash') {
 				this.boost({ spe: 1 });
 			}
 		},
