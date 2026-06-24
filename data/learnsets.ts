@@ -110757,7 +110757,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			firefang: ["9L1", "3L1"],
 			firepunch: ["9M", "3M"],
 			flamethrower: ["9L1", "3L1", "9M", "3M"],
-			followme: ["9L45", "3L45"],
+			ragepowder: ["9L45", "3L45"],
 			frustration: ["9M", "3M"],
 			gigadrain: ["9L50", "3L50"],
 			grasswhistle: ["9L35", "3L35"],
