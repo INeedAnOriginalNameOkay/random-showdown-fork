@@ -21736,7 +21736,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		maxMove: { basePower: 130 },
 		contestType: "Tough",
 		condition: {
-			onResidualOrder: 6,
+			onResidualOrder: 1,
 			onResidual(pokemon) {
 				pokemon.boosts.atk -= 1;
 				this.add('-boost', pokemon, 'atk', -1);
