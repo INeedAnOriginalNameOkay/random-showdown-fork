@@ -1887,7 +1887,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		//natDexTier: "RU",
 		tier: "OU",
 	},
-/
+
 /*
 	togepi: {
 		isNonstandard: "Past",
