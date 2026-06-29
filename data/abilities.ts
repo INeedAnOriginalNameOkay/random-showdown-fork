@@ -5863,6 +5863,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 10,
 	},
 
+	levileech: {
+		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['heal']) {
+				this.debug('Levileech boost');
+				return this.chainModify([6142, 4096]);
+			}
+		},
+		flags: {},
+		name: "Iron Fist",
+		rating: 3,
+		num: 89,
+	},
+
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

@@ -2353,8 +2353,15 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 	stormborne: {
 		name: "Stormborne",
-		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Electric/Water moves; Electric/Water immunity."
-		desc: "This Pokemon is immune to Electric/Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Electric/Water-type move."
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Electric/Water moves; Electric/Water immunity.",
+		desc: "This Pokemon is immune to Electric/Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Electric/Water-type move.",
+
+	}
+
+	levileech: {
+		name: "Levileech",
+		shortDesc: "Levitate + Increases BP of Draining moves by 1.5x"
+		desc: "This Pokemon is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability. The effects of Gravity, Ingrain, Smack Down, Thousand Arrows, and Iron Ball nullify the immunity. Thousand Arrows can hit this Pokemon as if it did not have this Ability. This Pokemon's draining moves have 1.5x power."
 
 	}
 

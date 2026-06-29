@@ -63370,6 +63370,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			voltswitch: ["9M", "7M", "6M", "5M"],
 			wildcharge: ["9M", "9L59", "7M", "7L59", "6M", "6L59", "5M", "5L59"],
 			zapcannon: ["9L69", "7L69", "6L69", "5L69"],
+			paraboliccharge: ["9M"],
+			leechlife: ["9M"],
 		},
 	},
 	eelektross: {
@@ -63471,6 +63473,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "9L5", "7M", "6M", "5M"],
 			zapcannon: ["9L1", "7L1", "6L1"],
 			zenheadbutt: ["9M"],
+			// cmg
+			paraboliccharge: ["9M"],
+			leechlife: ["9M"],
 		},
 	},
 	elgyem: {
