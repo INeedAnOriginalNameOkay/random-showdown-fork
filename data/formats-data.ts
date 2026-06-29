@@ -1874,18 +1874,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	chinchou: {
-		tier: "LC",
+		//tier: "LC",
+		tier: "OU",
 	},
-*/
-/*
+
+
 	lanturn: {
-		tier: "PU",
-		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		//tier: "PU",
+		//doublesTier: "(DUU)",
+		//natDexTier: "RU",
+		tier: "OU",
 	},
-*/
+/
 /*
 	togepi: {
 		isNonstandard: "Past",
@@ -3328,27 +3330,30 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	clamperl: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "NFE",
+		//isNonstandard: "Past",
+		//tier: "Illegal",
+		//natDexTier: "NFE",
+		tier: "OU",
 	},
-*/
-/*
+
+
 	huntail: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "RU",
+		//isNonstandard: "Past",
+		//tier: "Illegal",
+		//natDexTier: "RU",
+		tier: "OU",
 	},
-*/
-/*
+
+
 	gorebyss: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "RU",
+		//isNonstandard: "Past",
+		//tier: "Illegal",
+		//natDexTier: "RU",
+		tier: "OU",
 	},
-*/
+
 /*
 	relicanth: {
 		isNonstandard: "Past",
@@ -4952,23 +4957,26 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	tynamo: {
-		tier: "LC",
+		//tier: "LC",
+		tier: "OU",
 	},
-*/
-/*
+
+
 	eelektrik: {
-		tier: "NFE",
+		//tier: "NFE",
+		tier: "OU",
 	},
-*/
-/*
+
+
 	eelektross: {
-		tier: "ZU",
-		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		//tier: "ZU",
+		//doublesTier: "(DUU)",
+		//natDexTier: "RU",
+		tier: "OU",
 	},
-*/
+
 /*
 	eelektrossmega: {
 		isNonstandard: "Future",
@@ -5640,18 +5648,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 */
-/*
+
 	inkay: {
-		tier: "LC",
+		//tier: "LC",
+		tier: "OU",
 	},
-*/
-/*
+
+
 	malamar: {
-		tier: "ZU",
-		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		//tier: "ZU",
+		//doublesTier: "(DUU)",
+		//natDexTier: "RU",
+		tier: "OU",
 	},
-*/
+
 /*
 	malamarmega: {
 		isNonstandard: "Future",

@@ -1355,7 +1355,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				return this.chainModify(2);
 			}
 		},
-		itemUser: ["Clamperl"],
+		onModifySpaPriority: 1,
+		onModifySpa(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Gorebyss' ) {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ["Clamperl", "Gorebyss"],
 		num: 227,
 		gen: 3,
 		isNonstandard: "Past",
@@ -1372,7 +1378,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				return this.chainModify(2);
 			}
 		},
-		itemUser: ["Clamperl"],
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Huntail' ) {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ["Clamperl", "Huntail"],
 		num: 226,
 		gen: 3,
 		isNonstandard: "Past",
@@ -6299,7 +6311,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				return this.chainModify(2);
 			}
 		},
-		itemUser: ["Marowak", "Marowak-Alola", "Marowak-Alola-Totem", "Cubone"],
+		itemUser: ["Marowak", "Marowak-Alola", "Marowak-Alola-Totem", "Cubone", "Craboo", "Spookrab"],
 		num: 258,
 		gen: 2,
 		//isNonstandard: "Past",

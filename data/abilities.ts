@@ -5847,6 +5847,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: 511,
 	},
+
+	stormborne: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Electric' || target !== source && move.type === 'Water') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Stormborne');
+				}
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Stormborne",
+		rating: 3.5,
+		num: 10,
+	},
+
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

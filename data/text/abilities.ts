@@ -2351,6 +2351,13 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Fire- and Rock-type moves deal 1.5x damage in rain.",
 	},
 
+	stormborne: {
+		name: "Stormborne",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Electric/Water moves; Electric/Water immunity."
+		desc: "This Pokemon is immune to Electric/Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Electric/Water-type move."
+
+	}
+
 	// CAP
 	mountaineer: {
 		name: "Mountaineer",

@@ -71111,6 +71111,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M"],
 			trickroom: ["9M", "8M", "7M", "6M"],
 			wrap: ["9L6", "8L6"],
+			// cmg
+			powertrip: ["9M"],
 		},
 		eventData: [
 			{generation: 6, level: 10, moves: ["happyhour", "foulplay", "hypnosis", "topsyturvy"], pokeball: "cherishball"},
@@ -71206,6 +71208,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M"],
 			trickroom: ["9M", "8M", "7M", "6M"],
 			wrap: ["9L1", "8L1"],
+			// cmg
+			powertrip: ["9M"], 
 		},
 		eventData: [
 			{generation: 6, level: 50, nature: "Adamant", ivs: {hp: 31, atk: 31}, abilities: ["contrary"], moves: ["superpower", "knockoff", "facade", "rockslide"], pokeball: "cherishball"},
