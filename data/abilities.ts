@@ -5860,7 +5860,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { breakable: 1 },
 		name: "Stormborne",
 		rating: 3.5,
-		num: 10,
+		num: 512,
 	},
 
 	levileech: {
@@ -5875,7 +5875,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {breakable: 1},
 		name: "Levileech",
 		rating: 3,
-		num: 89,
+		num: 513,
 	},
 
 	// CAP
