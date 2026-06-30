@@ -5872,8 +5872,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				return this.chainModify([6142, 4096]);
 			}
 		},
-		flags: {},
-		name: "Iron Fist",
+		flags: {breakable: 1},
+		name: "Levileech",
 		rating: 3,
 		num: 89,
 	},

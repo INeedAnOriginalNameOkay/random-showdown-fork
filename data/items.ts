@@ -1355,9 +1355,9 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				return this.chainModify(2);
 			}
 		},
-		onModifySpaPriority: 1,
-		onModifySpa(spa, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Gorebyss' ) {
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Gorebyss') {
 				return this.chainModify(1.5);
 			}
 		},
