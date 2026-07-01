@@ -113060,7 +113060,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
 			grasspledge: ["9M"],
-
+			mustardrush: ["9M"],
 		},
 	},
 	
