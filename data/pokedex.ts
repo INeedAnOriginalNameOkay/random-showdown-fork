@@ -21862,7 +21862,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Grass", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 56, atk: 121, def: 54, spa: 92, spd: 59, spe: 102 },
-		abilities: { 0: "Chlorophyll", 1: "Serence Grace", H: "Unburden" },
+		abilities: { 0: "Chlorophyll", 1: "Serene Grace", H: "Unburden" },
 		heightm: 0.8,
 		weightkg: 58.0,
 		color: "Green",
