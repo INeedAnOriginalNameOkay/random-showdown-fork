@@ -22093,7 +22093,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 
 	boilingsymphony: {
 		num: 5022,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 80,
 		category: "Special",
 		name: "Boiling Symphony",
@@ -22101,7 +22101,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, sound: 1 },
 		secondary: {
-			chance: 25,
+			chance: 30,
 			status: 'brn',
 		},
 		target: "allAdjacentFoes",
