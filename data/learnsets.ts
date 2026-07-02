@@ -112084,6 +112084,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["9M"],
 			attract: ["9M"],
 			secretpower: ["9M"],
+			finalgambit: ["9M"],
 		},
 	},
 
@@ -112143,6 +112144,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["9M"],
 			attract: ["9M"],
 			secretpower: ["9M"],
+			finalgambit: ["9M"],
 		},
 	},
 
@@ -112202,6 +112204,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["9M"],
 			attract: ["9M"],
 			secretpower: ["9M"],
+			finalgambit: ["9M"],
 		},
 	},
 
@@ -113097,6 +113100,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
+			firefang: ["9M"],
+			thunderfang: ["9M"],
+			icefang: ["9M"],
 		},
 	},
 	
@@ -113133,6 +113139,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			breakingswipe: ["9M"],
 			scaleshot: ["9M"],
 			swordsdance: ["9M"],
+			firefang: ["9M"],
+			thunderfang: ["9M"],
+			icefang: ["9M"],
 		},
 	},
 	
