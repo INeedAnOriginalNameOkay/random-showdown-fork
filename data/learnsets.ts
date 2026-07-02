@@ -63370,8 +63370,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			voltswitch: ["9M", "7M", "6M", "5M"],
 			wildcharge: ["9M", "9L59", "7M", "7L59", "6M", "6L59", "5M", "5L59"],
 			zapcannon: ["9L69", "7L69", "6L69", "5L69"],
+			// cmg
 			paraboliccharge: ["9M"],
 			leechlife: ["9M"],
+			supercellslam: ["9M"],
 		},
 	},
 	eelektross: {
@@ -63476,6 +63478,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			// cmg
 			paraboliccharge: ["9M"],
 			leechlife: ["9M"],
+			supercellslam: ["9M"],
 		},
 	},
 	elgyem: {
@@ -113057,7 +113060,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
 			grasspledge: ["9M"],
-
+			mustardrush: ["9M"],
 		},
 	},
 	
