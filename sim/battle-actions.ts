@@ -866,14 +866,17 @@ export class BattleActions {
 					if (targetHits < 4 && pokemon.hasItem('loadeddice')) {
 						targetHits = 5 - this.battle.random(2);
 					}
-				} else {
+				} 
+				else {
 					targetHits = this.battle.sample([2, 2, 2, 3, 3, 3, 4, 5]);
 				}
 			} else {
 				targetHits = this.battle.random(targetHits[0], targetHits[1] + 1);
 			}
+			
 		}
 		if (targetHits === 10 && pokemon.hasItem('loadeddice')) targetHits -= this.battle.random(7);
+		if (targetHits === 6 && pokemon.hasItem('loadeddice')) targetHits -= this.battle.random(2);
 		targetHits = Math.floor(targetHits);
 		let nullDamage = true;
 		let moveDamage: (number | boolean | undefined)[] = [];

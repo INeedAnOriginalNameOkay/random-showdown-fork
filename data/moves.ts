@@ -21962,7 +21962,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 30,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
-		multihit: [1, 6],
+		multihit: 6,
 		target: "normal",
 		type: "Dark",
 		zMove: { basePower: 140 },

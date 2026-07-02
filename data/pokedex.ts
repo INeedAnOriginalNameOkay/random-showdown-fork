@@ -21839,7 +21839,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.2,
 		weightkg: 36.0,
 		color: "Yellow",
-		evos: ["Rattlespade"],
+		evos: ["Perlithon"],
 		eggGroups: ["Field"],
 	},
 		perlithon: {
