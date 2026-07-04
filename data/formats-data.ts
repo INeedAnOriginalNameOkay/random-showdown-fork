@@ -8520,6 +8520,9 @@ formatting template:
 	fleabat: {
 		tier: "OU",
 	},
+	gnalossus: {
+		tier: "OU",
+	},
 	dugweo: {
 		tier: "OU",
 	},

@@ -2365,6 +2365,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 	},
 
+	infested: {
+		name: "Infested",
+		shortDesc: "If this Pokemon is hit by an attack, the attacker becomes trapped.",
+	}
+
 	// CAP
 	mountaineer: {
 		name: "Mountaineer",

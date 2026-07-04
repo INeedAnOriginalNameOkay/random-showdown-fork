@@ -7708,8 +7708,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	rapidfire: {
 		name: "Rapid Fire",
-		desc: "The user fires up to 6 shots at the target; lowers the user's Attack by 2 stages.",
-		shortDesc: "Hits 1 to 6 times; lowers user's Attack by 2 stages.",
+		desc: "The user fires up to 6 shots at the target; lowers the user's Attack by 1 stage.",
+		shortDesc: "Hits 1 to 6 times; lowers user's Attack by 1 stage.",
 	},
 
 	silverthread: {

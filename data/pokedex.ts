@@ -19301,6 +19301,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Fleach",
 		evoLevel: 20,
 		nfe: true,
+		evos: ["Gnalossus"],
 		eggGroups: ["Flying", "Field"],
 	},
 		dugweo: {
@@ -21982,5 +21983,22 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "useItem",
 		evoItem: "Big Pearl",
 		eggGroups: ["Field"],
-	}
+	},
+
+	// Tournament-Winner Mons
+		gnalossus: {
+		num: 4000,
+		name: "Gnalossus",
+		types: ["Flying", "Bug"],
+		genderRatio: { M: 0.5, F: 0.5 },
+		baseStats: { hp: 130, atk: 90, def: 93, spa: 84, spd: 90, spe: 58 },
+		abilities: { 0: "Predator", 1: "Infested" },
+		heightm: 15.5,
+		weightkg: 355.0,
+		color: "Blue",
+		prevo: "Fleabat",
+		evoType: "useItem",
+		evoItem: "Silver Powder",
+		eggGroups: ["Flying", "Field"],
+	},
 };
