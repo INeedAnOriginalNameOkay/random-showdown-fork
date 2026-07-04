@@ -25300,6 +25300,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 			wildcharge: ["9M", "8M", "7M", "6M", "5M"],
 			zapcannon: ["7V"],
+			// cmg
+			tailglow: ["9M"],
 		},
 		encounters: [
 			{generation: 4, level: 20},
@@ -26121,6 +26123,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			screech: ["9E"],
 			odorsleuth: ["9E"],
 			charm: ["9E"],
+			// cmg
 			tailglow: ["9M"],
 			electricterrain: ["9M"], // CMG update
 			thunderclap: ["9M"], // CMG update
@@ -41534,6 +41537,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 			venoshock: ["9M", "7M", "6M", "5M"],
 			worryseed: ["7T", "7E", "6T", "6E", "5T", "5E", "4T"],
+			grassyterrain: ["9M"], // CMG update
+			grassyglide: ["9M"],
 		},
 		eventData: [
 			{generation: 3, level: 5, shiny: 1, moves: ["poisonsting", "leer", "absorb", "encore"], pokeball: "pokeball", emeraldEventEgg: true},
@@ -41636,6 +41641,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			aquaring: ["9L40"],
 			acid: ["9E"],
 			teeterdance: ["9E"],
+			//cmg
 			grassyterrain: ["9M"], // CMG update
 			grassyglide: ["9M"], // CMG update
 		},
@@ -101513,6 +101519,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9M", "3M"],
 			uturn: ["9M", "3M"],
 			naturepower: ["9M"],
+			gigaimpact: ["9M"],
 		},
 	},
 
@@ -101556,6 +101563,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "3M"],
 			wingattack: ["9L23", "3L23"],
 			stompingtantrum: ["9M"],
+			gigaimpact: ["9M"],
 			naturepower: ["9M"],
 		},
 	},
@@ -101616,6 +101624,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			skyattack: ["9M"],
 			dualwingbeat: ["9M"],
 			naturepower: ["9M"],
+			gigaimpact: ["9M"],
 		},
 	},
 
@@ -101738,6 +101747,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 			skittersmack: ["9M"],
 			naturepower: ["9M"],
+			gigaimpact: ["9M"],
+			hyperbeam: ["9M"],
 		},
 	},
 
@@ -103447,6 +103458,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturepower: ["9M"],
 			feint: ["9M"],
 			beatup: ["9M"],
+			forestscurse: ["9M"],
 		},
 	},
 
@@ -103525,6 +103537,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poweruppunch: ["9M"],
 			naturepower: ["9M"],
 			feint: ["9M"],
+			forestscurse: ["9M"],
 		},
 	},
 
@@ -105329,7 +105342,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			suckerpunch: ["9L41", "3L41"],
 			tailwind: ["9E", "3E"],
 			taunt: ["9M", "3M"],
-			teleport: ["9M", "3M"],
+			// teleport: ["9M", "3M"],
 			thief: ["9L11", "3L11", "9M", "3M"],
 			toxic: ["9M", "3M"],
 			uturn: ["9M", "3M"],
@@ -105381,7 +105394,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["9M", "3M"],
 			suckerpunch: ["9L44", "3L44"],
 			taunt: ["9M", "3M"],
-			teleport: ["9M", "3M"],
+			// teleport: ["9M", "3M"],
 			thief: ["9L1", "9M", "3L1", "3M"],
 			toxic: ["9M", "3M"],
 			uturn: ["9M", "3M"],
@@ -106184,6 +106197,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			shedtail: ["9M"],
 			skittersmack: ["9M"],
 			naturepower: ["9M"],
+			flareblitz: ["9M"],
+			outrage: ["9M"],
+			thunderpunch: ["9M"],
 		},
 	},
 
@@ -108246,6 +108262,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			icespinner: ["9M"],
 			closecombat: ["9M"],
 			naturepower: ["9M"],
+			uproar: ["9M"],
 		},
 	},
 
@@ -110614,7 +110631,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	geladon: {
+	geladonsouth: {
 		learnset: {
 			amnesia: ["9L51", "3L51"],
 			attract: ["9M", "3M"],
@@ -112488,6 +112505,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["9M"],
 			attract: ["9M"],
 			secretpower: ["9M"],
+			gigaimpact: ["9M"],
+			hyperbeam: ["9M"],
 		},
 	},
 
@@ -113406,6 +113425,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			endeavor: ["9M"],
 			feint: ["9M"],
 			weatherball: ["9M"],
+			uproar: ["9M"],
 		},
 	},
 	
@@ -113474,6 +113494,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			quickguard: ["9M"],
 			sleeptalk: ["9M"],
 			weatherball: ["9M"],
+			focusblast: ["9M"],
+			uproar: ["9M"],
+			flameburst: ["9M"],
 		},
 	},
 	
@@ -113537,6 +113560,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			sleeptalk: ["9M"],
 			weatherball: ["9M"],
+			focusblast: ["9M"],
+
 		},
 	},
 
@@ -113804,5 +113829,76 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psychicterrain: ["9M"],
 		},
 	},
+//CMPB Winners
+	gnalossus: {
+		learnset: {
+			aerialace: ["9M", "3M"],
+			aircutter: ["9L0", "9L1", "3L0", "3L1"],
+			airslash: ["9L49", "9M", "3L49", "3M"],
+			assurance: ["9M"],
+			astonish: ["9L1", "3L1"],
+			attackorder: ["9L31", "3L31"],
+			attract: ["9M", "3M"],
+			bugbite: ["9L19", "9M", "3L19", "3M"],
+			cut: ["9M", "3M"],
+			defendorder: ["9L37", "3L37"],
+			doubleteam: ["9M", "3M"],
+			feintattack: ["9M", "3M"],
+			fly: ["9M", "3M"],
+			frustration: ["9M", "3M"],
+			healblock: ["9M", "3M"],
+			hiddenpower: ["9M", "3M"],
+			infestation: ["9L1", "3L1"],
+			leechlife: ["9L1", "3L1"],
+			nightwing: ["9M", "3M"],
+			poisonfang: ["9M", "3M"],
+			protect: ["9M", "3M"],
+			return: ["9M", "3M"],
+			rocksmash: ["9M", "3M"],
+			roost: ["9L25", "3L25"],
+			secretpower: ["9M", "3M"],
+			signalbeam: ["9L43", "9M", "3L43", "3M"],
+			sludgebomb: ["9M", "3M"],
+			steelwing: ["9M", "3M"],
+			substitute: ["9M", "3M"],
+			supersonic: ["9L1", "3L1"],
+			teleport: ["9M", "3M"],
+			thief: ["9M", "3M"],
+			toxic: ["9M", "3M"],
+			uturn: ["9M", "3M"],
+			venoshock: ["9M", "3M"],
+			wingattack: ["9L14", "3L14"],
+			xscissor: ["9M", "3M"],
+			toxicspikes: ["9E"],
+			crunch: ["9E"],
+			curse: ["9E"],
+			swagger: ["9E"],
+			mist: ["9E"],
+			smog: ["9E"],
+			slash: ["9E"],
+			swift: ["9E"],
+			meanlook: ["9E"],
+			pursuit: ["9E"],
+			bugbuzz: ["9E"],
+			acidspray: ["9E"],
+			acrobatics: ["9M"],
+			gastroacid: ["9M"],
+			quiverdance: ["9M"],
+			dualwingbeat: ["9M"],
+			pounce: ["9M"],
+			naturepower: ["9M"],
+			ragepowder: ["9M"],
+			bodyslam: ["9M"],
+			heavyslam: ["9M"],
+			gunkshot: ["9M"],
+			stunspore: ["9M"],
+			jawlock: ["9M"],
+			brutalswing: ["9M"],
+			doubleedge: ["9M"],
+			beatup: ["9M"],
+			defog: ["9M"],
+		},
+	},
+
 };
 

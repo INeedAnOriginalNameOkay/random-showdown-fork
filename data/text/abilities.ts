@@ -2286,6 +2286,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		activate: "  [POKEMON] underwent a heroic transformation!",
 	},
 
+
+// CMG
+
 	twofaced: {
 		name: "Two-Faced",
 		desc: "If this Pokemon is a Weezing-Banerica, it changes formes between its Cute Mode and Scary Mode at the end of each turn.",
@@ -2363,6 +2366,12 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		shortDesc: "Levitate + Increases BP of Draining moves by 1.5x",
 		desc: "This Pokemon is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability. The effects of Gravity, Ingrain, Smack Down, Thousand Arrows, and Iron Ball nullify the immunity. Thousand Arrows can hit this Pokemon as if it did not have this Ability. This Pokemon's draining moves have 1.5x power.",
 
+	},
+
+	phantomward: {
+		name: "Phantom Ward",
+		desc: "This Pokemon is immune to Ghost-type moves. The first time it is hit by a Ghost-type move, its offensive stat is multiplied by 1.5 while using a Ghost-type attack as long as it remains active and has this Ability. If this Pokemon is not the target of a single-target Ghost-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move. If multiple Pokemon could redirect with this Ability, it goes to the one with the highest Speed, or in the case of a tie to the one that has had this Ability active longer.",
+		shortDesc: "This Pokemon draws Ghost moves to itself to boost its Ghost attacks to do 1.5x damage; Ghost immunity.",
 	},
 
 	// CAP

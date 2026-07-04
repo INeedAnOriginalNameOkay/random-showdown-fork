@@ -5878,6 +5878,59 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 513,
 	},
 
+	phantomward: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ghost') {
+				move.accuracy = true;
+				if (!target.addVolatile('phantomward')) {
+					this.add('-immune', target, '[from] ability: Phantom Ward');
+				}
+				return null;
+			}
+		},
+		onEnd(pokemon) {
+			pokemon.removeVolatile('phantomward');
+		},
+		onAnyRedirectTarget(target, source, source2, move) {
+			if (move.type !== 'Ghost' || move.flags['pledgecombo']) return;
+			const redirectTarget = ['randomNormal', 'adjacentFoe'].includes(move.target) ? 'normal' : move.target;
+			if (this.validTarget(this.effectState.target, source, redirectTarget)) {
+				if (move.smartTarget) move.smartTarget = false;
+				if (this.effectState.target !== target) {
+					this.add('-activate', this.effectState.target, 'ability: Phantom Ward');
+				}
+				return this.effectState.target;
+			}
+		},
+		condition: {
+			noCopy: true, // doesn't get copied by Baton Pass
+			onStart(target) {
+				this.add('-start', target, 'ability: Phantom Ward');
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, attacker, defender, move) {
+				if (move.type === 'Ghost' && attacker.hasAbility('phantomward')) {
+					this.debug('Phantom Ward boost');
+					return this.chainModify(1.5);
+				}
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(atk, attacker, defender, move) {
+				if (move.type === 'Ghost' && attacker.hasAbility('phantomward')) {
+					this.debug('Phantom Ward boost');
+					return this.chainModify(1.5);
+				}
+			},
+			onEnd(target) {
+				this.add('-end', target, 'ability: Phantom Ward', '[silent]');
+			},
+		},
+		flags: { breakable: 1 },
+		name: "Phantom Ward",
+		rating: 3.5,
+		num: 18,
+	},
+
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {
