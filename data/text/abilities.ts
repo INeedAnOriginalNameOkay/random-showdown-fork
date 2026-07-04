@@ -2373,6 +2373,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon is immune to Ghost-type moves. The first time it is hit by a Ghost-type move, its offensive stat is multiplied by 1.5 while using a Ghost-type attack as long as it remains active and has this Ability. If this Pokemon is not the target of a single-target Ghost-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move. If multiple Pokemon could redirect with this Ability, it goes to the one with the highest Speed, or in the case of a tie to the one that has had this Ability active longer.",
 		shortDesc: "This Pokemon draws Ghost moves to itself to boost its Ghost attacks to do 1.5x damage; Ghost immunity.",
 	},
+	
+	infested: {
+		name: "Infested",
+		shortDesc: "If this Pokemon is hit by an attack, the attacker becomes trapped.",
+	},
 
 	// CAP
 	mountaineer: {

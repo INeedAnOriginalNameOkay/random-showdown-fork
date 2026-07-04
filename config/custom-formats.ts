@@ -10,6 +10,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Uber', 'AG', 'Moody', 'King\'s Rock', 'Razor Fang','Froakie','Frogadier','Greninja','Greninja-Bond'],
 	},
 	{
+		name: "Potassium Extended Ubers",
+		mod: 'gen9',
+		ruleset: ['Standard NatDex', 'Terastal Clause'],
+		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang','Froakie','Frogadier','Greninja','Greninja-Bond'],
+	},
+	{
 		name: "Potassium Extended Doubles OU",
 		mod: 'gen9',
 		gameType: 'doubles',
@@ -32,7 +38,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod', 'Terastal Clause'],
 		banlist: ['Sub-Legendary','Froakie','Frogadier','Greninja'],
 	},
 	{
@@ -42,7 +48,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod', 'Terastal Clause'],
 		banlist: ['Froakie','Frogadier','Greninja'],
 	},
 	{
@@ -52,7 +58,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Limit Two Restricted', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Limit Two Restricted', 'Force Open Team Sheets', 'Best of = 3', 'NatDex Mod', 'Terastal Clause'],
 		restricted: ['Restricted Legendary', 'Mythical'],
 		banlist: ['Froakie','Frogadier','Greninja'],
 	},
