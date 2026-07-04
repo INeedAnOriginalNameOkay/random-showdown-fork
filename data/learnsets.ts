@@ -113496,6 +113496,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			focusblast: ["9M"],
 			uproar: ["9M"],
 			flameburst: ["9M"],
+			icespinner: ["9M"],
 		},
 	},
 	
@@ -113560,7 +113561,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			weatherball: ["9M"],
 			focusblast: ["9M"],
-
+			icespinner: ["9M"],
 		},
 	},
 
