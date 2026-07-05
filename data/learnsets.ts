@@ -61248,6 +61248,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["9M", "8M", "7T", "6T", "5T"],
 			uturn: ["9M", "8M", "7M", "6M", "5M"],
 			workup: ["8M", "7M", "5M"],
+			// CMPB
+			tidyup: ["9M"],
 		},
 	},
 	gothita: {
