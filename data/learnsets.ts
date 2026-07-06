@@ -111822,13 +111822,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 	crustoctave: {
 		learnset: {
-			firespin: ["9M"],
-			steameruption: ["9M"],
 			scald: ["9M"],
 			haze: ["9M"],
 			mist: ["9M"],
 			hydropump: ["9M"],
-			overheat: ["9M"],
 			explosion: ["9M"],
 			brickbreak: ["9M"],
 			rockslide: ["9M"],
@@ -111865,7 +111862,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			screech: ["9M"],
 			uproar: ["9M"],
 			recover: ["9M"],
-			eruption: ["9M"],
 			instruct: ["9M"],
 			protect: ["9M"],
 			weatherball: ["9M"],
@@ -111878,6 +111874,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			attract: ["9M"],
 			secretpower: ["9M"],
 			round: ["9M"],
+			crabhammer: ["9M"],
+			swordsdance: ["9M"],
 		},
 	},
 
@@ -111941,6 +111939,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			secretpower: ["9M"],
 			boilingsymphony: ["9M"],
 			round: ["9M"],
+			crabhammer: ["9M"],
+			swordsdance: ["9M"],
 		},
 	},
 
