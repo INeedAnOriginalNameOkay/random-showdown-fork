@@ -110684,7 +110684,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	geladonsouth: {
+	geladonnorth: {
 		learnset: {
 			amnesia: ["9L51", "3L51"],
 			attract: ["9M", "3M"],
@@ -110727,7 +110727,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	geladonnorth: {
+	geladonsouth: {
 		learnset: {
 			amnesia: ["9L51", "3L51"],
 			attract: ["9M", "3M"],
