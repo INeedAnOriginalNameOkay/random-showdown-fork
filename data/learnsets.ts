@@ -100961,6 +100961,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9L25", "3L25"],
 			naturepower: ["9M"],
 			firepledge: ["9M"],
+			defog: ["9M"],
 		},
 	},
 
@@ -101033,6 +101034,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scorchingsands: ["9M"],
 			bulletseed: ["9M"],
 			firepledge: ["9M"],
+			defog: ["9M"],
 		},
 	},
 
@@ -102327,7 +102329,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mudslap: ["9L9", "3L9", "9E", "3E"],
 			overheat: ["9M", "3M"],
 			protect: ["9M", "3M"],
-			rapidspin: ["9M", "3M"],
+			// rapidspin: ["9M", "3M"],
 			rest: ["9L29", "3L29", "9M", "3M"],
 			return: ["9M", "3M"],
 			scald: ["9M", "3M"],
@@ -103286,7 +103288,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			playrough: ["9E", "3E"],
 			poisongas: ["9L13", "3L13"],
 			protect: ["9L29", "3L29", "9M", "3M"],
-			rapidspin: ["9M", "3M"],
+			// rapidspin: ["9M", "3M"],
 			return: ["9M", "3M"],
 			revenge: ["9M", "3M"],
 			reversal: ["9M", "3M"],
