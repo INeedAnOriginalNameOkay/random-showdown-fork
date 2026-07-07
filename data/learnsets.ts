@@ -102813,7 +102813,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			magnitude: ["9L20", "3L20"],
 			protect: ["9M", "3M"],
 			rage: ["9L1", "3L1"],
-			rapidspin: ["9M", "3M"],
+			// rapidspin: ["9M", "3M"],
 			return: ["9M", "3M"],
 			revenge: ["9M", "3M"],
 			rockslide: ["9M", "3M"],
