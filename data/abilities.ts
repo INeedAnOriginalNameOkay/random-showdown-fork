@@ -960,7 +960,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	disguise: {
 		onDamagePriority: 1,
 		onDamage(damage, target, source, effect) {
-			if (effect?.effectType === 'Move' && ['mimikyu', 'mimikyutotem','platyplump-hat'].includes(target.species.id)) {
+			if (effect?.effectType === 'Move' && ['mimikyu', 'mimikyutotem','platyplumphat'].includes(target.species.id)) {
 				this.add('-activate', target, 'ability: Disguise');
 				this.effectState.busted = true;
 				return 0;
