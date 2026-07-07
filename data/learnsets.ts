@@ -10806,6 +10806,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["8V", "7M"],
 			voltswitch: ["9M", "7M"],
 			wildcharge: ["9M"],
+			// cmg
+			bodypress: ["9M"], // CMG update
+			accelerock: ["9M"], // CMG update
 		},
 	},
 	golem: {
@@ -10910,6 +10913,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hammerarm: ["9E"],
 			wideguard: ["9E"],
 			flail: ["9E"],
+			// cmg
 			bodypress: ["9M"], // CMG update
 			accelerock: ["9M"], // CMG update
 		},
