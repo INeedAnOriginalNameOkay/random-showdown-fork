@@ -21378,9 +21378,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		nfe: true,
 		eggGroups: ["Water 1", "Amorphous"],
 	},
-		geladonnorth: {
+		geladonsouth: {
 		num: 2172,
-		name: "Geladon-North",
+		name: "Geladon-South",
 		types: ["Ice", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 90, atk: 60, def: 100, spa: 92, spd: 98, spe: 35 },
@@ -21391,12 +21391,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Sherbos",
 		evoLevel: 30,
 		eggGroups: ["Water 1", "Amorphous"],
-		otherFormes: ["Geladon-South"],
+		otherFormes: ["Geladon-North"],
 		formeOrder: ["Geladon-South","Geladon-North"]
 	},
-		geladonsouth: {
+		geladonnorth: {
 		num: 2172,
-		name: "Geladon-South",
+		name: "Geladon-North",
 		types: ["Ice", "Fairy"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 90, atk: 65, def: 58, spa: 118, spd: 54, spe: 90 },
@@ -21407,7 +21407,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Sherbos",
 		evoLevel: 30,
 		eggGroups: ["Water 1", "Amorphous"],
-		otherFormes: ["Geladon-North"],
+		otherFormes: ["Geladon-South"],
 		formeOrder: ["Geladon-South","Geladon-North"]
 	},
 		caydra: {

@@ -4631,13 +4631,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Past",
 	},
 */
-/*
+
 	maractus: {
+		/*
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "RU",
+		*/
+		tier: "OU",
 	},
-*/
+
 	dwebble: {
 		isNonstandard: "Past",
 		tier: "OU",
@@ -4765,18 +4768,24 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RUBL",
 	},
 */
-/*
+
 	minccino: {
+	/*
 		tier: "LC",
+		*/
+		tier: "OU",
 	},
-*/
-/*
+
+
 	cinccino: {
+	/*
 		tier: "NU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
+		*/
+		tier: "OU",
 	},
-*/
+
 /*
 	gothita: {
 		tier: "LC",
@@ -7253,18 +7262,24 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 */
-/*
+
 	milcery: {
+	/*
 		tier: "LC",
-	},
 */
-/*
+		tier: "OU",
+	},
+
+
 	alcremie: {
+		/*
 		tier: "ZUBL",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
-	},
 */
+		tier: "OU",
+	},
+
 /*
 	alcremiegmax: {
 		isNonstandard: "Past",
