@@ -25939,7 +25939,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 			// cmpb
 			tailglow: ["9M"],
-			electricterrain: ["9M"], // CMG update
 			thunderclap: ["9M"], // CMG update
 			electroshot: ["9M"], // CMG update
 			paraboliccharge: ["9M"], // CMG update
@@ -26038,7 +26037,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 			// cmpb
 			tailglow: ["9M"],
-			electricterrain: ["9M"], // CMG update
 			thunderclap: ["9M"], // CMG update
 			electroshot: ["9M"], // CMG update
 			paraboliccharge: ["9M"], // CMG update
@@ -101034,7 +101032,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scorchingsands: ["9M"],
 			bulletseed: ["9M"],
 			firepledge: ["9M"],
-			defog: ["9M"],
 		},
 	},
 

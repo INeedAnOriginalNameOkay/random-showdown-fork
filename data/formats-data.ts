@@ -8958,7 +8958,7 @@ formatting template:
 	geladonnorth: {
 		tier: "OU",
 	},
-	geladon: {
+	geladonsouth: {
 		tier: "OU",
 	},
 	caydra: {
