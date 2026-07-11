@@ -109190,6 +109190,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rockslide: ["9M"],
 			rocktomb: ["9M"],
 			sandstorm: ["9M"],
+			stealthrock: ["9M"],
+			knockoff: ["9M"],
 		},
 	},
 

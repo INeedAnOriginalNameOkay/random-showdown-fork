@@ -20014,7 +20014,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Poison", "Steel"],
 		genderRatio: { M: 1.0, F: 0.0 },
 		baseStats: { hp: 85, atk: 115, def: 127, spa: 58, spd: 85, spe: 20 },
-		abilities: { 0: "Ironbarbs", 1: "Unaware", H: "Sharpness" },
+		abilities: { 0: "Iron Barbs", 1: "Unaware", H: "Sharpness" },
 		heightm: 0.8,
 		weightkg: 13.4,
 		color: "Purple",
