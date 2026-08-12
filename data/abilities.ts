@@ -5968,14 +5968,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		condition: {
-			duration: 3,
+			duration: 2,
 			onSideStart(targetSide) {
 				this.add('-sidestart', targetSide, 'Fallout');
 			},
 			onResidualOrder: 5,
 			onResidualSubOrder: 1,
 			onResidual(target) {
-				if (!target.hasType('Fire')) this.damage(target.baseMaxhp / 8, target);
+				if (this.dex.getEffectiveness('Fire', target) > 0) this.damage(target.baseMaxhp / 4, target);
+				else if (this.dex.getEffectiveness('Fire', target) < 0) this.damage(target.baseMaxhp / 8, target);
+				else this.damage(target.baseMaxhp / 8, target);
 			},
 			onSideResidualOrder: 26,
 			onSideResidualSubOrder: 11,
