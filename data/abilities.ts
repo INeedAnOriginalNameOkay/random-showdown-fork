@@ -32,6 +32,8 @@ Ratings and how they work:
 
 */
 
+import { Pokemon } from '../sim';
+
 export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	noability: {
 		isNonstandard: "Past",
@@ -5718,6 +5720,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 
+		//assault vest implementation inside the item
+
 		onResidual(pokemon) {
 			if (pokemon.volatiles['choicelock']) {
 				this.debug('removing choicelock');
@@ -5934,7 +5938,137 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { breakable: 1 },
 		name: "Phantom Ward",
 		rating: 3.5,
-		num: 18,
+		num: 514,
+	},
+
+	exploiter: {
+		onModifyMove (move, target) {
+			if (move == null) return;
+			if (move.category === 'Status') return;
+			if (target.runEffectiveness(move) > 0) {
+				move.willCrit = true;
+			}
+		},
+
+		flags: {},
+		name: "Exploiter",
+		rating: 3,
+		num: 515,
+	},
+
+	fallout: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!target.hp) {
+				this.field.setWeather('sunnyday');
+
+				for (const side of source.side.foeSidesWithConditions()) {
+					side.addSideCondition('fallout');
+				}
+			}
+		},
+		condition: {
+			duration: 3,
+			onSideStart(targetSide) {
+				this.add('-sidestart', targetSide, 'Fallout');
+			},
+			onResidualOrder: 5,
+			onResidualSubOrder: 1,
+			onResidual(target) {
+				if (!target.hasType('Fire')) this.damage(target.baseMaxhp / 8, target);
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 11,
+			onSideEnd(targetSide) {
+				this.add('-sideend', targetSide, 'Fallout');
+			},
+		},
+		flags: {},
+		name: "Fallout",
+		rating: 3,
+		num: 516,
+	},
+	tempered: {
+		onModifyMove(move) {
+			if (move.target === 'randomNormal') {
+				move.basePower *= 1.2;
+				move.target = 'normal';
+			}
+		},
+		onResidual(pokemon) {
+			pokemon.removeVolatile('confusion');
+			pokemon.removeVolatile('lockedmove');
+		},
+		
+		flags:{},
+		name: "Tempered",
+		rating: 3,
+		num: 517,
+	},
+
+	cursedmarrow: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!target.hp && move.willCrit) {
+				this.damage(source.baseMaxhp, source, target);
+			}
+		},
+		flags: {},
+		name: "Cursed Marrow",
+		rating: 2,
+		num: 518,
+	},
+
+	determination: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Determination!');
+			switch (this.effectState.bestStat) {
+				case 'atk':
+					this.boost({atk: 1}, pokemon);
+					break;
+				case 'def':
+					this.boost({def: 1}, pokemon);
+					break;
+				case 'spa':
+					this.boost({spa: 1}, pokemon);
+					break;
+				case 'spd':
+					this.boost({spd: 1}, pokemon);
+					break;
+				case 'spe':
+					this.boost({spe: 1}, pokemon);
+					break;
+				default:
+					this.boost({atk: 1}, pokemon);
+					break;
+			}
+
+			if (pokemon.allies().length === 1) {
+				this.boost({spe: 1}, pokemon);
+			}
+		},
+		flags: {},
+		name: "Determination!",
+		rating: 3,
+		num: 519,
+	},
+
+	rottenroullete: {
+		onResidual(pokemon) {
+			if (this.randomChance(1, 3)) {
+				this.add('-singleturn', pokemon, 'ability: Rotten Roullete', `[of] ${pokemon}`);
+			this.queue.prioritizeAction(this.queue.resolveAction({
+				choice: 'move',
+				pokemon: pokemon,
+				moveid: 217,
+				targetLoc: 'allAdjacentFoes',
+			})[0] as MoveAction);
+			}
+		},
+		flags: {},
+		name: "Rotten Roullete",
+		rating: 1,
+		num: 520,
 	},
 
 	// CAP

@@ -21251,12 +21251,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 
 	lavasurf: {
 		num: 5000,
-		accuracy: 100,
-		basePower: 90,
+		accuracy: 90,
+		basePower: 100,
 		category: "Special",
 		name: "Lava Surf",
 		pp: 15,
 		priority: 0,
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		
 		flags: { protect: 1, mirror: 1, nonsky: 1, metronome: 1 },
 		target: "allAdjacent",
 		type: "Fire",
@@ -21726,7 +21731,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Rapid Fire",
 		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1, cantusetwice: 1 },
 		smartTarget: true,
 		multihit: 6,
 		multiaccuracy: true,
@@ -21735,12 +21740,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { basePower: 140 },
 		maxMove: { basePower: 130 },
 		contestType: "Tough",
-		condition: {
-			onResidual(pokemon) {
-				pokemon.boosts.atk -= 1;
-				this.add('-boost', pokemon, 'atk', -1);
-			},
-		}
 	},
 
 	/*
@@ -22076,7 +22075,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onModifyMove(move, source, target) {
 			if (this.field.isTerrain('psychicterrain') && source.isGrounded()) {
 				move.target = 'allAdjacent';
-				source.boosts.spa = 1;
+				if (target !== null) target.boosts.spa -= 1;
 			}
 		},
 		secondary: {
@@ -22096,7 +22095,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 80,
 		category: "Special",
 		name: "Boiling Symphony",
-		pp: 20,
+		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, sound: 1 },
 		secondary: {

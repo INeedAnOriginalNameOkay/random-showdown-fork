@@ -106154,6 +106154,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flipturn: ["9M"],
 			headcharge: ["9M"],
 			naturepower: ["9M"],
+			wavecrash: ["9M"],
 		},
 	},
 
