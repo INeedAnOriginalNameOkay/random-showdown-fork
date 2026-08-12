@@ -6,7 +6,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "Potassium Extended OU",
 		mod: 'gen9',
-		ruleset: ['Standard NatDex', 'Terastal Clause'],
+		ruleset: ['Standard NatDex', 'Terastal Clause','!Gem Clause'],
 		banlist: ['Uber', 'AG', 'Moody', 'King\'s Rock', 'Razor Fang','Froakie','Frogadier','Greninja','Greninja-Bond'],
 	},
 	{
