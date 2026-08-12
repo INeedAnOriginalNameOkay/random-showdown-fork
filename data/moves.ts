@@ -21826,7 +21826,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 
 	mustardrush: { // Burbacker Signature
 		num: 5014,
-		accuracy: 95,
+		accuracy: 90,
 		basePower: 120,
 		category: "Physical",
 		name: "Mustard Rush",
