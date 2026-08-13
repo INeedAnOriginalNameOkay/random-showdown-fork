@@ -13093,7 +13093,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Outrage",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, failinstruct: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, failinstruct: 1, rampaging: 1 },
 		self: {
 			volatileStatus: 'lockedmove',
 		},
@@ -13302,7 +13302,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Petal Dance",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, dance: 1, metronome: 1, failinstruct: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, dance: 1, metronome: 1, failinstruct: 1, rampaging },
 		self: {
 			volatileStatus: 'lockedmove',
 		},
@@ -14675,7 +14675,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Raging Fury",
 		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1 },
+		flags: { protect: 1, mirror: 1, rampaging: 1 },
 		self: {
 			volatileStatus: 'lockedmove',
 		},
@@ -18230,7 +18230,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: {
 			contact: 1, protect: 1,
-			failencore: 1, failmefirst: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failmimic: 1, failinstruct: 1, nosketch: 1,
+			failencore: 1, failmefirst: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failmimic: 1, failinstruct: 1, nosketch: 1, rampaging: 1,
 		},
 		onModifyMove(move, pokemon, target) {
 			move.type = '???';
@@ -19389,7 +19389,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Thrash",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, failinstruct: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, failinstruct: 1, rampaging: 1 },
 		self: {
 			volatileStatus: 'lockedmove',
 		},
@@ -21699,7 +21699,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Wildfire",
 		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1, failinstruct: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, failinstruct: 1, rampaging: 1 },
 		self: {
 			volatileStatus: 'lockedmove',
 		},

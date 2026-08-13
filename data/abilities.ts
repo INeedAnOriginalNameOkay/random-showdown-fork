@@ -5992,14 +5992,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	tempered: {
 		onModifyMove(move) {
-			if (move.target === 'randomNormal') {
+			if (move.flags['rampaging']) {
 				move.basePower *= 1.2;
 				move.target = 'normal';
 			}
 		},
 		onResidual(pokemon) {
-			pokemon.removeVolatile('confusion');
 			pokemon.removeVolatile('lockedmove');
+		},
+
+		onUpdate(pokemon) {
+			if (pokemon.volatiles['confusion']) {
+				this.add('-activate', pokemon, 'ability: Tempered');
+				pokemon.removeVolatile('confusion');
+			}
+		},
+		onTryAddVolatile(status, pokemon) {
+			if (status.id === 'confusion') return null;
+		},
+		onHit(target, source, move) {
+			if (move?.volatileStatus === 'confusion') {
+				this.add('-immune', target, 'confusion', '[from] ability: Tempered');
+			}
 		},
 		
 		flags:{},
