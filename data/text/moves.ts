@@ -7759,7 +7759,22 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Supernova",
 		desc: "30% chance to lower SpD. When in Psychic Terrain, 2x dmg.",
 		shortDesc: "2x dmg & spread in Psychic Terrain."
-	}
+	},
+
+	boilingsymphony: {
+		name: "Boiling Symphony",
+		shortDesc: "30% to burn foe(s)."
+	},
+
+	amplify: {
+		name: "Amplify",
+		shortDesc: "Increases power of sound-based moves by 50%."
+	},
+
+	apocalypse: {
+		name: "Apocalypse",
+		shortDesc: "Physical if user's Atk > Sp. Atk. Type depends on user's type. Lowers Atk & SpA by 2 stages."
+	},
 
 
 };

@@ -13302,7 +13302,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Petal Dance",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, dance: 1, metronome: 1, failinstruct: 1, rampaging },
+		flags: { contact: 1, protect: 1, mirror: 1, dance: 1, metronome: 1, failinstruct: 1, rampaging: 1 },
 		self: {
 			volatileStatus: 'lockedmove',
 		},
@@ -21914,25 +21914,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				case "Cankerwar-Mokou":
 					move.secondaries.push({
 						chance: 10,
-						volatileStatus: 'brn',
+						status: 'brn',
 					})
 					break;
 				case "Cankerwar-Nagae":
 					move.secondaries.push({
 						chance: 10,
-						volatileStatus: 'par',
+						status: 'par',
 					})
 					break;
 				case "Cankerwar-Melancholy":
 					move.secondaries.push({
 						chance: 10,
-						volatileStatus: 'psn',
+						status: 'psn',
 					})
 					break;
 				case "Cankerwar-Yakumo":
 					move.secondaries.push({
 						chance: 10,
-						volatileStatus: 'slp',
+						status: 'slp',
 					})
 					break;
 				case 'Cankerwar-Remilia':
@@ -22105,6 +22105,84 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Water",
 		contestType: "Beautiful",
+	},
+
+	amplify: {
+		num: 5023,
+		accuracy: true,
+		category: "Status",
+		basePower: 0,	
+		name: "Amplify",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, sound: 1 },
+		volatileStatus: 'amplify',
+		condition: {
+			onStart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Amplify');
+			},
+			onRestart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Amplify');
+			},
+			onBasePowerPriority: 9,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.flags['sound']) {
+					this.debug('amplify boost');
+					return this.chainModify(1.5);
+				}
+			},
+			onMoveAborted(pokemon, target, move) {
+				if (move.flags['sound'] && move.id !== 'amplify') {
+					pokemon.removeVolatile('amplify');
+				}
+			},
+			onAfterMove(pokemon, target, move) {
+				if (move.flags['sound'] && move.id !== 'amplify') {
+					pokemon.removeVolatile('amplify');
+				}
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Amplify', '[silent]');
+			},
+		},
+		target: "self",
+		type: "Normal",
+		contestType: "Cool",
+	},
+
+	apocalypse: {
+		num: 5024,
+		accuracy: 95,
+		basePower: 140,
+		category: "Special",
+		name: "Apocalypse",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, sound: 1 },
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+
+		onModifyType(move, pokemon) {
+			const types = pokemon.getTypes();
+			let type = types[1];
+			if (type === null) type = types[0];
+			if (type === 'Bird') type = '???';
+			if (type === '???' && types[0]) type = types[10;
+			move.type = type;
+		},
+
+		self: {
+			boosts: {
+				spa: -2,
+				atk: -2,
+			},
+		},
+
+		target: "normal",
+		type: "Dark",
+		contestType: "Tough",
+
 	},
 
 	// CAP moves

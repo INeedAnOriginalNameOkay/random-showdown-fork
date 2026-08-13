@@ -953,4 +953,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			return bp;
 		},
 	},
+
+	//cmpb line
+	
 };
