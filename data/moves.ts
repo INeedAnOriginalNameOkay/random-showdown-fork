@@ -22160,23 +22160,21 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, sound: 1 },
 		onModifyMove(move, pokemon) {
-			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) {
+				move.category = 'Physical';
+				pokemon.boosts.atk -= 2
+			}
+			else {
+				pokemon.boosts.spa -= 2
+			}
 		},
 
 		onModifyType(move, pokemon) {
 			const types = pokemon.getTypes();
-			let type = types[1];
-			if (type === null) type = types[0];
+			let type = types[0];
 			if (type === 'Bird') type = '???';
-			if (type === '???' && types[0]) type = types[10;
+			if (type === '???' && types[1]) type = types[1];
 			move.type = type;
-		},
-
-		self: {
-			boosts: {
-				spa: -2,
-				atk: -2,
-			},
 		},
 
 		target: "normal",

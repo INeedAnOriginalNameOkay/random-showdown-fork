@@ -7773,7 +7773,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 	apocalypse: {
 		name: "Apocalypse",
-		shortDesc: "Physical if user's Atk > Sp. Atk. Type depends on user's type. Lowers Atk & SpA by 2 stages."
+		shortDesc: "Physical if user's Atk > Sp. Atk. Type depends on user's type. Drops corresponding attack stat by 2 stages."
 	},
 
 
